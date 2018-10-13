@@ -1,0 +1,37 @@
+.introduction {
+  position: absolute;
+  right: 23%;
+  margin: 2%;
+}
+
+.introduction h1 {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.introduction h2 {
+  font-size: 18px;
+  margin: 10px 0px;
+  padding-bottom: 20px;
+}
+
+.flag-group {
+  display: flex;
+}
+
+.scroll {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  display: flex;
+}
+
+.scroll img {
+  padding-right: 10px;
+}
+
+.e {
+  left: 30%;
+}
