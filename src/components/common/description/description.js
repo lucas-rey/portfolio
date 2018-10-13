@@ -1,16 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./description.scss";
+import "./../../../assets/d-flag.jpg";
 
 class Description extends React.Component {
+  handleClick() {
+    console.log("this is:", this);
+  }
   render() {
     const { year, workType, title, children } = this.props;
     return (
-      <div className="test">
-        {year}
-        {workType}
-        {title}
-        {children}
+      <div className="description-container">
+        <div className="date-type">
+          <div className="year">{year}</div>
+          <div className="circle" />
+          <div className="type">{workType}</div>
+        </div>
+        <div className="title">{title}</div>
+        <div className="line" />
+        <div className="paragraph">{children}</div>
+        <button onClick={e => this.handleClick(e)}>View More</button>
       </div>
     );
   }
