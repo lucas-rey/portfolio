@@ -1,46 +1,25 @@
 import React from "react";
-import "./home.scss";
+import "./school.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Scroll from "../../common/scroll-icon/scroll-icon";
-import School from "../school/school";
 
-class Home extends React.Component {
+class School extends React.Component {
   render() {
     return (
       <div>
         <MenuWrapper />
         <Scroll />
         <div className="screen-container">
-          <div className="intro-wrapper">
-            <div className="flag-group">
-              <div className="d-flag flag">
-                <img
-                  src={require("./../../../assets/d-flag.svg")}
-                  alt="nautical flag d"
-                />
-              </div>
-              <div className="d letter">D</div>
-            </div>
-            <div className="introduction">
-              <h1>Hi there, I'm Rachel</h1>
-              <h2>UX Design, Sailor, Triathlete</h2>
-              <div className="about-button-container">
-                <button href={School}>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
-              <div className="e-flag flag">
+              <div className="s-flag flag">
                 <img
-                  src={require("./../../../assets/e-flag.svg")}
-                  alt="nautical flag e"
+                  src={require("./../../../assets/s-flag.svg")}
+                  alt="nautical flag s"
                 />
               </div>
-              <div className="e letter">E</div>
+              <div className="s letter">S</div>
             </div>
             <div className="custom-description">
               <Description
@@ -58,13 +37,13 @@ class Home extends React.Component {
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
-              <div className="s-flag flag">
+              <div className="t-flag flag">
                 <img
-                  src={require("./../../../assets/s-flag.svg")}
-                  alt="nautical flag s"
+                  src={require("./../../../assets/t-flag.svg")}
+                  alt="nautical flag t"
                 />
               </div>
-              <div className="s letter">S</div>
+              <div className="t letter">T</div>
             </div>
             <div className="custom-description">
               <Description
@@ -83,13 +62,13 @@ class Home extends React.Component {
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
-              <div className="i-flag flag">
+              <div className="u-flag flag">
                 <img
-                  src={require("./../../../assets/i-flag.svg")}
-                  alt="nautical flag i"
+                  src={require("./../../../assets/u-flag.svg")}
+                  alt="nautical flag u"
                 />
               </div>
-              <div className="i letter">I</div>
+              <div className="u letter">U</div>
             </div>
             <div className="custom-description">
               <Description
@@ -108,13 +87,13 @@ class Home extends React.Component {
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
-              <div className="g-flag flag">
+              <div className="d-flag flag">
                 <img
-                  src={require("./../../../assets/g-flag.svg")}
-                  alt="nautical flag g"
+                  src={require("./../../../assets/d-flag.svg")}
+                  alt="nautical flag d"
                 />
               </div>
-              <div className="g letter">G</div>
+              <div className="d letter">D</div>
             </div>
             <div className="custom-description">
               <Description
@@ -133,13 +112,13 @@ class Home extends React.Component {
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
-              <div className="n-flag flag">
+              <div className="y-flag flag">
                 <img
-                  src={require("./../../../assets/n-flag.svg")}
-                  alt="nautical flag n"
+                  src={require("./../../../assets/y-flag.svg")}
+                  alt="nautical flag y"
                 />
               </div>
-              <div className="n letter">N</div>
+              <div className="y letter">Y</div>
             </div>
             <div className="custom-description">
               <Description
@@ -160,4 +139,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default School;
