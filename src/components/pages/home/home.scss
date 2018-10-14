@@ -1,7 +1,6 @@
 .introduction {
   position: absolute;
   right: 23%;
-  margin: 2%;
 }
 
 .introduction h1 {
@@ -13,10 +12,6 @@
   font-size: 18px;
   margin: 10px 0px;
   padding-bottom: 20px;
-}
-
-.flag-group {
-  display: flex;
 }
 
 .scroll {
@@ -34,4 +29,8 @@
 
 .e {
   left: 30%;
+}
+
+.s {
+  top: -220px;
 }

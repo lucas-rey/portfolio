@@ -1,11 +1,13 @@
 import React from "react";
 import Description from "../../common/description/description";
+import MenuWrapper from "../../common/menu/menu";
 import "./home.scss";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
+        <MenuWrapper />
         <div className="screen-container">
           <div className="intro-wrapper">
             <div className="flag-group">
@@ -57,11 +59,89 @@ class Home extends React.Component {
         </div>
         <div className="screen-container">
           <div className="project-wrapper">
-            <div className="s-flag flag">
-              <img
-                src={require("./../../../assets/s-flag.jpg")}
-                alt="nautical flag s"
-              />
+            <div className="flag-group">
+              <div className="s-flag flag">
+                <img
+                  src={require("./../../../assets/s-flag.jpg")}
+                  alt="nautical flag s"
+                />
+              </div>
+              <div className="s letter">S</div>
+            </div>
+            <div className="custom-description">
+              <Description
+                year={"2018"}
+                workType={"school"}
+                title={"National Parks"}>
+                This project was an introduction to bootstrap and its responsive
+                layouts. We were asked to create a list of at least 8 items that
+                could be navigated to through the header and display a small
+                amount of information about each listing. The designs had to be
+                fit for multiple screen sizes as well.
+              </Description>
+            </div>
+          </div>
+        </div>
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <div className="flag-group">
+              <div className="i-flag flag">
+                <img
+                  src={require("./../../../assets/i-flag.jpg")}
+                  alt="nautical flag i"
+                />
+              </div>
+              <div className="i letter">I</div>
+            </div>
+            <div className="custom-description">
+              <Description
+                year={"2018"}
+                workType={"school"}
+                title={"National Parks"}>
+                This project was an introduction to bootstrap and its responsive
+                layouts. We were asked to create a list of at least 8 items that
+                could be navigated to through the header and display a small
+                amount of information about each listing. The designs had to be
+                fit for multiple screen sizes as well.
+              </Description>
+            </div>
+          </div>
+        </div>
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <div className="flag-group">
+              <div className="g-flag flag">
+                <img
+                  src={require("./../../../assets/g-flag.jpg")}
+                  alt="nautical flag g"
+                />
+              </div>
+              <div className="g letter">G</div>
+            </div>
+            <div className="custom-description">
+              <Description
+                year={"2018"}
+                workType={"school"}
+                title={"National Parks"}>
+                This project was an introduction to bootstrap and its responsive
+                layouts. We were asked to create a list of at least 8 items that
+                could be navigated to through the header and display a small
+                amount of information about each listing. The designs had to be
+                fit for multiple screen sizes as well.
+              </Description>
+            </div>
+          </div>
+        </div>
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <div className="flag-group">
+              <div className="n-flag flag">
+                <img
+                  src={require("./../../../assets/n-flag.jpg")}
+                  alt="nautical flag n"
+                />
+              </div>
+              <div className="n letter">N</div>
             </div>
             <div className="custom-description">
               <Description

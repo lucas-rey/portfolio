@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./description.scss";
-import "./../../../assets/d-flag.jpg";
 
 class Description extends React.Component {
   handleClick() {
