@@ -3,7 +3,7 @@ import "./home.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Scroll from "../../common/scroll-icon/scroll-icon";
-import School from "../school/school";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -25,9 +25,9 @@ class Home extends React.Component {
             <div className="introduction">
               <h1>Hi there, I'm Rachel</h1>
               <h2>UX Design, Sailor, Triathlete</h2>
-              <div className="about-button-container">
-                <button href={School}>Learn More</button>
-              </div>
+              <Link to="about">
+                <button>Learn More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -45,8 +45,8 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
-                title={"HTML Poetry"}>
+                workType={"professional"}
+                title={"ADP Poetry"}>
                 As part of my web design class we were asked to explore html and
                 css by experimenting with the design of a short poem. Through 5
                 levels of experimentation we learned how to use html and css
