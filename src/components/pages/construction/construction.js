@@ -1,9 +1,15 @@
 import React from "react";
 import "./construction.scss";
+import MenuWrapper from "../../common/menu/menu";
 
 class Construction extends React.Component {
   render() {
-    return <div className="text">Whoops. This page is still being built</div>;
+    return (
+      <div>
+        <MenuWrapper />
+        <div className="text">This page is still being built</div>
+      </div>
+    );
   }
 }
 
