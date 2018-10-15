@@ -3,9 +3,6 @@ import PropTypes from "prop-types";
 import "./description.scss";
 
 class Description extends React.Component {
-  handleClick() {
-    console.log("this is:", this);
-  }
   render() {
     const { year, workType, title, children } = this.props;
     return (
@@ -18,7 +15,6 @@ class Description extends React.Component {
         <div className="title">{title}</div>
         <div className="line" />
         <div className="paragraph">{children}</div>
-        <button onClick={e => this.handleClick(e)}>View More</button>
       </div>
     );
   }

@@ -14,7 +14,7 @@ class Home extends React.Component {
         <div className="screen-container">
           <div className="intro-wrapper">
             <div className="flag-group">
-              <div className="d-flag flag">
+              <div className="flag">
                 <img
                   src={require("./../../../assets/d-flag.svg")}
                   alt="nautical flag d"
@@ -24,8 +24,8 @@ class Home extends React.Component {
             </div>
             <div className="introduction">
               <h1>Hi there, I'm Rachel</h1>
-              <h2>UX Design, Sailor, Triathlete</h2>
-              <Link to="about">
+              <h2>UX Designer, Sailor, Triathlete</h2>
+              <Link to="construction">
                 <button>Learn More</button>
               </Link>
             </div>
@@ -46,12 +46,17 @@ class Home extends React.Component {
               <Description
                 year={"2018"}
                 workType={"professional"}
-                title={"ADP Poetry"}>
-                As part of my web design class we were asked to explore html and
-                css by experimenting with the design of a short poem. Through 5
-                levels of experimentation we learned how to use html and css
-                together to create different layouts on the page.
+                title={"ADP Internship"}>
+                Next Gen Payroll Innovation. I worked as the voice of the newest
+                generation to help bring transparency to an updated payroll
+                system. I worked with other designers and researches to help
+                design applications that put the user first. I gained knowledge
+                of branding, the agile process, and working alongside
+                development teams to work effectively.
               </Description>
+              <Link to="construction">
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -70,13 +75,18 @@ class Home extends React.Component {
               <Description
                 year={"2018"}
                 workType={"school"}
-                title={"National Parks"}>
-                This project was an introduction to bootstrap and its responsive
-                layouts. We were asked to create a list of at least 8 items that
-                could be navigated to through the header and display a small
-                amount of information about each listing. The designs had to be
-                fit for multiple screen sizes as well.
+                title={"Vietnam Journal"}>
+                Several years ago my dad was given the journal that my grandad
+                wrote on his final tour in Vietnam. I transcribed, researched,
+                and drafted for about a year to develop this final publication.
+                Most of my family had not read through his story so I wanted to
+                give them all the opportunity. This publication is for sale and
+                all of its proceeds are donated towards The Wounded Warrior
+                Project.
               </Description>
+              <Link to="construction">
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -95,13 +105,18 @@ class Home extends React.Component {
               <Description
                 year={"2018"}
                 workType={"school"}
-                title={"National Parks"}>
-                This project was an introduction to bootstrap and its responsive
-                layouts. We were asked to create a list of at least 8 items that
-                could be navigated to through the header and display a small
-                amount of information about each listing. The designs had to be
-                fit for multiple screen sizes as well.
+                title={"Street Smart"}>
+                Street Smart is a biking safety app aimed at decreasing the
+                amount of bike and motor vehicle accidents. We started a
+                hypothetical business and worked to research and design our
+                business in such a way that it would be profitable within a few
+                years. This class culminated in a final investment pitch that
+                included our marketing strategy, financial plans, and a
+                prototype of the product.
               </Description>
+              <Link to="construction">
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -120,17 +135,24 @@ class Home extends React.Component {
               <Description
                 year={"2018"}
                 workType={"school"}
-                title={"National Parks"}>
-                This project was an introduction to bootstrap and its responsive
-                layouts. We were asked to create a list of at least 8 items that
-                could be navigated to through the header and display a small
-                amount of information about each listing. The designs had to be
-                fit for multiple screen sizes as well.
+                title={"Video Game"}>
+                For this project we were asked to create an interactable piece
+                that could be placed in a timebox and opened 100 years from now.
+                I wanted to document the endangered species of today as I
+                realized future generations may not get to see these animals. I
+                decided to create an education video game, encouraging users to
+                try and save the species by guiding animals to wildlife
+                perserves.
               </Description>
+              <Link to="construction">
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         </div>
         <div className="screen-container">
+          {" "}
+          */ /*{" "}
           <div className="project-wrapper">
             <div className="flag-group">
               <div className="n-flag flag">
@@ -144,14 +166,16 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
-                title={"National Parks"}>
-                This project was an introduction to bootstrap and its responsive
-                layouts. We were asked to create a list of at least 8 items that
-                could be navigated to through the header and display a small
-                amount of information about each listing. The designs had to be
-                fit for multiple screen sizes as well.
+                workType={"personal"}
+                title={"Portfolio Website"}>
+                Take a look at the process behind this website and how it came
+                to be. You can learn more about the elements that I used within
+                it and why. This site was custom made by myself so feel free to
+                view my github repo as well.
               </Description>
+              <Link to="construction">
+                <button>View More</button>
+              </Link>
             </div>
           </div>
         </div>
