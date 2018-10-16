@@ -12,7 +12,7 @@ class Home extends React.Component {
       <div>
         <div className="page-name">Home</div>
         <MenuWrapper />
-        <Scroll />
+        {/* <Scroll /> */}
         <div className="screen-container">
           <div className="intro-wrapper">
             <div className="flag-group">
@@ -27,7 +27,7 @@ class Home extends React.Component {
             <div className="introduction">
               <h1>Hi there, I'm Rachel</h1>
               <h2>UX Designer, Sailor, Triathlete</h2>
-              <Link to="construction">
+              <Link to="about">
                 <button>Learn More</button>
               </Link>
             </div>

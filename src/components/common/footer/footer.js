@@ -8,10 +8,15 @@ class Footer extends React.Component {
       <div>
         <div className="footer-group">
           <div className="linkedin">
-            <img
-              src={require("./../../../assets/linkedin.png")}
-              alt="linked in logo"
-            />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/rachel-lucas/">
+              <img
+                src={require("./../../../assets/linkedin.png")}
+                alt="linked in logo"
+              />{" "}
+            </a>
           </div>
           <div className="button-group">
             <div className="contact-text">Let's get in touch!</div>

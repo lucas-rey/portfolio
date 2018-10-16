@@ -5,6 +5,7 @@ import Professional from "./pages/professional/professional";
 import School from "./pages/school/school";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
+import Construction from "./pages/construction/construction";
 
 const Main = () => (
   <main>
@@ -14,6 +15,7 @@ const Main = () => (
       <Route exact path="/school" component={School} />
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/construction" component={Construction} />
     </Switch>
   </main>
 );

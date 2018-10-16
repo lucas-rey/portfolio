@@ -87,7 +87,7 @@ class About extends React.Component {
                 src={require("./../../../assets/plants.svg")}
                 alt="plants silhouette"
               />
-              <div className="interest-text">Plant Mom</div>
+              <div className="interest-text">Plant Enthusiast</div>
             </div>
           </div>
           <div className="interests">
