@@ -3,12 +3,14 @@ import "./home.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Scroll from "../../common/scroll-icon/scroll-icon";
+import Footer from "../../common/footer/footer";
 import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
+        <div className="page-name">Home</div>
         <MenuWrapper />
         <Scroll />
         <div className="screen-container">
@@ -45,8 +47,8 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"professional"}
-                title={"ADP Internship"}>
+                workType={"Professional"}
+                title={"ADP Payroll Innovation"}>
                 Next Gen Payroll Innovation. I worked as the voice of the newest
                 generation to help bring transparency to an updated payroll
                 system. I worked with other designers and researches to help
@@ -74,7 +76,7 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"Vietnam Journal"}>
                 Several years ago my dad was given the journal that my grandad
                 wrote on his final tour in Vietnam. I transcribed, researched,
@@ -104,7 +106,7 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"Street Smart"}>
                 Street Smart is a biking safety app aimed at decreasing the
                 amount of bike and motor vehicle accidents. We started a
@@ -134,7 +136,7 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"Video Game"}>
                 For this project we were asked to create an interactable piece
                 that could be placed in a timebox and opened 100 years from now.
@@ -151,8 +153,6 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="screen-container">
-          {" "}
-          */ /*{" "}
           <div className="project-wrapper">
             <div className="flag-group">
               <div className="n-flag flag">
@@ -166,7 +166,7 @@ class Home extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"personal"}
+                workType={"Personal"}
                 title={"Portfolio Website"}>
                 Take a look at the process behind this website and how it came
                 to be. You can learn more about the elements that I used within
@@ -179,6 +179,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

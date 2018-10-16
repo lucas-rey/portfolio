@@ -1,0 +1,36 @@
+.about-group {
+  padding: 25px 85px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 70%;
+}
+
+.about-title {
+  font-size: 48px;
+}
+
+.about-title h2 {
+  margin: 40px 0px;
+}
+
+.bio {
+  font-size: 14px;
+}
+
+.interests {
+  color: white;
+  text-align: center;
+}
+
+.individual-interest {
+  padding: 25px;
+}
+
+.individual-interest img {
+  padding-bottom: 10px;
+  width: 100px;
+}

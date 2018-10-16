@@ -20,7 +20,7 @@ class MenuWrapper extends React.Component {
                   Home
                 </div>
               </a>
-              <a id="professional" className="menu-item" href="/construction">
+              <a id="professional" className="menu-item" href="/professional">
                 <div className="item-group">
                   <img src={require("./../../../assets/work.svg")} alt="work" />
                   Professional
@@ -35,7 +35,7 @@ class MenuWrapper extends React.Component {
                   School
                 </div>
               </a>
-              <a id="about" className="menu-item" href="/construction">
+              <a id="about" className="menu-item" href="/about">
                 <div className="item-group">
                   <img
                     src={require("./../../../assets/about.svg")}
@@ -44,7 +44,7 @@ class MenuWrapper extends React.Component {
                   About
                 </div>
               </a>
-              <a id="contact" className="menu-item" href="/construction">
+              <a id="contact" className="menu-item" href="/contact">
                 <div className="item-group">
                   <img
                     src={require("./../../../assets/contact.svg")}

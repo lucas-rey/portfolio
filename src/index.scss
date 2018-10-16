@@ -10,10 +10,22 @@ body {
   overflow-y: scroll;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 h1,
 h2,
 p {
   color: white;
+}
+
+.page-name {
+  color: white;
+  text-transform: uppercase;
+  position: fixed;
+  padding: 15px 20px;
+  z-index: 2;
 }
 
 .screen-container {
@@ -45,6 +57,16 @@ p {
   width: 350px;
 }
 
+.custom-description {
+  display: inline-grid;
+  padding: 0px 100px 150px 0px;
+  max-width: 400px;
+}
+
+.description-container {
+  padding-bottom: 50px;
+}
+
 button {
   height: 25px;
   width: 100px;
@@ -70,12 +92,14 @@ button {
   color: black;
 }
 
-.d {
+.d,
+.r {
   right: 50%;
 }
 
 .s,
-.n {
+.n,
+.w {
   top: -200px;
   right: 50%;
 }
@@ -88,8 +112,14 @@ button {
   left: 8%;
 }
 
+.w {
+  right: 60%;
+  top: 50px;
+}
+
 .u,
-.y {
+.y,
+.k {
   top: -200px;
   left: 5%;
 }

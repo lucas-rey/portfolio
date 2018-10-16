@@ -3,12 +3,14 @@ import "./school.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Scroll from "../../common/scroll-icon/scroll-icon";
+import Footer from "../../common/footer/footer";
 import { Link } from "react-router-dom";
 
 class School extends React.Component {
   render() {
     return (
       <div>
+        <div className="page-name">School</div>
         <MenuWrapper />
         <Scroll />
         <div className="screen-container">
@@ -25,7 +27,7 @@ class School extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"Video Game"}>
                 For this project we were asked to create an interactable piece
                 that could be placed in a timebox and opened 100 years from now.
@@ -55,7 +57,7 @@ class School extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"Street Smart"}>
                 Street Smart is a biking safety app aimed at decreasing the
                 amount of bike and motor vehicle accidents. We started a
@@ -83,7 +85,7 @@ class School extends React.Component {
               <div className="u letter">U</div>
             </div>
             <div className="custom-description">
-              <Description year={"2017"} workType={"school"} title={"Brevet"}>
+              <Description year={"2017"} workType={"School"} title={"Brevet"}>
                 This project was an introduction to mobile design and
                 prototyping. We were asked to design an application and then
                 create a prototype that would be used in a promotional video.
@@ -110,7 +112,7 @@ class School extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"HTML Poetry"}>
                 As part of my web design class we were asked to explore html and
                 css by experimenting with the design of a short poem. Through 5
@@ -137,7 +139,7 @@ class School extends React.Component {
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"school"}
+                workType={"School"}
                 title={"National Parks"}>
                 This project was an introduction to bootstrap and its responsive
                 layouts. We were asked to create a list of at least 8 items that
@@ -151,6 +153,7 @@ class School extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
