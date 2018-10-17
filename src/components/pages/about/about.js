@@ -36,13 +36,13 @@ class About extends React.Component {
                 logo for my high school’s band program. I had no idea where I
                 wanted to go to college. I applied to 5 different schools. The
                 very last school that I applied to was Virginia Commonwealth
-                University, the number one public arts school in the country.
-                Now I only applied because my dad dared me, but that dare
-                changed my life. I moved away from the only home I had ever
-                known and I completely started over. That thought might sound
-                terrifying to some, but I was ready for the challenge. Because
-                of that dare I take every opportunity I am presented with now.
-                You never know what’s around the corner.
+                University, the number one public arts school in the country. I
+                did not think that I could get in and I only applied because my
+                dad dared me to. That dare changed my life. I moved away from
+                the only home I had ever known and I completely started over.
+                That thought might sound terrifying to some, but I was ready for
+                the challenge. Because of that dare I take every opportunity I
+                am presented with now. You never know what is around the corner.
               </p>
               <p>
                 I am comfortable being uncomfortable and I push my limits daily.

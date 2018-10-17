@@ -2,8 +2,8 @@ import React from "react";
 import "./professional.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
-import Scroll from "../../common/scroll-icon/scroll-icon";
 import Footer from "../../common/footer/footer";
+import Scroll from "../../common/scroll-icon/scroll-icon";
 import { Link } from "react-router-dom";
 
 class Professional extends React.Component {

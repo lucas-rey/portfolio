@@ -2,8 +2,8 @@ import React from "react";
 import "./home.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
-import Scroll from "../../common/scroll-icon/scroll-icon";
 import Footer from "../../common/footer/footer";
+import Scroll from "../../common/scroll-icon/scroll-icon";
 import { Link } from "react-router-dom";
 
 class Home extends React.Component {
@@ -12,7 +12,7 @@ class Home extends React.Component {
       <div>
         <div className="page-name">Home</div>
         <MenuWrapper />
-        {/* <Scroll /> */}
+        <Scroll />
         <div className="screen-container">
           <div className="intro-wrapper">
             <div className="flag-group">
