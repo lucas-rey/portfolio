@@ -20,21 +20,6 @@ class MenuWrapper extends React.Component {
                   Home
                 </div>
               </a>
-              <a id="professional" className="menu-item" href="/professional">
-                <div className="item-group">
-                  <img src={require("./../../../assets/work.svg")} alt="work" />
-                  Professional
-                </div>
-              </a>
-              <a id="school" className="menu-item" href="/school">
-                <div className="item-group">
-                  <img
-                    src={require("./../../../assets/school.svg")}
-                    alt="school"
-                  />
-                  School
-                </div>
-              </a>
               <a id="about" className="menu-item" href="/about">
                 <div className="item-group">
                   <img
@@ -51,6 +36,34 @@ class MenuWrapper extends React.Component {
                     alt="contact"
                   />
                   Contact
+                </div>
+              </a>
+              <a
+                id="github"
+                className="menu-item"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/lucas-rey/portfolio">
+                <div className="item-group">
+                  <img
+                    src={require("./../../../assets/github.png")}
+                    alt="website"
+                  />
+                  Github
+                </div>
+              </a>
+              <a
+                id="linkedin"
+                className="menu-item"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/rachel-lucas/">
+                <div className="item-group">
+                  <img
+                    src={require("./../../../assets/linked-in.png")}
+                    alt="linked in"
+                  />
+                  LinkedIn
                 </div>
               </a>
             </main>

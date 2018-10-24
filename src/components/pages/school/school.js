@@ -3,16 +3,14 @@ import "./school.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Footer from "../../common/footer/footer";
-import Scroll from "../../common/scroll-icon/scroll-icon";
 import { Link } from "react-router-dom";
 
 class School extends React.Component {
   render() {
     return (
       <div>
-        <div className="page-name">School</div>
+        {/* <div className="page-name">School</div> */}
         <MenuWrapper />
-        <Scroll />
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
@@ -119,7 +117,7 @@ class School extends React.Component {
                 levels of experimentation we learned how to use html and css
                 together to create different layouts on the page.
               </Description>
-              <Link to="construction">
+              <Link to="poetry">
                 <button>View More</button>
               </Link>
             </div>

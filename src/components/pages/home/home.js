@@ -2,48 +2,52 @@ import React from "react";
 import "./home.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
-import Footer from "../../common/footer/footer";
-import Scroll from "../../common/scroll-icon/scroll-icon";
 import { Link } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
-        <div className="page-name">Home</div>
+        {/* <div className="page-name">Home</div> */}
         <MenuWrapper />
-        <Scroll />
         <div className="screen-container">
           <div className="intro-wrapper">
-            <div className="flag-group">
-              <div className="flag">
-                <img
-                  src={require("./../../../assets/d-flag.svg")}
-                  alt="nautical flag d"
-                />
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="u-flag flag">
+                  <img
+                    src={require("./../../../assets/u-flag.svg")}
+                    alt="nautical flag u"
+                  />
+                </div>
+                <div className="u letter">U</div>
               </div>
-              <div className="d letter">D</div>
-            </div>
-            <div className="introduction">
-              <h1>Hi there, I'm Rachel</h1>
-              <h2>UX Designer, Sailor, Triathlete</h2>
-              <Link to="about">
-                <button>Learn More</button>
-              </Link>
-            </div>
+            </Fade>
+            <Fade right cascade>
+              <div className="introduction">
+                <h1>Hi there, I'm Rachel</h1>
+                <h2>UX Designer, Sailor, Triathlete</h2>
+                <Link to="about">
+                  <button>Learn More</button>
+                </Link>
+              </div>
+            </Fade>
           </div>
         </div>
         <div className="screen-container">
           <div className="project-wrapper">
-            <div className="flag-group">
-              <div className="e-flag flag">
-                <img
-                  src={require("./../../../assets/e-flag.svg")}
-                  alt="nautical flag e"
-                />
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="x-flag flag">
+                  <img
+                    src={require("./../../../assets/x-flag.svg")}
+                    alt="nautical flag x"
+                  />
+                </div>
+                <div className="x letter">X</div>
               </div>
-              <div className="e letter">E</div>
-            </div>
+            </Fade>
             <div className="custom-description">
               <Description
                 year={"2018"}
@@ -56,53 +60,27 @@ class Home extends React.Component {
                 of branding, the agile process, and working alongside
                 development teams to work effectively.
               </Description>
-              <Link to="construction">
-                <button>View More</button>
-              </Link>
+              <Fade right>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
             </div>
           </div>
         </div>
         <div className="screen-container">
           <div className="project-wrapper">
-            <div className="flag-group">
-              <div className="s-flag flag">
-                <img
-                  src={require("./../../../assets/s-flag.svg")}
-                  alt="nautical flag s"
-                />
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="d-flag flag">
+                  <img
+                    src={require("./../../../assets/d-flag.svg")}
+                    alt="nautical flag d"
+                  />
+                </div>
+                <div className="d letter">D</div>
               </div>
-              <div className="s letter">S</div>
-            </div>
-            <div className="custom-description">
-              <Description
-                year={"2018"}
-                workType={"School"}
-                title={"Vietnam Journal"}>
-                Several years ago my dad was given the journal that my grandad
-                wrote on his final tour in Vietnam. I transcribed, researched,
-                and drafted for about a year to develop this final publication.
-                Most of my family had not read through his story so I wanted to
-                give them all the opportunity. This publication is for sale and
-                all of its proceeds are donated towards The Wounded Warrior
-                Project.
-              </Description>
-              <Link to="construction">
-                <button>View More</button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="screen-container">
-          <div className="project-wrapper">
-            <div className="flag-group">
-              <div className="i-flag flag">
-                <img
-                  src={require("./../../../assets/i-flag.svg")}
-                  alt="nautical flag i"
-                />
-              </div>
-              <div className="i letter">I</div>
-            </div>
+            </Fade>
             <div className="custom-description">
               <Description
                 year={"2018"}
@@ -116,26 +94,64 @@ class Home extends React.Component {
                 included our marketing strategy, financial plans, and a
                 prototype of the product.
               </Description>
-              <Link to="construction">
-                <button>View More</button>
-              </Link>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
             </div>
           </div>
         </div>
         <div className="screen-container">
           <div className="project-wrapper">
-            <div className="flag-group">
-              <div className="g-flag flag">
-                <img
-                  src={require("./../../../assets/g-flag.svg")}
-                  alt="nautical flag g"
-                />
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="e-flag flag">
+                  <img
+                    src={require("./../../../assets/e-flag.svg")}
+                    alt="nautical flag e"
+                  />
+                </div>
+                <div className="e letter">E</div>
               </div>
-              <div className="g letter">G</div>
-            </div>
+            </Fade>
             <div className="custom-description">
               <Description
                 year={"2018"}
+                workType={"School"}
+                title={"Vietnam Journal"}>
+                Several years ago my dad was given the journal that my grandad
+                wrote on his final tour in Vietnam. I transcribed, researched,
+                and drafted for about a year to develop this final publication.
+                Most of my family had not read through his story so I wanted to
+                give them all the opportunity. This publication is for sale and
+                all of its proceeds are donated towards The Wounded Warrior
+                Project.
+              </Description>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
+            </div>
+          </div>
+        </div>
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="s-flag flag">
+                  <img
+                    src={require("./../../../assets/s-flag.svg")}
+                    alt="nautical flag s"
+                  />
+                </div>
+                <div className="s letter">S</div>
+              </div>
+            </Fade>
+            <div className="custom-description">
+              <Description
+                year={"2017"}
                 workType={"School"}
                 title={"Video Game"}>
                 For this project we were asked to create an interactable piece
@@ -146,40 +162,109 @@ class Home extends React.Component {
                 try and save the species by guiding animals to wildlife
                 perserves.
               </Description>
-              <Link to="construction">
-                <button>View More</button>
-              </Link>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
             </div>
           </div>
         </div>
         <div className="screen-container">
           <div className="project-wrapper">
-            <div className="flag-group">
-              <div className="n-flag flag">
-                <img
-                  src={require("./../../../assets/n-flag.svg")}
-                  alt="nautical flag n"
-                />
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="i-flag flag">
+                  <img
+                    src={require("./../../../assets/i-flag.svg")}
+                    alt="nautical flag i"
+                  />
+                </div>
+                <div className="i letter">I</div>
               </div>
-              <div className="n letter">N</div>
-            </div>
+            </Fade>
             <div className="custom-description">
               <Description
                 year={"2018"}
-                workType={"Personal"}
-                title={"Portfolio Website"}>
-                Take a look at the process behind this website and how it came
-                to be. You can learn more about the elements that I used within
-                it and why. This site was custom made by myself so feel free to
-                view my github repo as well.
+                workType={"Professional"}
+                title={"Mousai"}>
+                This is a collabrative project. It is currently still in
+                production but it will soon be released for use. I was
+                approached with the design proposition of an extension to
+                Spotify that will allow users to upvote and downvote songs
+                within their playlist. I created all of the design and branding
+                for this application.
               </Description>
-              <Link to="construction">
-                <button>View More</button>
-              </Link>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
             </div>
           </div>
         </div>
-        <Footer />
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="g-flag flag">
+                  <img
+                    src={require("./../../../assets/g-flag.svg")}
+                    alt="nautical flag g"
+                  />
+                </div>
+                <div className="g letter">G</div>
+              </div>
+            </Fade>
+            <div className="custom-description">
+              <Description year={"2017"} workType={"School"} title={"Brevet"}>
+                This project was an introduction to mobile design and
+                prototyping. We were asked to design an application and then
+                create a prototype that would be used in a promotional video.
+                This was a solo project so I was responsible for the conception,
+                branding, design, and development of the final product.
+              </Description>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
+            </div>
+          </div>
+        </div>
+        <div className="screen-container">
+          <div className="project-wrapper">
+            <Fade left cascade>
+              <div className="flag-group">
+                <div className="n-flag flag">
+                  <img
+                    src={require("./../../../assets/n-flag.svg")}
+                    alt="nautical flag n"
+                  />
+                </div>
+                <div className="n letter">N</div>
+              </div>
+            </Fade>
+            <div className="custom-description">
+              <Description
+                year={"2017"}
+                workType={"Professional"}
+                title={"VCU USC&A"}>
+                My primary work for this department was campign work. We
+                designed cohesive campaign materials for events and
+                organizations around campus. I learned to work with clients and
+                gained experience with tight deadlines. I created everything
+                from posters, logos, and handouts to banners and even several
+                wall murals.
+              </Description>
+              <Fade right cascade>
+                <Link to="construction">
+                  <button>View More</button>
+                </Link>
+              </Fade>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

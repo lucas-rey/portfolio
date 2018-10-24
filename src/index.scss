@@ -68,11 +68,11 @@ p {
 }
 
 button {
-  height: 25px;
-  width: 100px;
+  width: 125px;
   color: #1d1f23;
   border-width: 0px;
   text-transform: uppercase;
+  padding: 10px 0px;
   cursor: pointer;
 
   &:hover {
@@ -93,7 +93,8 @@ button {
 }
 
 .d,
-.r {
+.r,
+.u {
   right: 50%;
 }
 
@@ -117,7 +118,6 @@ button {
   top: 50px;
 }
 
-.u,
 .y,
 .k {
   top: -200px;

@@ -1,8 +1,5 @@
 .about-group {
   padding: 25px 85px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
 }
 
 .about-text {
@@ -24,6 +21,8 @@
 .interests {
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .individual-interest {
@@ -32,5 +31,9 @@
 
 .individual-interest img {
   padding-bottom: 10px;
-  width: 100px;
+  width: 125px;
+}
+
+.main-container {
+  padding-bottom: 50px; /* height of your footer */
 }

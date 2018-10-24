@@ -3,16 +3,14 @@ import "./professional.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
 import Footer from "../../common/footer/footer";
-import Scroll from "../../common/scroll-icon/scroll-icon";
 import { Link } from "react-router-dom";
 
 class Professional extends React.Component {
   render() {
     return (
       <div>
-        <div className="page-name">Professional</div>
+        {/* <div className="page-name">Professional</div> */}
         <MenuWrapper />
-        <Scroll />
         <div className="screen-container">
           <div className="project-wrapper">
             <div className="flag-group">
