@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import Description from "../../common/description/description";
 import MenuWrapper from "../../common/menu/menu";
+import ScrollSpy from "../../common/scrollspy/scrollspy";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
@@ -10,7 +11,8 @@ class Home extends React.Component {
     return (
       <div>
         <MenuWrapper />
-        <div className="screen-container">
+        <ScrollSpy />
+        <div className="screen-container" id="section-1">
           <div className="intro-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -34,7 +36,7 @@ class Home extends React.Component {
             </Fade>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-2">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -67,7 +69,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-3">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -101,7 +103,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-4">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -135,7 +137,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-5">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -169,7 +171,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-6">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -202,7 +204,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-7">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
@@ -231,7 +233,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="screen-container">
+        <div className="screen-container" id="section-8">
           <div className="project-wrapper">
             <Fade left cascade>
               <div className="flag-group">
