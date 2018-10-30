@@ -7,7 +7,7 @@ class Description extends React.Component {
   render() {
     const { year, workType, title, children } = this.props;
     return (
-      <Fade right cascade>
+      <Fade>
         <div className="description-container">
           <div className="date-type">
             <div className="year">{year}</div>

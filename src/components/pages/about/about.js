@@ -6,12 +6,11 @@ class About extends React.Component {
   render() {
     return (
       <div className="main-container">
-        {/* <div className="page-name">About</div> */}
         <MenuWrapper />
+        <div className="page-heading">
+          <h2>A little about me</h2>
+        </div>
         <div className="about-group">
-          <div className="about-title">
-            <h2>A little about me</h2>
-          </div>
           <div className="interests">
             <div className="hiking individual-interest">
               <img

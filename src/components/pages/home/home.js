@@ -9,7 +9,6 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        {/* <div className="page-name">Home</div> */}
         <MenuWrapper />
         <div className="screen-container">
           <div className="intro-wrapper">
@@ -24,7 +23,7 @@ class Home extends React.Component {
                 <div className="u letter">U</div>
               </div>
             </Fade>
-            <Fade right cascade>
+            <Fade>
               <div className="introduction">
                 <h1>Hi there, I'm Rachel</h1>
                 <h2>UX Designer, Sailor, Triathlete</h2>
@@ -60,7 +59,7 @@ class Home extends React.Component {
                 of branding, the agile process, and working alongside
                 development teams to work effectively.
               </Description>
-              <Fade right>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>
@@ -94,8 +93,8 @@ class Home extends React.Component {
                 included our marketing strategy, financial plans, and a
                 prototype of the product.
               </Description>
-              <Fade right cascade>
-                <Link to="construction">
+              <Fade>
+                <Link to="street-smart">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -128,7 +127,7 @@ class Home extends React.Component {
                 all of its proceeds are donated towards The Wounded Warrior
                 Project.
               </Description>
-              <Fade right cascade>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>
@@ -162,7 +161,7 @@ class Home extends React.Component {
                 try and save the species by guiding animals to wildlife
                 perserves.
               </Description>
-              <Fade right cascade>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>
@@ -195,7 +194,7 @@ class Home extends React.Component {
                 within their playlist. I created all of the design and branding
                 for this application.
               </Description>
-              <Fade right cascade>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>
@@ -224,7 +223,7 @@ class Home extends React.Component {
                 This was a solo project so I was responsible for the conception,
                 branding, design, and development of the final product.
               </Description>
-              <Fade right cascade>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>
@@ -257,7 +256,7 @@ class Home extends React.Component {
                 from posters, logos, and handouts to banners and even several
                 wall murals.
               </Description>
-              <Fade right cascade>
+              <Fade>
                 <Link to="construction">
                   <button>View More</button>
                 </Link>

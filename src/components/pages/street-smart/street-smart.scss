@@ -1,0 +1,37 @@
+.phone-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-group img {
+  height: 400px;
+}
+
+// change colors
+
+.background {
+  background-color: #ffef00;
+}
+
+.title-circle {
+  background-color: black !important;
+}
+
+.text-change,
+.menu-text,
+.back {
+  color: black !important;
+}
+
+.item-change,
+.bm-burger-bars {
+  background: black;
+}
+
+.header-line {
+  border: 1px solid black !important;
+}
+
+i {
+  border-color: black !important;
+}
