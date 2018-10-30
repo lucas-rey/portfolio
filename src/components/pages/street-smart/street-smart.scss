@@ -7,31 +7,37 @@
   height: 400px;
 }
 
-// change colors
+// header customization
 
-.background {
-  background-color: #ffef00;
-}
+// instead of doing this need to create customizable component - aka in the component create a "black" and "white" version that can be called in the js file https://itnext.io/writing-customizable-styled-react-components-51d38ed20461
 
-.title-circle {
-  background-color: black !important;
-}
+// .background.change {
+//   background-color: #ffef00;
+// }
 
-.text-change,
-.menu-text,
-.back {
-  color: black !important;
-}
+// .title-circle.change {
+//   background-color: black;
+// }
 
-.item-change,
-.bm-burger-bars {
-  background: black;
-}
+// .header-year.change,
+// .header-type.change,
+// .header-title.change,
+// .menu-text.change,
+// .back.change,
+// .previous.change,
+// .next.change {
+//   color: black;
+// }
 
-.header-line {
-  border: 1px solid black !important;
-}
+// .item.change,
+// .bm-burger-bars.change {
+//   background: black;
+// }
 
-i {
-  border-color: black !important;
-}
+// .header-line.change {
+//   border: 1px solid black;
+// }
+
+// i.change {
+//   border-color: black;
+// }

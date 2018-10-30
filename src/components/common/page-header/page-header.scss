@@ -20,6 +20,7 @@
 }
 
 .header-date-type {
+  color: white;
   display: flex;
   font-size: 15px;
   align-items: center;
@@ -34,6 +35,7 @@
 }
 
 .header-title {
+  color: white;
   font-size: 75px;
   font-weight: 800;
 }
@@ -77,11 +79,13 @@
 }
 
 .previous {
+  color: white;
   padding-left: 15px;
   text-transform: uppercase;
 }
 
 .next {
+  color: white;
   padding-right: 15px;
   text-transform: uppercase;
 }

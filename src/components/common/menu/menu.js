@@ -6,7 +6,7 @@ class MenuWrapper extends React.Component {
   render() {
     return (
       <div>
-        <div className="menu-text">Menu</div>
+        <div className="menu-text change">Menu</div>
         <div id="outer-container">
           <Menu
             right

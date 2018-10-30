@@ -8,11 +8,11 @@ class Back extends React.Component {
   };
 
   render() {
-    const { history } = this.props;
+    const { history } = this.props.navigation;
 
     return (
       <div className="go-back-button">
-        <button onClick={() => history.go(-1)} className="back">
+        <button onClick={() => history.goBack()} className="back">
           <div className="back-arrow">
             <i class="arrow left" />
           </div>

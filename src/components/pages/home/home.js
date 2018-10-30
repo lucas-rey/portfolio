@@ -60,7 +60,7 @@ class Home extends React.Component {
                 development teams to work effectively.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="adp">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -128,7 +128,7 @@ class Home extends React.Component {
                 Project.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="vietnam">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -162,7 +162,7 @@ class Home extends React.Component {
                 perserves.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="video-game">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -195,7 +195,7 @@ class Home extends React.Component {
                 for this application.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="mousai">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -224,7 +224,7 @@ class Home extends React.Component {
                 branding, design, and development of the final product.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="brevet">
                   <button>View More</button>
                 </Link>
               </Fade>
@@ -257,7 +257,7 @@ class Home extends React.Component {
                 wall murals.
               </Description>
               <Fade>
-                <Link to="construction">
+                <Link to="vcu">
                   <button>View More</button>
                 </Link>
               </Fade>

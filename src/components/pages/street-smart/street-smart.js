@@ -4,7 +4,6 @@ import MenuWrapper from "../../common/menu/menu";
 import RightSection from "../../common/right-section/right-section";
 import ImageDetails from "../../common/image-details/image-details";
 import PageHeader from "../../common/page-header/page-header";
-
 import Back from "../../common/back/back";
 // import { Link } from "react-router-dom";
 
@@ -24,7 +23,7 @@ class StreetSmart extends React.Component {
             alt="nautical flag d"
           />
         </PageHeader>
-        <div className="main-container">
+        {/* <div className="main-container">
           <div className="phone-group">
             <img
               src={require("./../../../assets/street-smart-landing.svg")}
@@ -105,7 +104,7 @@ class StreetSmart extends React.Component {
             model canvas that would shape how our business would act and behave
             in the future and what our product would be.
           </ImageDetails>
-        </div>
+        </div> */}
       </div>
     );
   }

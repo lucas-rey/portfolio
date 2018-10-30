@@ -6,16 +6,16 @@ class PageHeader extends React.Component {
   render() {
     const { year, workType, title, children, letter } = this.props;
     return (
-      <div className="background">
+      <div className="background change">
         <div className="screen-container-detail">
           <div className="page-content">
             <div className="header-left">
               <div className="header-date-type">
-                <div className="header-year">{year}</div>
-                <div className="title-circle" />
-                <div className="header-type">{workType}</div>
+                <div className="header-year change">{year}</div>
+                <div className="title-circle change" />
+                <div className="header-type change">{workType}</div>
               </div>
-              <div className="header-title">{title}</div>
+              <div className="header-title change">{title}</div>
             </div>
             <div className="header-right">
               <div className="flag-page">{children}</div>
@@ -24,9 +24,9 @@ class PageHeader extends React.Component {
           </div>
         </div>
         <div className="bottom-navigation">
-          <div className="previous">Prev</div>
-          <div className="header-line" />
-          <div className="next">Next</div>
+          <div className="previous change">Prev</div>
+          <div className="header-line change" />
+          <div className="next change">Next</div>
         </div>
       </div>
     );
