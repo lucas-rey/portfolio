@@ -1,13 +1,24 @@
 ul {
-  position: fixed;
+  position: absolute;
+  top: 30%;
   list-style: none;
   z-index: 1000;
   width: auto;
-  height: auto;
+  height: 100%;
+  padding: 15px;
   align-items: center;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+li {
+  opacity: 0.5;
+}
+
+.is-current {
+  color: white;
+  opacity: 1;
 }
