@@ -24,6 +24,15 @@ class Vietnam extends React.Component {
             alt="nautical flag e"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/street-smart">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/video-game">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

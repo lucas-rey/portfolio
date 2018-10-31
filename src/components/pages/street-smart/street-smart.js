@@ -23,6 +23,15 @@ class StreetSmart extends React.Component {
             alt="nautical flag d"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/adp">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/vietnam">
+            Next
+          </a>
+        </div>
         {/* <div className="main-container">
           <div className="phone-group">
             <img

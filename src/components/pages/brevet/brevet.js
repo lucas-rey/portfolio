@@ -24,6 +24,15 @@ class Brevet extends React.Component {
             alt="nautical flag g"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/mousai">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/vcu">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

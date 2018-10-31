@@ -24,6 +24,15 @@ class Adp extends React.Component {
             alt="nautical flag x"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/about">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/street-smart">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

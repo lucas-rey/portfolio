@@ -24,6 +24,15 @@ class VideoGame extends React.Component {
             alt="nautical flag s"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/vietnam">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/mousai">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

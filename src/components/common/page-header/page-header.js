@@ -23,11 +23,11 @@ class PageHeader extends React.Component {
             </div>
           </div>
         </div>
-        <div className="bottom-navigation">
+        {/* <div className="bottom-navigation">
           <div className="previous change">Prev</div>
           <div className="header-line change" />
           <div className="next change">Next</div>
-        </div>
+        </div> */}
       </div>
     );
   }

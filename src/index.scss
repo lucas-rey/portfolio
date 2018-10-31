@@ -149,3 +149,11 @@ ol {
   padding-left: 10px;
   margin: 0;
 }
+
+.bottom-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: 40px;
+}

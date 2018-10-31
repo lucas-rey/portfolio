@@ -24,6 +24,15 @@ class Vcu extends React.Component {
             alt="nautical flag n"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/brevet">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/about">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

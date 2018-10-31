@@ -24,6 +24,15 @@ class Mousai extends React.Component {
             alt="nautical flag i"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/video-game">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/brevet">
+            Next
+          </a>
+        </div>
       </div>
     );
   }

@@ -20,6 +20,15 @@ class About extends React.Component {
             alt="nautical flag u"
           />
         </PageHeader>
+        <div className="bottom-navigation">
+          <a className="previous change" href="/vcu">
+            Prev
+          </a>
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/adp">
+            Next
+          </a>
+        </div>
         <div className="main-container">
           <div className="about-group">
             <div className="interests">
