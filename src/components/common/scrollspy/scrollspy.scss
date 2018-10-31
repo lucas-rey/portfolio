@@ -1,12 +1,10 @@
 ul {
-  position: absolute;
+  position: fixed;
   top: 30%;
   list-style: none;
-  z-index: 1000;
-  width: auto;
   height: 100%;
   padding: 15px;
-  align-items: center;
+  text-align: center;
 }
 
 a {
@@ -21,4 +19,8 @@ li {
 .is-current {
   color: white;
   opacity: 1;
+}
+
+.ux-menu {
+  padding-bottom: 15px;
 }

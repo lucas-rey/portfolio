@@ -11,8 +11,8 @@ class About extends React.Component {
         <MenuWrapper />
         <Back />
         <PageHeader
-          year={""}
-          workType={""}
+          year={"1997"}
+          workType={"Exploration"}
           title={"A little about Me"}
           letter={"U"}>
           <img

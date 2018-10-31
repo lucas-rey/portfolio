@@ -21,7 +21,7 @@ class ScrollSpy extends React.Component {
           <li>
             <a href="#section-1">U</a>
           </li>
-          <li>
+          <li className="ux-menu">
             <a href="#section-2">X</a>
           </li>
           <li>

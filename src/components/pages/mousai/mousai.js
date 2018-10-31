@@ -1,8 +1,8 @@
 import React from "react";
 import "./mousai.scss";
 import MenuWrapper from "../../common/menu/menu";
-import RightSection from "../../common/right-section/right-section";
-import ImageDetails from "../../common/image-details/image-details";
+// import RightSection from "../../common/right-section/right-section";
+// import ImageDetails from "../../common/image-details/image-details";
 import PageHeader from "../../common/page-header/page-header";
 
 import Back from "../../common/back/back";

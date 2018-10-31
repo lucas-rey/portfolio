@@ -1,7 +1,6 @@
 import React from "react";
 import "./contact.scss";
 import MenuWrapper from "../../common/menu/menu";
-import Footer from "../../common/footer/footer";
 
 class Contact extends React.Component {
   render() {
@@ -22,7 +21,6 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

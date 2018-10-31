@@ -1,6 +1,7 @@
 import React from "react";
 import "./back.scss";
 import PropTypes from "prop-types";
+import { withRouter } from "react-router-dom";
 
 class Back extends React.Component {
   static propTypes = {
@@ -12,7 +13,7 @@ class Back extends React.Component {
 
     return (
       <div className="go-back-button">
-        <div onClick={() => history.go(-1)} className="back">
+        <div onClick={history.goBack} className="back">
           <div className="back-arrow">
             <i class="arrow left" />
           </div>
@@ -23,4 +24,4 @@ class Back extends React.Component {
   }
 }
 
-export default Back;
+export default withRouter(Back);
