@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./right-section.scss";
+import "./left-text.scss";
 
-class RightSection extends React.Component {
+class LeftText extends React.Component {
   render() {
     const { title, children } = this.props;
     return (
@@ -15,9 +15,9 @@ class RightSection extends React.Component {
   }
 }
 
-export default RightSection;
+export default LeftText;
 
-RightSection.propTypes = {
+LeftText.propTypes = {
   title: PropTypes.string,
   children: PropTypes.string.isRequired
 };

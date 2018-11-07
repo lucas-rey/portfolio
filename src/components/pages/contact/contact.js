@@ -6,7 +6,6 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <div className="page-name">Contact</div>
         <MenuWrapper />
         <div className="contact-group">
           <div className="contact-text">

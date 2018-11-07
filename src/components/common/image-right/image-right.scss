@@ -1,0 +1,30 @@
+.detail-container-left {
+  color: white;
+  float: left;
+}
+
+.line {
+  border: 1px solid white;
+  width: 50px;
+  margin: 10px 0px;
+}
+
+.paragraph {
+  width: 550px;
+  font-size: 14px;
+  height: 100%;
+}
+
+img {
+  float: left;
+}
+
+.image-group-right {
+  padding: 100px 0px;
+  // height needs to be whatever the height of the image is because content within this is absolutely positioned
+  height: 400px;
+}
+
+.diagram {
+  height: 400px;
+}

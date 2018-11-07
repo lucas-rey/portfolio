@@ -6,7 +6,7 @@ class PageHeader extends React.Component {
   render() {
     const { year, workType, title, children, letter } = this.props;
     return (
-      <div className="background change">
+      <div className="background">
         <div className="screen-container-detail">
           <div className="page-content">
             <div className="header-left">
@@ -23,11 +23,6 @@ class PageHeader extends React.Component {
             </div>
           </div>
         </div>
-        {/* <div className="bottom-navigation">
-          <div className="previous change">Prev</div>
-          <div className="header-line change" />
-          <div className="next change">Next</div>
-        </div> */}
       </div>
     );
   }

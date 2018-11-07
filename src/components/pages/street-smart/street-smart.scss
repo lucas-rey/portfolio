@@ -1,43 +1,78 @@
 .phone-group {
   display: flex;
   justify-content: space-between;
+  padding: 100px 0px;
 }
 
 .phone-group img {
   height: 400px;
 }
 
-// header customization
+.content-list {
+  opacity: 1;
+}
 
-// instead of doing this need to create customizable component - aka in the component create a "black" and "white" version that can be called in the js file https://itnext.io/writing-customizable-styled-react-components-51d38ed20461
+.rectangle {
+  margin-bottom: 5px;
+  width: 650px;
+  height: 75px;
+  transition: all 0.3s;
 
-// .background.change {
-//   background-color: #ffef00;
-// }
+  &:hover {
+    width: 700px;
+  }
+}
 
-// .title-circle.change {
-//   background-color: black;
-// }
+.ss-one {
+  background-color: #e0a939;
+}
 
-// .header-year.change,
-// .header-type.change,
-// .header-title.change,
-// .menu-text.change,
-// .back.change,
-// .previous.change,
-// .next.change {
-//   color: black;
-// }
+.ss-two {
+  background-color: #b4bd68;
+}
+.ss-three {
+  background-color: #689091;
+}
+.ss-four {
+  background-color: #526b80;
+}
+.ss-five {
+  background-color: #6a5281;
+}
 
-// .item.change,
-// .bm-burger-bars.change {
-//   background: black;
-// }
+.branding {
+  display: flex;
+  align-items: center;
+  padding: 100px 0px;
+}
 
-// .header-line.change {
-//   border: 1px solid black;
-// }
+.color-group {
+  display: flex;
+  position: relative;
+  float: right;
+  right: -200px;
+}
 
-// i.change {
-//   border-color: black;
-// }
+.hex-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  padding: 15px 20px;
+}
+
+.single-logo {
+  width: 200px;
+}
+
+.sslogo-group {
+  display: block;
+}
+
+.ss-logos {
+  width: 100%;
+}
+
+.value-prop {
+  font-size: 48px;
+}
