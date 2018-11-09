@@ -15,7 +15,7 @@ class Back extends React.Component {
       <div className="go-back-button">
         <div onClick={history.goBack} className="back">
           <div className="back-arrow">
-            <i class="arrow left" />
+            <i className="arrow left" />
           </div>
           Go Back
         </div>
