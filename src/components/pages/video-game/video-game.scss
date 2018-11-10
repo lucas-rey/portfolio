@@ -1,0 +1,18 @@
+.smaller-projects img {
+  height: 400px;
+}
+
+.game-design {
+  display: flex;
+}
+
+.characters {
+  display: inline-grid;
+  position: absolute;
+  float: right;
+  right: 0;
+}
+
+.characters img {
+  width: 650px;
+}
