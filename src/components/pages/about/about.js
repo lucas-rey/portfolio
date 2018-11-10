@@ -10,6 +10,7 @@ class About extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
+        <div class="topGradient" />
         <PageHeader
           year={"Design"}
           workType={"Develop"}

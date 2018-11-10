@@ -13,6 +13,7 @@ class StreetSmart extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
+        <div class="topGradient" />
         <PageHeader
           year={"2018"}
           workType={"School"}
@@ -33,7 +34,7 @@ class StreetSmart extends React.Component {
           </a>
         </div>
         <div className="main-container">
-          <div className="phone-group">
+          <div className="project-group">
             <img
               src={require("./../../../assets/street-smart-landing.svg")}
               alt="hiker silhouette"
