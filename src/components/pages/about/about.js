@@ -32,51 +32,11 @@ class About extends React.Component {
         </div>
         <div className="main-container">
           <div className="about-group">
-            <div className="interests">
-              <div className="hiking individual-interest">
-                <img
-                  src={require("./../../../assets/hiking.svg")}
-                  alt="hiker silhouette"
-                />
-                <div className="interest-text">Hiker</div>
-              </div>
-              <div className="dogs individual-interest">
-                <img
-                  src={require("./../../../assets/dog.svg")}
-                  alt="dog silhouette"
-                />
-                <div className="interest-text">Dog Lover</div>
-              </div>
-              <div className="plants individual-interest">
-                <img
-                  src={require("./../../../assets/plants.svg")}
-                  alt="plants silhouette"
-                />
-                <div className="interest-text">Plant Enthusiast</div>
-              </div>
-              <div className="triathlon individual-interest">
-                <img
-                  src={require("./../../../assets/triathlon.svg")}
-                  alt="swim, bike, run silhouettes"
-                />
-                <div className="interest-text">Triathlete</div>
-              </div>
-              <div className="sailing individual-interest">
-                <img
-                  src={require("./../../../assets/sailing.svg")}
-                  alt="sailboat silhouette"
-                />
-                <div className="interest-text">Sailor</div>
-              </div>
-              <div className="music individual-interest">
-                <img
-                  src={require("./../../../assets/music.svg")}
-                  alt="headphones silhouette"
-                />
-                <div className="interest-text">Musician</div>
-              </div>
-            </div>
             <div className="bio">
+              <div className="about-tabs">
+                <h4>Beginning</h4>
+                <h4>Now</h4>
+              </div>
               <p>
                 I have been drawing, painting, and creating ever since I can
                 remember. One of my earliest memories is laying on the floor in
@@ -128,6 +88,51 @@ class About extends React.Component {
                 products that are more desirable to their end users. After all,
                 we do judge books by their covers.
               </p>
+            </div>
+
+            <div className="interests">
+              <div className="hiking individual-interest">
+                <img
+                  src={require("./../../../assets/hiking.svg")}
+                  alt="hiker silhouette"
+                />
+                <div className="interest-text">Hiker</div>
+              </div>
+              <div className="dogs individual-interest">
+                <img
+                  src={require("./../../../assets/dog.svg")}
+                  alt="dog silhouette"
+                />
+                <div className="interest-text">Dog Lover</div>
+              </div>
+              <div className="plants individual-interest">
+                <img
+                  src={require("./../../../assets/plants.svg")}
+                  alt="plants silhouette"
+                />
+                <div className="interest-text">Plant Enthusiast</div>
+              </div>
+              <div className="triathlon individual-interest">
+                <img
+                  src={require("./../../../assets/triathlon.svg")}
+                  alt="swim, bike, run silhouettes"
+                />
+                <div className="interest-text">Triathlete</div>
+              </div>
+              <div className="sailing individual-interest">
+                <img
+                  src={require("./../../../assets/sailing.svg")}
+                  alt="sailboat silhouette"
+                />
+                <div className="interest-text">Sailor</div>
+              </div>
+              <div className="music individual-interest">
+                <img
+                  src={require("./../../../assets/music.svg")}
+                  alt="headphones silhouette"
+                />
+                <div className="interest-text">Musician</div>
+              </div>
             </div>
           </div>
         </div>

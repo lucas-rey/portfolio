@@ -1,19 +1,17 @@
-// header customization
-
-// .background.change {
-//   background-color: #f60035;
-// }
-
-// content changes
-
 .bio {
   font-size: 14px;
+  width: 60%;
+}
+
+.about-group {
+  display: flex;
+  justify-content: space-around;
 }
 
 .interests {
   color: white;
   text-align: center;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
 }
 
@@ -28,4 +26,24 @@
 
 .main-container {
   padding-bottom: 50px; /* height of your footer */
+}
+
+.about-tabs {
+  display: flex;
+}
+
+h4 {
+  font-size: 75px;
+  color: white;
+  margin: 0px 0px 40px 0px;
+  padding-right: 80px;
+  opacity: 0.5;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 1;
+  }
 }
