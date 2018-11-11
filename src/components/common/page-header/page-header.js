@@ -4,18 +4,35 @@ import "./page-header.scss";
 
 class PageHeader extends React.Component {
   render() {
-    const { year, workType, title, children, letter } = this.props;
+    const {
+      year,
+      workType,
+      title,
+      children,
+      letter,
+      backgroundColor,
+      fontColor
+    } = this.props;
+    //if no colors are provided as props, set defaults to use
+    const defaultBackgroundColor = "black";
+    const defaultFontColor = "white";
+
+    const finalBackgroundColor = backgroundColor || defaultBackgroundColor;
+    const finalFontColor = fontColor || defaultFontColor;
+
     return (
-      <div className="background">
+      <div className={`background ${finalBackgroundColor}`}>
         <div className="screen-container-detail">
           <div className="page-content">
             <div className="header-left">
-              <div className="header-date-type">
+              <div className={`header-date-type ${finalFontColor}`}>
                 <div className="header-year change">{year}</div>
-                <div className="title-circle change" />
+                <div className={`title-circle change ${finalFontColor}`} />
                 <div className="header-type change">{workType}</div>
               </div>
-              <div className="header-title change">{title}</div>
+              <div className={`header-title change ${finalFontColor}`}>
+                {title}
+              </div>
             </div>
             <div className="header-right">
               <div className="flag-page">{children}</div>

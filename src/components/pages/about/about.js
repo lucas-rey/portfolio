@@ -15,7 +15,8 @@ class About extends React.Component {
           year={"Design"}
           workType={"Develop"}
           title={"A little about Me"}
-          letter={"U"}>
+          letter={"U"}
+          backgroundColor={"red"}>
           <img
             src={require("./../../../assets/u-flag.svg")}
             alt="nautical flag u"

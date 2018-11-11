@@ -9,7 +9,7 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: white;
+  // background: white;
   height: 15% !important;
 }
 
@@ -63,8 +63,13 @@
   right: 45px;
   top: 12px;
   position: fixed;
-  color: white;
   z-index: 20;
+  &.white {
+    color: white;
+  }
+  &.black {
+    color: black;
+  }
 }
 
 .menu-item {

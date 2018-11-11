@@ -4,15 +4,31 @@ import { push as Menu } from "react-burger-menu";
 
 class MenuWrapper extends React.Component {
   render() {
+    const { fontColor } = this.props;
+    //if no colors are provided as props, set defaults
+    const defaultBackgroundColor = "black";
+    const defaultFontColor = "white";
+
+    // const finalBackgroundColor = backgroundColor || defaultBackgroundColor;
+    const finalFontColor = fontColor || defaultFontColor;
+
+    var styles = {
+      bmBurgerBars: {
+        background: `${finalFontColor}`,
+        height: `15% !important`
+      }
+    };
+
     return (
       <div>
-        <div className="menu-text change">Menu</div>
+        <div className={`menu-text change ${finalFontColor}`}>Menu</div>
         <div id="outer-container">
           <Menu
             right
             outerContainerId={"outer-container"}
             isOpen={false}
-            width={150}>
+            width={150}
+            styles={styles}>
             <main id="page-wrap">
               <a id="home" className="menu-item" href="/">
                 <div className="item-group">

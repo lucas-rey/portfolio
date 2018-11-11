@@ -18,7 +18,8 @@ class Adp extends React.Component {
           year={"2018"}
           workType={"Professional"}
           title={"ADP Pi"}
-          letter={"X"}>
+          letter={"X"}
+          backgroundColor={"blue"}>
           <img
             src={require("./../../../assets/x-flag.svg")}
             alt="nautical flag x"

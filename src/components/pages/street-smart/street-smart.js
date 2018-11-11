@@ -11,25 +11,27 @@ class StreetSmart extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper />
-        <Back />
+        <MenuWrapper fontColor="black" />
+        <Back fontColor="black" />
         <div class="topGradient" />
         <PageHeader
           year={"2018"}
           workType={"School"}
           title={"Street Smart"}
-          letter={"D"}>
+          letter={"D"}
+          backgroundColor="yellow"
+          fontColor="black">
           <img
             src={require("./../../../assets/d-flag.svg")}
             alt="nautical flag d"
           />
         </PageHeader>
         <div className="bottom-navigation">
-          <a className="previous change" href="/adp">
+          <a className="previous black change" href="/adp">
             Prev
           </a>
-          <div className="header-line change" />{" "}
-          <a className="next change" href="/vietnam">
+          <div className="black-header-line change" />{" "}
+          <a className="next black change" href="/vietnam">
             Next
           </a>
         </div>

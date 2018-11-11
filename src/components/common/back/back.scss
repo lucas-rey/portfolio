@@ -7,8 +7,14 @@
   padding-right: 10px;
 }
 
-i {
+.white-arrow {
   border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+.black-arrow {
+  border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 4px;
@@ -28,7 +34,6 @@ i {
   display: flex;
   align-items: center;
   background: none;
-  color: white;
   border: none;
   text-align: left;
   font-size: 15px;
@@ -43,6 +48,12 @@ i {
     background: none;
     box-shadow: none;
     cursor: pointer;
+  }
+  &.white {
+    color: white;
+  }
+  &.black {
+    color: black;
   }
 }
 
