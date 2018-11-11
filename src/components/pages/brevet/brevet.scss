@@ -1,0 +1,42 @@
+.brevet-process img {
+  width: 100%;
+}
+
+.brevet-name {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brevet-one {
+  background-color: #484e7d;
+}
+
+.brevet-two {
+  background-color: #ffffff;
+}
+.brevet-three {
+  background-color: #f1b981;
+}
+
+.hex-text-black {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  padding: 15px 20px;
+}
+
+.brevet-branding img {
+  width: 500px;
+}
+
+.project-group-two {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+
+.project-group-two img {
+  height: 750px;
+}

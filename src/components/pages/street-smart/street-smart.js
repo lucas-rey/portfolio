@@ -216,33 +216,36 @@ class StreetSmart extends React.Component {
                 title="iframe"
               />
             </div>
-            <LeftText title={"Prototyping"} className="left-section">
-              Our final prototype brought information forward to users. This
-              prototype features our minimum viable product, so it only features
-              what is necessary to go to market and test. By leaving some
-              elements out we greatly reduced our production time and initial
-              costs, this would put us in less trouble in case the app struggled
-              initially. We kept a very minimal feel throughout the app, trying
-              not to overload users with too much information. Users are
-              immediately met with their statistics, we did this in the hopes
-              that this would encourage them to use our app more to increase
-              those numbers. The next two pages feature two differnent ways to
-              ride with the app, the record button will track new routes, or
-              users can follow previously ridden or created routes.
-              <br />
-              <br />
-              On release our app would be restricted to use in specific cities
-              while we began marketing and forming relationships. As time went
-              on and we grew our user base we would then begin expanding those
-              limits. To learn more about our marketing and financial strategies
-              you can view our pitch website.
-              <a
-                href="https://lucasre8.wixsite.com/streetsmart"
-                rel="noopener noreferrer"
-                target="_blank">
-                <button className="pitch">View Pitch Site</button>
-              </a>
-            </LeftText>
+            <div className="section-padding">
+              <LeftText title={"Prototyping"} className="left-section">
+                Our final prototype brought information forward to users. This
+                prototype features our minimum viable product, so it only
+                features what is necessary to go to market and test. By leaving
+                some elements out we greatly reduced our production time and
+                initial costs, this would put us in less trouble in case the app
+                struggled initially. We kept a very minimal feel throughout the
+                app, trying not to overload users with too much information.
+                Users are immediately met with their statistics, we did this in
+                the hopes that this would encourage them to use our app more to
+                increase those numbers. The next two pages feature two
+                differnent ways to ride with the app, the record button will
+                track new routes, or users can follow previously ridden or
+                created routes.
+                <br />
+                <br />
+                On release our app would be restricted to use in specific cities
+                while we began marketing and forming relationships. As time went
+                on and we grew our user base we would then begin expanding those
+                limits. To learn more about our marketing and financial
+                strategies you can view our pitch website.
+                <a
+                  href="https://lucasre8.wixsite.com/streetsmart"
+                  rel="noopener noreferrer"
+                  target="_blank">
+                  <button className="pitch">View Pitch Site</button>
+                </a>
+              </LeftText>
+            </div>
           </div>
         </div>
       </div>
