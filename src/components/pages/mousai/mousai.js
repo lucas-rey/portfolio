@@ -35,6 +35,19 @@ class Mousai extends React.Component {
             Next
           </a>
         </div>
+        <div className="topGradient" />
+        <div className="main-container">
+          <div className="project-group smaller-projects">
+            <img
+              src={require("./../../../assets/mousai-home.svg")}
+              alt="rhino video game"
+            />
+            <img
+              src={require("./../../../assets/mousai-album.svg")}
+              alt="markhor video game"
+            />
+          </div>
+        </div>
       </div>
     );
   }

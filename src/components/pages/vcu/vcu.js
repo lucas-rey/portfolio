@@ -14,7 +14,6 @@ class Vcu extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div className="topGradient" />
         <PageHeader
           year={"2017"}
           workType={"Professional"}
@@ -36,6 +35,7 @@ class Vcu extends React.Component {
             Next
           </a>
         </div>
+        <div className="topGradient" />
       </div>
     );
   }

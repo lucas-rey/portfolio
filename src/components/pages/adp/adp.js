@@ -34,6 +34,7 @@ class Adp extends React.Component {
             Next
           </a>
         </div>
+        <div className="topGradient" />
       </div>
     );
   }

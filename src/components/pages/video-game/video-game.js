@@ -14,7 +14,6 @@ class VideoGame extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div className="topGradient" />
         <PageHeader
           year={"2017"}
           workType={"School"}
@@ -36,6 +35,7 @@ class VideoGame extends React.Component {
             Next
           </a>
         </div>
+        <div className="topGradient" />
         <div className="main-container">
           <div className="project-group smaller-projects">
             <img

@@ -14,7 +14,6 @@ class Vietnam extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div className="topGradient" />
         <PageHeader
           year={"2018"}
           workType={"School"}
@@ -36,6 +35,7 @@ class Vietnam extends React.Component {
             Next
           </a>
         </div>
+        <div className="topGradient" />
         <div className="main-container">
           <div className="project-group">
             <img
