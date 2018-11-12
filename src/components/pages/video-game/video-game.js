@@ -14,12 +14,14 @@ class VideoGame extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div class="topGradient" />
+        <div className="topGradient" />
         <PageHeader
           year={"2017"}
           workType={"School"}
           title={"Video Game"}
-          letter={"S"}>
+          letter={"S"}
+          backgroundColor="blue"
+          fontColor="white">
           <img
             src={require("./../../../assets/s-flag.svg")}
             alt="nautical flag s"

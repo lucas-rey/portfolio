@@ -14,12 +14,14 @@ class Vietnam extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div class="topGradient" />
+        <div className="topGradient" />
         <PageHeader
           year={"2018"}
           workType={"School"}
           title={"Vietnam Journal"}
-          letter={"E"}>
+          letter={"E"}
+          backgroundColor="red"
+          fontColor="white">
           <img
             src={require("./../../../assets/e-flag.svg")}
             alt="nautical flag e"

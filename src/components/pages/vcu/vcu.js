@@ -14,11 +14,14 @@ class Vcu extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
+        <div className="topGradient" />
         <PageHeader
           year={"2017"}
           workType={"Professional"}
           title={"VCU USC&A"}
-          letter={"N"}>
+          letter={"N"}
+          backgroundColor="blue"
+          fontColor="white">
           <img
             src={require("./../../../assets/n-flag.svg")}
             alt="nautical flag n"

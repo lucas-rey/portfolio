@@ -14,12 +14,14 @@ class Brevet extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div class="topGradient" />
+        <div className="topGradient" />
         <PageHeader
           year={"2017"}
           workType={"School"}
           title={"Brevet"}
-          letter={"G"}>
+          letter={"G"}
+          backgroundColor="blue"
+          fontColor="white">
           <img
             src={require("./../../../assets/g-flag.svg")}
             alt="nautical flag g"

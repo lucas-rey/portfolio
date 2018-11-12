@@ -13,7 +13,7 @@ class StreetSmart extends React.Component {
       <div>
         <MenuWrapper fontColor="black" />
         <Back fontColor="black" />
-        <div class="topGradient" />
+        <div className="topGradient" />
         <PageHeader
           year={"2018"}
           workType={"School"}

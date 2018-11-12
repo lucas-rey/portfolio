@@ -10,11 +10,11 @@ class About extends React.Component {
       <div>
         <MenuWrapper />
         <Back />
-        <div class="topGradient" />
+        <div className="topGradient" />
         <PageHeader
           year={"Design"}
           workType={"Develop"}
-          title={"A little about Me"}
+          title={"About Me"}
           letter={"U"}
           backgroundColor={"red"}>
           <img

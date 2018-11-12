@@ -13,7 +13,7 @@ class PageHeader extends React.Component {
       backgroundColor,
       fontColor
     } = this.props;
-    //if no colors are provided as props, set defaults to use
+    //if no colors are provided as props, set defaults
     const defaultBackgroundColor = "black";
     const defaultFontColor = "white";
 

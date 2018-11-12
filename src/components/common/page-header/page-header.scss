@@ -2,16 +2,16 @@
   height: 100vh;
   width: 100vw;
   &.black {
-    background: black;
+    background: #1d1f23;
   }
   &.red {
-    background: red;
+    background: #f60035;
   }
   &.blue {
-    background: blue;
+    background: #0695d3;
   }
   &.yellow {
-    background: yellow;
+    background: #ffef00;
   }
 }
 
@@ -71,7 +71,7 @@
   float: right;
   z-index: 1;
   position: relative;
-  left: 20%;
+  left: 15%;
 }
 
 .flag-page img {
@@ -84,7 +84,7 @@
 }
 
 .flag-letter-header {
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
 .page-heading h2 {
@@ -106,8 +106,4 @@
   color: white;
   padding-right: 15px;
   text-transform: uppercase;
-}
-
-.yellow {
-  background-color: yellow;
 }

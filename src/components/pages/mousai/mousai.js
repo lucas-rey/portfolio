@@ -12,24 +12,26 @@ class Mousai extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper />
-        <Back />
+        <MenuWrapper fontColor="black" />
+        <Back fontColor="black" />
         <PageHeader
           year={"2018"}
           workType={"Professional"}
           title={"Mousai"}
-          letter={"I"}>
+          letter={"I"}
+          backgroundColor="yellow"
+          fontColor="black">
           <img
             src={require("./../../../assets/i-flag.svg")}
             alt="nautical flag i"
           />
         </PageHeader>
         <div className="bottom-navigation">
-          <a className="previous change" href="/video-game">
+          <a className="previous black change" href="/video-game">
             Prev
           </a>
-          <div className="header-line change" />{" "}
-          <a className="next change" href="/brevet">
+          <div className="black-header-line change" />{" "}
+          <a className="next black change" href="/brevet">
             Next
           </a>
         </div>
