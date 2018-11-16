@@ -100,14 +100,18 @@ class VideoGame extends React.Component {
               movements for each character. I used illustrator to design all of
               the graphics in my game from the background to the collectible
               items throughout each course.
+              <br /> <br />A big part of this game was also creating all of the
+              logic behind it myself. I had to code how the characters would
+              know when to move, how users would gain or lose points, and I even
+              had to implement gravity.
             </LeftText>
             <div className="characters">
               <img
-                src={require("./../../../assets/rhino-gif.svg")}
+                src={require("./../../../assets/rhino-movements.gif")}
                 alt="rhino character walking"
               />
               <img
-                src={require("./../../../assets/markhor-gif.svg")}
+                src={require("./../../../assets/markhor-movements.gif")}
                 alt="markhor character walking"
               />
             </div>

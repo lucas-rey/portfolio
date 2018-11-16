@@ -35,8 +35,8 @@ class About extends React.Component {
           <div className="about-group">
             <div className="bio">
               <div className="about-tabs">
-                <h4>Beginning</h4>
-                <h4>Now</h4>
+                <h4>My Process</h4>
+                <h4>My Story</h4>
               </div>
               <div className="beginning">
                 <p>

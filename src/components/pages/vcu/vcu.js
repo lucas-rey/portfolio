@@ -36,6 +36,27 @@ class Vcu extends React.Component {
           </a>
         </div>
         <div className="topGradient" />
+
+        <div className="main-container">
+          <div className="project-group">
+            <img
+              src={require("./../../../assets/vcu-top1.svg")}
+              alt="bike app splash scree"
+            />
+            <img
+              src={require("./../../../assets/vcu-top2.svg")}
+              alt="bike app ride in progress"
+            />
+            <img
+              src={require("./../../../assets/vcu-top3.svg")}
+              alt="bike app auto route ride"
+            />
+            <img
+              src={require("./../../../assets/vcu-top4.svg")}
+              alt="bike app full ride stat layout"
+            />
+          </div>
+        </div>
       </div>
     );
   }

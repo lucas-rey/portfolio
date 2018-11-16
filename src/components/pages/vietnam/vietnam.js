@@ -4,8 +4,8 @@ import MenuWrapper from "../../common/menu/menu";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
-
 import Back from "../../common/back/back";
+
 // import { Link } from "react-router-dom";
 
 class Vietnam extends React.Component {
@@ -48,32 +48,50 @@ class Vietnam extends React.Component {
             />
           </div>
           <LeftText title={"Overview"} className="left-section">
-            For this assignment we were asked to create a publication with the
-            freedom to choose what it would be about. For several years now my
-            dad has had a little black binder filled with scans of the pages
-            from my grandads journal written during his second tour in Vietnam.
+            We were given almost complete freedom for this assignment. Our only
+            parameter was that we had to produce a printed publication in the
+            end. Several years ago my dad was given a copy of the journal that
+            my grandad wrote on his second tour in Vietnam. Because it is
+            handwritten, it is something that I found highly intimidating the
+            first few times that I tried to read it. I know that several of my
+            family members felt the same and many more did not even know that
+            this even existed.
+            <br />
+            <br />
+            Nearly a year in the making, I worked hard to create a publication
+            that could be easily distributed and consumed by family and friends.
+            I worked closely with my dad, grandfather, and grandmother to
+            collect all of the content within it and learn more about the
+            stories told. I completed my first draft that semester only to learn
+            that there were several more pages that my dad had been missing and
+            that my grandfather was willing to write a postscript to the journal
+            since it ends abruptly on the day he was wounded in battle and sent
+            home. The events written up to that moment and most of his gear was
+            left in his duffle bag in Vietnam and never returned.
           </LeftText>
-
           <ImageLeft title={"Research"} className="right-section">
-            I wanted to make something that looked nice and ran smoothly. After
-            researching a few programs I decided on Unity. This came with it's
-            own set of challenges as I had to learn a pretty complicated program
-            quickly. Unity allows you to seamlessly combine graphics and code to
-            create amazing 2D, 3D, and VR games. I made a 2D game. In order to
-            use the program I also had to teach myself C# make the game
-            functional. Below is the set of code that I used for the player
-            controller. I had several other scripts as well but this was the
-            main one. ​
+            I was in constant communication with my grandmother gathering
+            background information and photographs from his service.
+            Unfortunately my grandads camera was lost in all of the commotion
+            when he was injured and there are little to no pictures of him from
+            his second tour. Most of the images throughout the journal are
+            either found images or they were taken on his first tour.
             <br />
             <br />
-            The goal of the game is to help the species get to a wildlife
-            reserve. Users guide the animal through a course, they collect food
-            and avoid traps. The traps will hurt the players health and the food
-            will slowly heal them and increase their score. It is possible for
-            the user to die, in which case they will be prompted by a game over
-            screen urging them to try again.
+            While I have grown up hearing his stories and I have learned many
+            military terms there was still a lot that I did not understand. I
+            spent a lot of time trying to gather all of these terms and
+            abbreviations so that I could generate an index for them. Knowing
+            this information really helped give a much better understanding to
+            the story itself. After transcribing the original journal I turned
+            my focus on to research. I read a lot about the Vietnam war itself
+            and I tried to find out as much as I could about everyone mentioned
+            by my grandfather. Colonel Burr Willey left a lasting impression on
+            me during this time. Shortly after my grandfather was injured Col.
+            Willey sent him a letter commending him for his service and wishing
+            him well. By the time my grandfather recieved this letter Col.
+            Willey had been killed on the battlefield.
           </ImageLeft>
-
           <div className="dear-joe">
             <img
               src={require("./../../../assets/dearjoe.svg")}
@@ -81,18 +99,23 @@ class Vietnam extends React.Component {
               className="dear-joe-image"
             />
           </div>
-
           <LeftText title={"Visual Design"} className="left-section">
             Inspired by Vietnamese design and the war propoganda, I only used
-            one color throughout the entire journal (excluding images). I did
-            not want to overwhelm the readers. I also only used one graphic
-            element throughout the publication, an outline of Highway 13. This
-            highway is mentioned repeatedly thoughout the journal and I wanted
-            to reiterate just how central that location was to the story.
+            one color throughout the entire journal (excluding images). I had
+            originally intended to create my own illustrations to the story but
+            I quickly decided that I did not want to overwhelm the story like
+            that and I wanted to leave it as true to the original as I could.
+            The only graphic element that I inserted myself was a jagged red
+            line. This is the outline of Highway 13. The entire story revolves
+            around this highway and so I wanted to make it as central to the
+            readers as it was to the soldiers fighting. The line also resembles
+            an EKG which becomes an illusion to my grandfathers heart rate
+            throughout the story. In tense moments I fill the pages with this
+            red line, sometimes even blocking out the entire page in red.
           </LeftText>
           <div className="highway">
             <img
-              src={require("./../../../assets/highway13.svg")}
+              src={require("./../../../assets/highway13.gif")}
               alt="outline of highway 13"
               className="highway-image"
             />

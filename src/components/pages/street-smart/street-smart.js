@@ -126,10 +126,9 @@ class StreetSmart extends React.Component {
               <li className="content-list">
                 Bike Shield (notified drivers of bikers and motorcyclists around
                 them) tried to generate a huge user base almost instantly with
-                little to no marketing.
+                little to no marketing. Failed very quickly.
               </li>
               <li className="content-list">
-                {" "}
                 The app did not give enough warning, drivers were usually
                 notified after already passing a cyclist.
               </li>
@@ -156,12 +155,22 @@ class StreetSmart extends React.Component {
 
           <div className="branding">
             <LeftText title={"Branding"} className="left-section">
-              Several people on our team worked together to brand our business.
-              We picked brighter and more welcoming colors. Our logo shows a map
-              in the background with the route of an ‘s’ marked out on top,
-              standing for our businesses name, Street Smart. We wanted our app
-              and designs to be very minimal because that would help bring
-              forward information rather than hiding it from users.
+              To develop our brand we first had to establish our values and how
+              we wanted to present ourselves to the public.Street smart aimed to
+              be modern and easy to use, making safety its number one priority.
+              We picked a muted color palette using only one warm color, which
+              became our primary color. We chose a cooler palette for our accent
+              colors to try and keep our materials from being visually
+              overwhelming. We very rarely used all of the colors together in
+              our materials, the first three to the right being our most
+              prominent choices. <br /> <br />
+              We wanted for our businesses to feel friendly and approachable.
+              This greatly influenced the type of copy that was included in the
+              final product. We included helpful tips and sayings to makes users
+              feel more comfortable. We were aware that drivers would be perhaps
+              the hardest to involve so we generated as many incentives and
+              language that would keep them from feeling frustrated throughout
+              the experience.
             </LeftText>
             <div className="brand-colors">
               <div className="color-group">
