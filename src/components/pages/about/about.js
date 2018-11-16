@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import MenuWrapper from "../../common/menu/menu";
+import NavBar from "../../common/navbar/navbar";
 import PageHeader from "../../common/page-header/page-header";
 import Back from "../../common/back/back";
 
@@ -8,7 +8,7 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper />
+        <NavBar />
         <Back />
         <PageHeader
           year={"Design"}

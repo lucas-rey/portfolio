@@ -1,9 +1,9 @@
 import React from "react";
 import "./adp.scss";
-import MenuWrapper from "../../common/menu/menu";
 // import RightSection from "../../common/right-section/right-section";
 // import ImageDetails from "../../common/image-details/image-details";
 import PageHeader from "../../common/page-header/page-header";
+import NavBar from "../../common/navbar/navbar";
 
 import Back from "../../common/back/back";
 // import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ class Adp extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper />
+        <NavBar />
         <Back />
         <PageHeader
           year={"2018"}

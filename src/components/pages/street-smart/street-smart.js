@@ -1,6 +1,6 @@
 import React from "react";
 import "./street-smart.scss";
-import MenuWrapper from "../../common/menu/menu";
+import NavBar from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -11,7 +11,7 @@ class StreetSmart extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper fontColor="black" />
+        <NavBar fontColor="black" />
         <Back fontColor="black" />
         <PageHeader
           year={"2018"}

@@ -14,12 +14,9 @@ class Back extends React.Component {
     const finalFontColor = fontColor || defaultFontColor;
     return (
       <div className="go-back-button">
-        <div onClick={history.goBack} className={`back ${finalFontColor}`}>
-          <div className="back-arrow">
-            <i className={`${finalFontColor}-arrow left `} />
-          </div>
-          Go Back
-        </div>
+        <a href="/">
+          <div className={`back ${finalFontColor}`}>RACHEL LUCAS</div>
+        </a>
       </div>
     );
   }

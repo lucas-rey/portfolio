@@ -1,6 +1,6 @@
 import React from "react";
 import "./brevet.scss";
-import MenuWrapper from "../../common/menu/menu";
+import NavBar from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -12,7 +12,7 @@ class Brevet extends React.Component {
   render() {
     return (
       <div>
-        <MenuWrapper />
+        <NavBar />
         <Back />
         <PageHeader
           year={"2017"}

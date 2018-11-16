@@ -1,0 +1,14 @@
+.menu-items {
+  display: flex;
+  position: fixed;
+  right: 0;
+}
+
+.menu-item {
+  position: relative;
+  color: white;
+  font-weight: 700;
+  border: none;
+  margin: 15px 20px;
+  height: 100%;
+}
