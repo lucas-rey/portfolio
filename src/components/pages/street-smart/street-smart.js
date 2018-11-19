@@ -17,14 +17,9 @@ class StreetSmart extends React.Component {
           year={"2018"}
           workType={"School"}
           title={"Street Smart"}
-          letter={"D"}
           backgroundColor="yellow"
-          fontColor="black">
-          <img
-            src={require("./../../../assets/d-flag.svg")}
-            alt="nautical flag d"
-          />
-        </PageHeader>
+          fontColor="black"
+        />
         <div className="bottom-navigation">
           <a className="previous black change" href="/adp">
             Prev

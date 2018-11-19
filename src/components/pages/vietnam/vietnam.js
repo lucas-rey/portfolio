@@ -18,14 +18,9 @@ class Vietnam extends React.Component {
           year={"2018"}
           workType={"School"}
           title={"Vietnam Journal"}
-          letter={"E"}
           backgroundColor="red"
-          fontColor="white">
-          <img
-            src={require("./../../../assets/e-flag.svg")}
-            alt="nautical flag e"
-          />
-        </PageHeader>
+          fontColor="white"
+        />
         <div className="bottom-navigation">
           <a className="previous change" href="/street-smart">
             Prev

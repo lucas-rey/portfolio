@@ -14,22 +14,8 @@ class About extends React.Component {
           year={"Design"}
           workType={"Develop"}
           title={"About Me"}
-          letter={"U"}
-          backgroundColor={"red"}>
-          <img
-            src={require("./../../../assets/u-flag.svg")}
-            alt="nautical flag u"
-          />
-        </PageHeader>
-        <div className="bottom-navigation">
-          <a className="previous change" href="/vcu">
-            Prev
-          </a>
-          <div className="header-line change" />{" "}
-          <a className="next change" href="/adp">
-            Next
-          </a>
-        </div>
+          backgroundColor={"red"}
+        />
         <div className="topGradient" />
         <div className="main-container">
           <div className="about-group">

@@ -18,15 +18,10 @@ class Adp extends React.Component {
           year={"2018"}
           workType={"Professional"}
           title={"ADP Pi"}
-          letter={"X"}
-          backgroundColor={"blue"}>
-          <img
-            src={require("./../../../assets/x-flag.svg")}
-            alt="nautical flag x"
-          />
-        </PageHeader>
+          backgroundColor={"blue"}
+        />
         <div className="bottom-navigation">
-          <a className="previous change" href="/about">
+          <a className="previous change" href="/vcu">
             Prev
           </a>
           <div className="header-line change" />{" "}

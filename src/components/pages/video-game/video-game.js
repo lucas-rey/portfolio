@@ -18,14 +18,9 @@ class VideoGame extends React.Component {
           year={"2017"}
           workType={"School"}
           title={"Video Game"}
-          letter={"S"}
           backgroundColor="blue"
-          fontColor="white">
-          <img
-            src={require("./../../../assets/s-flag.svg")}
-            alt="nautical flag s"
-          />
-        </PageHeader>
+          fontColor="white"
+        />
         <div className="bottom-navigation">
           <a className="previous change" href="/vietnam">
             Prev

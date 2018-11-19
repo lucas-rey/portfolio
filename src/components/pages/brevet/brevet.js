@@ -18,14 +18,9 @@ class Brevet extends React.Component {
           year={"2017"}
           workType={"School"}
           title={"Brevet"}
-          letter={"G"}
           backgroundColor="blue"
-          fontColor="white">
-          <img
-            src={require("./../../../assets/g-flag.svg")}
-            alt="nautical flag g"
-          />
-        </PageHeader>
+          fontColor="white"
+        />
         <div className="bottom-navigation">
           <a className="previous change" href="/mousai">
             Prev

@@ -11,4 +11,9 @@
   border: none;
   margin: 15px 20px;
   height: 100%;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }

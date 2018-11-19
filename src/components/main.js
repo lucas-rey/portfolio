@@ -2,7 +2,6 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/home/home";
 import Work from "./pages/work/work";
-// import Professional from "./pages/professional/professional";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Adp from "./pages/adp/adp";
@@ -12,8 +11,6 @@ import VideoGame from "./pages/video-game/video-game";
 import Mousai from "./pages/mousai/mousai";
 import Brevet from "./pages/brevet/brevet";
 import Vcu from "./pages/vcu/vcu";
-
-import Construction from "./pages/construction/construction";
 
 const Main = () => (
   <main>
@@ -29,7 +26,6 @@ const Main = () => (
       <Route exact path="/mousai" component={Mousai} />
       <Route exact path="/brevet" component={Brevet} />
       <Route exact path="/vcu" component={Vcu} />
-      <Route exact path="/construction" component={Construction} />
     </Switch>
   </main>
 );

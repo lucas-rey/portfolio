@@ -34,10 +34,6 @@ class PageHeader extends React.Component {
                 {title}
               </div>
             </div>
-            <div className="header-right">
-              <div className="flag-page">{children}</div>
-              <div className="flag-letter-header letter">{letter}</div>
-            </div>
           </div>
         </div>
       </div>

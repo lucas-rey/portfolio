@@ -18,20 +18,15 @@ class Vcu extends React.Component {
           year={"2017"}
           workType={"Professional"}
           title={"VCU USC&A"}
-          letter={"N"}
           backgroundColor="blue"
-          fontColor="white">
-          <img
-            src={require("./../../../assets/n-flag.svg")}
-            alt="nautical flag n"
-          />
-        </PageHeader>
+          fontColor="white"
+        />
         <div className="bottom-navigation">
           <a className="previous change" href="/brevet">
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/about">
+          <a className="next change" href="/adp">
             Next
           </a>
         </div>

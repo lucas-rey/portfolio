@@ -18,14 +18,9 @@ class Mousai extends React.Component {
           year={"2018"}
           workType={"Professional"}
           title={"Mousai"}
-          letter={"I"}
           backgroundColor="yellow"
-          fontColor="black">
-          <img
-            src={require("./../../../assets/i-flag.svg")}
-            alt="nautical flag i"
-          />
-        </PageHeader>
+          fontColor="black"
+        />
         <div className="bottom-navigation">
           <a className="previous black change" href="/video-game">
             Prev

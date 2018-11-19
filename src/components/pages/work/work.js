@@ -73,8 +73,8 @@ class Work extends React.Component {
             <a href="/vcu">
               <div
                 className="project-name link link--kukuri"
-                data-letters="VCU USC&amp;A">
-                VCU USC&amp;A
+                data-letters="VCU USC&A">
+                VCU USC&A
               </div>
             </a>
           </div>
