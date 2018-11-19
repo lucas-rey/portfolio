@@ -1,8 +1,8 @@
 import React from "react";
 import "./vcu.scss";
 import NavBar from "../../common/navbar/navbar";
-// import RightSection from "../../common/right-section/right-section";
-// import ImageDetails from "../../common/image-details/image-details";
+import LeftText from "../../common/left-text/left-text";
+import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
 
 import Back from "../../common/back/back";
@@ -51,6 +51,34 @@ class Vcu extends React.Component {
               alt="bike app full ride stat layout"
             />
           </div>
+
+          <LeftText title={"Overview"} className="left-section">
+            For a little over a year I worked at the VCU University Student
+            Commons and Activities. We worked to create all of the campaign and
+            branding materials for different organizations and events around
+            campus. We were in charge of running some of the larger events
+            around campus such as Homecoming and the freshmen Welcome Week. I
+            learned to work with tight deadlines while still staying efficient.
+          </LeftText>
+
+          <ImageLeft title={"Campaign Design"} className="right-section">
+            I wanted to make something that looked nice and ran smoothly. After
+            researching a few programs I decided on Unity. This came with it's
+            own set of challenges as I had to learn a pretty complicated program
+            quickly. Unity allows you to seamlessly combine graphics and code to
+            create amazing 2D, 3D, and VR games. I made a 2D game. In order to
+            use the program I also had to teach myself C# make the game
+            functional. Below is the set of code that I used for the player
+            controller. I had several other scripts as well but this was the
+            main one. ​
+            <br /> <br />
+            The goal of the game is to help the species get to a wildlife
+            reserve. Users guide the animal through a course, they collect food
+            and avoid traps. The traps will hurt the players health and the food
+            will slowly heal them and increase their score. It is possible for
+            the user to die, in which case they will be prompted by a game over
+            screen urging them to try again.
+          </ImageLeft>
         </div>
       </div>
     );

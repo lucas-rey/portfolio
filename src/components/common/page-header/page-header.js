@@ -4,15 +4,7 @@ import "./page-header.scss";
 
 class PageHeader extends React.Component {
   render() {
-    const {
-      year,
-      workType,
-      title,
-      children,
-      letter,
-      backgroundColor,
-      fontColor
-    } = this.props;
+    const { year, workType, title, backgroundColor, fontColor } = this.props;
     //if no colors are provided as props, set defaults
     const defaultBackgroundColor = "black";
     const defaultFontColor = "white";

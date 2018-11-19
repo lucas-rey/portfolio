@@ -22,7 +22,9 @@ class NavBar extends React.Component {
       <div>
         <div className="menu-items">
           <a href="/work">
-            <div className={`menu-item change ${finalFontColor}`}>Work</div>
+            <div className={`menu-item change active ${finalFontColor}`}>
+              Work
+            </div>
           </a>
           <a href="/about">
             <div className={`menu-item change ${finalFontColor}`}>About</div>
