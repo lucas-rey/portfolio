@@ -67,7 +67,14 @@ class VideoGame extends React.Component {
             new to learn which was more way exciting to me than the familiar.
           </LeftText>
 
-          <ImageLeft title={"Process"} className="right-section">
+          <div className="videogame-process">
+            <img
+              src={require("./../../../assets/video-game-process.svg")}
+              alt="user process map for game"
+            />
+          </div>
+
+          <LeftText title={"Process"} className="right-section">
             I wanted to make something that looked nice and ran smoothly. After
             researching a few programs I decided on Unity. This came with it's
             own set of challenges as I had to learn a pretty complicated program
@@ -85,29 +92,59 @@ class VideoGame extends React.Component {
             will slowly heal them and increase their score. It is possible for
             the user to die, in which case they will be prompted by a game over
             screen urging them to try again.
-          </ImageLeft>
+          </LeftText>
 
-          <div className="game-design">
-            <LeftText title={"Game Design"} className="left-section">
-              I designed the characters and their movements myself. In order to
-              create realistic animations I had to create these sprite sheets
-              which allowed me to separate the idle, walking, and jumping
-              movements for each character. I used illustrator to design all of
-              the graphics in my game from the background to the collectible
-              items throughout each course.
-              <br /> <br />A big part of this game was also creating all of the
-              logic behind it myself. I had to code how the characters would
-              know when to move, how users would gain or lose points, and I even
-              had to implement gravity.
-            </LeftText>
-            <div className="characters">
+          <div className="characters">
+            <div className="rhino">
               <img
                 src={require("./../../../assets/rhino-movements.gif")}
                 alt="rhino character walking"
               />
+            </div>
+            <div className="markhor">
               <img
                 src={require("./../../../assets/markhor-movements.gif")}
                 alt="markhor character walking"
+              />
+            </div>
+          </div>
+
+          <LeftText title={"Game Design"} className="left-section">
+            I designed the characters and their movements myself. In order to
+            create realistic animations I had to create these sprite sheets
+            which allowed me to separate the idle, walking, and jumping
+            movements for each character. I used illustrator to design all of
+            the graphics in my game from the background to the collectible items
+            throughout each course.
+            <br /> <br />A big part of this game was also creating all of the
+            logic behind it myself. I had to code how the characters would know
+            when to move, how users would gain or lose points, and I even had to
+            implement gravity.
+          </LeftText>
+
+          <div className="rhino-landscape">
+            <div className="landscape-title">
+              <div className="photo-heading"> Rhino Landscape</div>
+              <img
+                src={require("./../../../assets/scroll-sideways.gif")}
+                alt="scroll sideways gif"
+                className="scroll"
+              />
+            </div>
+            <div className="landscape-image full-width">
+              <img
+                src={require("./../../../assets/rhino-landscape.jpg")}
+                alt="african landscape"
+              />
+            </div>
+          </div>
+
+          <div className="markhor-landscape">
+            <div className="photo-heading">Markhor Landscape</div>
+            <div className="landscape-image full-width">
+              <img
+                src={require("./../../../assets/markhor-landscape.jpg")}
+                alt="mountainous landscape"
               />
             </div>
           </div>
