@@ -2,17 +2,59 @@
   height: 400px;
 }
 
-.game-design {
+.videogame-process {
   display: flex;
+  position: relative;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.videogame-process img {
+  width: 50%;
 }
 
 .characters {
-  display: inline-grid;
-  position: absolute;
-  float: right;
-  right: 0;
+  display: grid;
+  position: relative;
+  margin: 200px 0px;
 }
 
 .characters img {
-  width: 650px;
+  width: 100%;
+  margin: 0px -85px;
+}
+
+.markhor img {
+  float: left;
+}
+
+.rhino img {
+  float: right;
+}
+
+.full-width {
+  margin: 200px 0px;
+}
+
+.landscape-image {
+  overflow: scroll;
+  white-space: nowrap;
+  margin: 0px -85px;
+}
+
+.landscape-image img {
+  height: 650px;
+}
+
+.scroll {
+  width: 100px;
+  float: right;
+}
+
+.photo-heading {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0px;
 }

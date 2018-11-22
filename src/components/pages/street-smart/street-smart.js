@@ -34,21 +34,22 @@ class StreetSmart extends React.Component {
           <div className="project-group">
             <img
               src={require("./../../../assets/street-smart-landing.svg")}
-              alt="hiker silhouette"
+              alt="street smart landing page"
             />
             <img
               src={require("./../../../assets/street-smart-maps.svg")}
-              alt="hiker silhouette"
+              alt="street smart maps"
             />
             <img
               src={require("./../../../assets/street-smart-profile.svg")}
-              alt="hiker silhouette"
+              alt="street smart profile"
             />
             <img
               src={require("./../../../assets/street-smart-rewards.svg")}
-              alt="hiker silhouette"
+              alt="street smart rewards"
             />
           </div>
+
           <LeftText title={"Overview"} className="left-section">
             <b>Task:</b> Create a business that can be profitable within three
             years.
