@@ -140,7 +140,14 @@ class VideoGame extends React.Component {
           </div>
 
           <div className="markhor-landscape">
-            <div className="photo-heading">Markhor Landscape</div>
+            <div className="landscape-title">
+              <div className="photo-heading"> Markhor Landscape</div>
+              <img
+                src={require("./../../../assets/scroll-sideways.gif")}
+                alt="scroll sideways gif"
+                className="scroll"
+              />
+            </div>
             <div className="landscape-image full-width">
               <img
                 src={require("./../../../assets/markhor-landscape.jpg")}

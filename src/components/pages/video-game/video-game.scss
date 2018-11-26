@@ -47,9 +47,16 @@
   height: 650px;
 }
 
+.landscape-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
 .scroll {
   width: 100px;
-  float: right;
+  position: absolute;
+  right: 0;
 }
 
 .photo-heading {
