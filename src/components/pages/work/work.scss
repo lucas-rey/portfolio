@@ -64,16 +64,13 @@
   }
 
   &.red::after {
-    background: #f60035;
+    background: #ce4c4c;
   }
   &.blue::after {
-    background: #0695d3;
+    background: #1387b9;
   }
   &.yellow::after {
-    background: #ffef00;
-  }
-  &.white::after {
-    background: #ffffff;
+    background: #e9d92a;
   }
 
   &::before {

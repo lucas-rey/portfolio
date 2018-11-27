@@ -12,21 +12,20 @@ class Vietnam extends React.Component {
   render() {
     return (
       <div>
-        <MainNav fontColor="black" />
-        <Back fontColor="black" />
+        <MainNav />
+        <Back />
         <PageHeader
           year={"2018"}
           workType={"School"}
           title={"Vietnam Journal"}
           backgroundColor="yellow"
-          fontColor="black"
         />
         <div className="bottom-navigation">
-          <a className="previous black change" href="/street-smart">
+          <a className="previous change" href="/street-smart">
             Prev
           </a>
-          <div className="black-header-line change" />{" "}
-          <a className="next black change" href="/video-game">
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/video-game">
             Next
           </a>
         </div>

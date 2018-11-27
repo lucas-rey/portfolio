@@ -12,21 +12,20 @@ class VideoGame extends React.Component {
   render() {
     return (
       <div>
-        <MainNav fontColor="black" />
-        <Back fontColor="black" />
+        <MainNav />
+        <Back />
         <PageHeader
           year={"2017"}
           workType={"School"}
           title={"Video Game"}
           backgroundColor="yellow"
-          fontColor="black"
         />
         <div className="bottom-navigation">
-          <a className="previous black change" href="/vietnam">
+          <a className="previous change" href="/vietnam">
             Prev
           </a>
-          <div className="black-header-line change" />{" "}
-          <a className="next black change" href="/mousai">
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/mousai">
             Next
           </a>
         </div>
