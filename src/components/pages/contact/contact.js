@@ -1,13 +1,13 @@
 import React from "react";
 import "./contact.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import Back from "../../common/back/back";
 
 class Contact extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <MainNav />
         <Back />
         <div className="contact-group">
           <div className="contact-text">

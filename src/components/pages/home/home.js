@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import Back from "../../common/back/back";
 
 // import Description from "../../common/description/description";
@@ -12,7 +12,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <MainNav />
         <Back />
         <div className="screen-container" id="section-1">
           <div className="home-content">

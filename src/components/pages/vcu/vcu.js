@@ -1,6 +1,6 @@
 import React from "react";
 import "./vcu.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -12,7 +12,7 @@ class Vcu extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <MainNav />
         <Back />
         <PageHeader
           year={"2017"}

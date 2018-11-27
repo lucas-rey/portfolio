@@ -42,6 +42,12 @@
 
   &:hover {
     color: #b2b0a9;
+    &::after {
+      transform: translate3d(101%, 0, 0);
+    }
+    &::before {
+      width: 100%;
+    }
   }
 
   &::after {
@@ -52,14 +58,22 @@
     top: 50%;
     margin-top: -8px;
     right: 0;
-    background: #f60035;
     transform: translate3d(-101%, 0, 0);
     transition: transform 0.5s;
     transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   }
 
-  &:hover::after {
-    transform: translate3d(101%, 0, 0);
+  &.red::after {
+    background: #f60035;
+  }
+  &.blue::after {
+    background: #0695d3;
+  }
+  &.yellow::after {
+    background: #ffef00;
+  }
+  &.white::after {
+    background: #ffffff;
   }
 
   &::before {
@@ -71,9 +85,5 @@
     white-space: nowrap;
     width: 0%;
     transition: width 0.4s 0.3s;
-  }
-
-  &:hover::before {
-    width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./street-smart.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -11,21 +11,21 @@ class StreetSmart extends React.Component {
   render() {
     return (
       <div>
-        <NavBar fontColor="black" />
-        <Back fontColor="black" />
+        <MainNav />
+        <Back />
         <PageHeader
           year={"2018"}
           workType={"School"}
           title={"Street Smart"}
-          backgroundColor="yellow"
-          fontColor="black"
+          backgroundColor="blue"
+          fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous black change" href="/adp">
+          <a className="previous change" href="/adp">
             Prev
           </a>
-          <div className="black-header-line change" />{" "}
-          <a className="next black change" href="/vietnam">
+          <div className="header-line change" />{" "}
+          <a className="next change" href="/vietnam">
             Next
           </a>
         </div>

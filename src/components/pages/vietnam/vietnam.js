@@ -1,6 +1,6 @@
 import React from "react";
 import "./vietnam.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -12,21 +12,21 @@ class Vietnam extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <Back />
+        <MainNav fontColor="black" />
+        <Back fontColor="black" />
         <PageHeader
           year={"2018"}
           workType={"School"}
           title={"Vietnam Journal"}
-          backgroundColor="red"
-          fontColor="white"
+          backgroundColor="yellow"
+          fontColor="black"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/street-smart">
+          <a className="previous black change" href="/street-smart">
             Prev
           </a>
-          <div className="header-line change" />{" "}
-          <a className="next change" href="/video-game">
+          <div className="black-header-line change" />{" "}
+          <a className="next black change" href="/video-game">
             Next
           </a>
         </div>

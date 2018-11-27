@@ -1,6 +1,6 @@
 import React from "react";
 import "./mousai.scss";
-import NavBar from "../../common/navbar/navbar";
+import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 // import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
@@ -12,7 +12,7 @@ class Mousai extends React.Component {
   render() {
     return (
       <div>
-        <NavBar fontColor="black" />
+        <MainNav fontColor="black" />
         <Back fontColor="black" />
         <PageHeader
           year={"2018"}
