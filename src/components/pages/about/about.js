@@ -2,7 +2,7 @@ import React from "react";
 import "./about.scss";
 import NavBar from "../../common/navbar/navbar";
 import PageHeader from "../../common/page-header/page-header";
-import Back from "../../common/back/back";
+import Name from "../../common/back/back";
 
 class About extends React.Component {
   render() {

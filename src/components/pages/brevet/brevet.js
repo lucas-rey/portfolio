@@ -5,7 +5,7 @@ import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
 
-import Back from "../../common/back/back";
+import Name from "../../common/name/name";
 // import { Link } from "react-router-dom";
 
 class Brevet extends React.Component {
@@ -13,7 +13,7 @@ class Brevet extends React.Component {
     return (
       <div>
         <MainNav />
-        <Back />
+        <Name />
         <PageHeader
           year={"2017"}
           workType={"Mobile App"}

@@ -1,23 +1,6 @@
-.go-back-button {
+.name-button {
   position: fixed;
   z-index: 20;
-}
-
-.back-arrow {
-  padding-right: 10px;
-}
-
-.white-arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
-}
-.black-arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
 }
 
 .left {
@@ -30,7 +13,7 @@
   padding: 20px 20px;
 }
 
-.back {
+.name {
   display: flex;
   align-items: center;
   background: none;
@@ -58,8 +41,4 @@
   &.black {
     color: black;
   }
-}
-
-.back img {
-  padding-right: 10px;
 }

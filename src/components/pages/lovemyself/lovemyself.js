@@ -5,7 +5,7 @@ import "./lovemyself.scss";
 import PageHeader from "../../common/page-header/page-header";
 import MainNav from "../../common/navbar/navbar";
 
-import Back from "../../common/back/back";
+import Name from "../../common/name/name";
 // import { Link } from "react-router-dom";
 
 class LoveMyself extends React.Component {
@@ -13,7 +13,7 @@ class LoveMyself extends React.Component {
     return (
       <div>
         <MainNav />
-        <Back />
+        <Name />
         <PageHeader
           year={"2018"}
           workType={"Installation"}

@@ -4,24 +4,24 @@ import { push as Menu } from "react-burger-menu";
 
 class MenuWrapper extends React.Component {
   render() {
-    const { fontColor } = this.props;
-    //if no colors are provided as props, set defaults
-    const defaultBackgroundColor = "black";
-    const defaultFontColor = "white";
+    // const { fontColor } = this.props;
+    // //if no colors are provided as props, set defaults
+    // const defaultBackgroundColor = "black";
+    // const defaultFontColor = "white";
 
-    // const finalBackgroundColor = backgroundColor || defaultBackgroundColor;
-    const finalFontColor = fontColor || defaultFontColor;
+    // // const finalBackgroundColor = backgroundColor || defaultBackgroundColor;
+    // const finalFontColor = fontColor || defaultFontColor;
 
-    var styles = {
-      bmBurgerBars: {
-        background: `${finalFontColor}`,
-        height: `15% !important`
-      }
-    };
+    // var styles = {
+    //   bmBurgerBars: {
+    //     background: `${finalFontColor}`,
+    //     height: `15% !important`
+    //   }
+    // };
 
     return (
       <div>
-        <div className={`menu-text change ${finalFontColor}`}>Menu</div>
+        {/* <div className={`menu-text change ${finalFontColor}`}>Menu</div>
         <div id="outer-container">
           <Menu
             right
@@ -84,7 +84,7 @@ class MenuWrapper extends React.Component {
               </a>
             </main>
           </Menu>
-        </div>
+        </div> */}
       </div>
     );
   }

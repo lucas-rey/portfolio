@@ -1,13 +1,13 @@
 import React from "react";
 import "./contact.scss";
 import MainNav from "../../common/navbar/navbar";
-import Back from "../../common/back/back";
+import Name from "../../common/back/back";
 
 class Contact extends React.Component {
   render() {
     return (
       <div>
-        <MainNav />
+        {/* <MainNav />
         <Back />
         <div className="contact-group">
           <div className="contact-text">
@@ -21,7 +21,7 @@ class Contact extends React.Component {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -4,7 +4,7 @@ import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
-import Back from "../../common/back/back";
+import Name from "../../common/name/name";
 // import { Link } from "react-router-dom";
 
 class StreetSmart extends React.Component {
@@ -12,7 +12,7 @@ class StreetSmart extends React.Component {
     return (
       <div>
         <MainNav />
-        <Back />
+        <Name />
         <PageHeader
           year={"2018"}
           workType={"Mobile App"}

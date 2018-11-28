@@ -1,9 +1,9 @@
 import React from "react";
-import "./back.scss";
+import "./name.scss";
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 
-class Back extends React.Component {
+class Name extends React.Component {
   static propTypes = {
     history: PropTypes.object.isRequired
   };
@@ -13,13 +13,13 @@ class Back extends React.Component {
     const defaultFontColor = "white";
     const finalFontColor = fontColor || defaultFontColor;
     return (
-      <div className="go-back-button">
-        <a href="/">
-          <div className={`back ${finalFontColor}`}>RACHEL LUCAS</div>
+      <div className="name-button">
+        <a href="/#section-1">
+          <div className={`name ${finalFontColor}`}>RACHEL LUCAS</div>
         </a>
       </div>
     );
   }
 }
 
-export default withRouter(Back);
+export default withRouter(Name);

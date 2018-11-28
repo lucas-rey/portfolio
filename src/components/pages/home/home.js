@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.scss";
 import MainNav from "../../common/navbar/navbar";
-import Back from "../../common/back/back";
+import Name from "../../common/name/name";
 import ReactRotatingText from "react-rotating-text";
 import LeftText from "../../common/left-text/left-text";
 
@@ -16,7 +16,7 @@ class Home extends React.Component {
     return (
       <div>
         <MainNav />
-        <Back />
+        <Name />
         <div className="screen-container" id="section-1">
           <div className="home-content">
             <div className="home-text">Hi there, I'm Rachel</div>
