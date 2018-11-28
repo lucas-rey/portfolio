@@ -74,31 +74,38 @@ class Brevet extends React.Component {
             you.
           </LeftText>
 
-          <ImageLeft title={"Process"} className="right-section">
-            My research for this project was inspired by the IDEO Method Cards
-            created by the global design company called IDEO. Their focus is on
-            creating a positive impact through design. There are 51 method
-            cards, each is used as a tool to inspire great design and thinking
-            that puts people at the center of the design process. They are very
-            useful in problem solving and helping designers work to figure out
-            how to get from their first idea to a final product.
-            <br />
-            <br />
-            One of the methods that I used for research was called cognitive
-            mapping.
-            <br />
-            <b>How:</b> Ask participants to map an existing or virtual space and
-            show how they navigate it.
-            <br />
-            <b>Why:</b> This is a useful way to discover the significant
-            elements, pathways, and other spatial behavior associated with a
-            real or virtual environment.
-            <br />
-            <br />I used this to show how many turns can be within one route and
-            how hard that can be to remember or see written out. The circles
-            represent major landmarks which are usually how riders recognize
-            routes but there are far fewer landmarks than turns in these routes.
-          </ImageLeft>
+          <div className="image-left-container">
+            <img
+              src={require("./../../../assets/cognitive-maps.gif")}
+              alt="cognitive maps"
+            />
+            <ImageLeft title={"Process"} className="right-section">
+              My research for this project was inspired by the IDEO Method Cards
+              created by the global design company called IDEO. Their focus is
+              on creating a positive impact through design. There are 51 method
+              cards, each is used as a tool to inspire great design and thinking
+              that puts people at the center of the design process. They are
+              very useful in problem solving and helping designers work to
+              figure out how to get from their first idea to a final product.
+              <br />
+              <br />
+              One of the methods that I used for research was called cognitive
+              mapping.
+              <br />
+              <b>How:</b> Ask participants to map an existing or virtual space
+              and show how they navigate it.
+              <br />
+              <b>Why:</b> This is a useful way to discover the significant
+              elements, pathways, and other spatial behavior associated with a
+              real or virtual environment.
+              <br />
+              <br />I used this to show how many turns can be within one route
+              and how hard that can be to remember or see written out. The
+              circles represent major landmarks which are usually how riders
+              recognize routes but there are far fewer landmarks than turns in
+              these routes.
+            </ImageLeft>
+          </div>
 
           <LeftText title={"Character Profiles"} className="left-section">
             <b>General Observations:</b> speeds vary, usually split into
@@ -182,12 +189,10 @@ class Brevet extends React.Component {
               events.
             </LeftText>
 
-            <div className="brevet-explanation">
-              <img
-                src={require("./../../../assets/brevet-branding.svg")}
-                alt="bike app process map"
-              />
-            </div>
+            <img
+              src={require("./../../../assets/brevet-logo.gif")}
+              alt="brevet logo ideation"
+            />
           </div>
           <div className="branding">
             <div className="brevet-branding">

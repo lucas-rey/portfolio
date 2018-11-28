@@ -78,6 +78,13 @@
   justify-content: center;
 }
 
+.ss-logos img {
+  &:hover {
+    transition: 2s;
+    transform: rotate(360deg);
+  }
+}
+
 .value-prop {
   font-size: 70px;
   color: white;

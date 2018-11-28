@@ -8,11 +8,6 @@ class ImageLeft extends React.Component {
     return (
       <div>
         <div className="image-group-left">
-          <img
-            src={require("./../../../assets/map.svg")}
-            alt="map"
-            className="diagram"
-          />
           <div className="detail-container-right">
             <div className="title">{title}</div>
             <div className="line" />
