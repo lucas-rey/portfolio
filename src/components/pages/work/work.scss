@@ -1,3 +1,5 @@
+$breakpoint-phone: 420px;
+
 .icon-close {
   position: fixed;
   top: 15px;
@@ -25,6 +27,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  @media (max-width: $breakpoint-phone) {
+    font-size: 30px;
+  }
 }
 
 .project-name {

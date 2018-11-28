@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.scss";
-import MainNav from "../../common/navbar/navbar";
-import Name from "../../common/back/back";
+// import MainNav from "../../common/navbar/navbar";
+// import Name from "../../common/name/name";
 
 class Contact extends React.Component {
   render() {

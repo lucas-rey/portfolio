@@ -4,11 +4,7 @@ import MainNav from "../../common/navbar/navbar";
 import Name from "../../common/name/name";
 import ReactRotatingText from "react-rotating-text";
 import LeftText from "../../common/left-text/left-text";
-
-// import Description from "../../common/description/description";
-// import ScrollSpy from "../../common/scrollspy/scrollspy";
-// import { Link } from "react-router-dom";
-// import Fade from "react-reveal/Fade";
+import Contacts from "../../common/form/form";
 
 class Home extends React.Component {
   render() {
@@ -22,7 +18,7 @@ class Home extends React.Component {
             <div className="home-text">Hi there, I'm Rachel</div>
             <ReactRotatingText
               items={["Designer", "Observer", "Creator"]}
-              className="home-text sub"
+              className="home-text"
             />
           </div>
         </div>
@@ -70,6 +66,9 @@ class Home extends React.Component {
                   If you have any opportunities or questions that you would like
                   to discuss further please don’t hesitate to reach out.
                 </p>
+              </div>
+              <div className="contact-form">
+                <Contacts to="rachel.e.lucas@gmail.com" />
               </div>
             </div>
           </div>

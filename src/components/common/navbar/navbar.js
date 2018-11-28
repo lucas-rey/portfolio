@@ -1,9 +1,5 @@
 import React from "react";
 import "./navbar.scss";
-// import Modal from "react-modal";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { withRouter } from "react-router-dom";
-// import Fade from "react-reveal/Fade";
 
 // Modal.setAppElement("#projects");
 

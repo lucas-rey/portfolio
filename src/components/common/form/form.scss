@@ -1,0 +1,13 @@
+.box {
+  background-color: #1d1f23;
+  border: 1px solid white;
+  font: -webkit-control;
+  padding: 10px;
+  &.input {
+    height: 15px;
+    width: 200px;
+  }
+  &.email-content {
+    height: 200px;
+  }
+}
