@@ -8,7 +8,7 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        {/* <NavBar />
         <Back />
         <PageHeader
           year={"Design"}
@@ -127,7 +127,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

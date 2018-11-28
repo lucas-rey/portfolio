@@ -58,6 +58,9 @@ b {
   display: flex;
   align-items: center;
   justify-content: center;
+  &.two {
+    justify-content: unset;
+  }
 }
 
 .page-opening {
