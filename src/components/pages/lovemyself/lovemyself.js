@@ -1,5 +1,5 @@
 import React from "react";
-import "./adp.scss";
+import "./lovemyself.scss";
 // import RightSection from "../../common/right-section/right-section";
 // import ImageDetails from "../../common/image-details/image-details";
 import PageHeader from "../../common/page-header/page-header";
@@ -8,7 +8,7 @@ import MainNav from "../../common/navbar/navbar";
 import Back from "../../common/back/back";
 // import { Link } from "react-router-dom";
 
-class Adp extends React.Component {
+class LoveMyself extends React.Component {
   render() {
     return (
       <div>
@@ -16,8 +16,8 @@ class Adp extends React.Component {
         <Back />
         <PageHeader
           year={"2018"}
-          workType={"Professional"}
-          title={"ADP Pi"}
+          workType={"Installation"}
+          title={"Love Myself Project"}
           backgroundColor={"red"}
         />
         <div className="bottom-navigation">
@@ -35,4 +35,4 @@ class Adp extends React.Component {
   }
 }
 
-export default Adp;
+export default LoveMyself;

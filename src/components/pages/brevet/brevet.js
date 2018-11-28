@@ -16,7 +16,7 @@ class Brevet extends React.Component {
         <Back />
         <PageHeader
           year={"2017"}
-          workType={"School"}
+          workType={"Mobile App"}
           title={"Brevet"}
           backgroundColor="blue"
           fontColor="white"

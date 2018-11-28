@@ -16,8 +16,8 @@ class VideoGame extends React.Component {
         <Back />
         <PageHeader
           year={"2017"}
-          workType={"School"}
-          title={"Video Game"}
+          workType={"Video Game"}
+          title={"Endangered Species"}
           backgroundColor="yellow"
         />
         <div className="bottom-navigation">

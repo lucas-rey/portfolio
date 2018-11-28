@@ -16,7 +16,7 @@ class Mousai extends React.Component {
         <Back />
         <PageHeader
           year={"2018"}
-          workType={"Professional"}
+          workType={"Web App"}
           title={"Mousai"}
           backgroundColor="yellow"
         />

@@ -4,7 +4,7 @@ import Home from "./pages/home/home";
 import Work from "./pages/work/work";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
-import Adp from "./pages/adp/adp";
+import LoveMyself from "./pages/lovemyself/lovemyself";
 import StreetSmart from "./pages/street-smart/street-smart";
 import Vietnam from "./pages/vietnam/vietnam";
 import VideoGame from "./pages/video-game/video-game";
@@ -19,7 +19,7 @@ const Main = () => (
       <Route exact path="/work" component={Work} />
       <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
-      <Route exact path="/adp" component={Adp} />
+      <Route exact path="/lovemyself" component={LoveMyself} />
       <Route exact path="/street-smart" component={StreetSmart} />
       <Route exact path="/vietnam" component={Vietnam} />
       <Route exact path="/video-game" component={VideoGame} />

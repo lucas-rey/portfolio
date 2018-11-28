@@ -16,9 +16,9 @@ class Vcu extends React.Component {
         <Back />
         <PageHeader
           year={"2017"}
-          workType={"Professional"}
+          workType={"Campaign Design"}
           title={"VCU USC&A"}
-          backgroundColor="blue"
+          backgroundColor="red"
           fontColor="white"
         />
         <div className="bottom-navigation">
@@ -26,7 +26,7 @@ class Vcu extends React.Component {
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/adp">
+          <a className="next change" href="/lovemyself">
             Next
           </a>
         </div>

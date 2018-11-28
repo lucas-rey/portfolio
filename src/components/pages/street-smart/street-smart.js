@@ -15,13 +15,13 @@ class StreetSmart extends React.Component {
         <Back />
         <PageHeader
           year={"2018"}
-          workType={"School"}
+          workType={"Mobile App"}
           title={"Street Smart"}
           backgroundColor="blue"
           fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/adp">
+          <a className="previous change" href="/lovemyself">
             Prev
           </a>
           <div className="header-line change" />{" "}

@@ -26,11 +26,11 @@ class Work extends React.Component {
               className={`${finalFontColor} icon-close`}
             />
             <div className="projects">
-              <a href="/adp">
+              <a href="/lovemyself">
                 <div
                   className={`project-name link link--kukuri red`}
-                  data-letters="ADP Internship">
-                  ADP Internship
+                  data-letters="Love Myself Project">
+                  Love Myself Project
                 </div>
               </a>
               <a href="/street-smart">
@@ -70,7 +70,7 @@ class Work extends React.Component {
               </a>
               <a href="/vcu">
                 <div
-                  className="project-name link link--kukuri blue"
+                  className="project-name link link--kukuri red"
                   data-letters="VCU USC&A">
                   VCU USC&A
                 </div>

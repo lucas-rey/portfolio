@@ -16,7 +16,7 @@ class Vietnam extends React.Component {
         <Back />
         <PageHeader
           year={"2018"}
-          workType={"School"}
+          workType={"Publication"}
           title={"Vietnam Journal"}
           backgroundColor="yellow"
         />
