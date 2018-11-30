@@ -13,15 +13,18 @@ class Home extends React.Component {
       <div>
         <MainNav />
         <Name />
+        {/* <div className="topGradient" /> */}
         <div className="screen-container" id="section-1">
           <div className="home-content">
-            <div className="home-text">Hi there, I'm Rachel</div>
+            <div className="topGradient" />
+            <div className="home-text">Hi there, I'm Rachel.</div>
             <ReactRotatingText
               items={["Designer", "Observer", "Creator"]}
               className="home-text"
             />
           </div>
         </div>
+        <div className="topGradient" />
         <div className="about-me" id="about">
           <div className="text-group">
             <div className="section-title">A little about me</div>

@@ -5,6 +5,7 @@ import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
 import Name from "../../common/name/name";
+import Carousel from "react-bootstrap/lib/Carousel";
 
 // import { Link } from "react-router-dom";
 
@@ -114,6 +115,37 @@ class Vietnam extends React.Component {
               className="highway-image"
             />
           </div>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/vietnam-spread1.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/vietnam-spread2.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/vietnam-spread3.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/vietnam-spread4.jpg")}
+              />
+            </Carousel.Item>
+          </Carousel>
+          ;
         </div>
       </div>
     );

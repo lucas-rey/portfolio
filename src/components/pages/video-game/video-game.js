@@ -10,6 +10,17 @@ import Name from "../../common/name/name";
 
 class VideoGame extends React.Component {
   render() {
+    // var mouseWheelEvt = function(event) {
+    //   if (document.body.doScroll)
+    //     document.body.doScroll(event.wheelDelta > 0 ? "left" : "right");
+    //   else if ((event.wheelDelta || event.detail) > 0)
+    //     document.body.scrollLeft -= 10;
+    //   else document.body.scrollLeft += 10;
+
+    //   return false;
+    // };
+    // document.body.addEventListener("mousewheel", mouseWheelEvt);
+
     return (
       <div>
         <MainNav />
