@@ -19,14 +19,14 @@ class Vietnam extends React.Component {
           year={"2018"}
           workType={"Publication"}
           title={"Vietnam Journal"}
-          backgroundColor="yellow"
+          backgroundColor="red"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/street-smart">
+          <a className="previous change" href="/brevet">
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/video-game">
+          <a className="next change" href="/street-smart">
             Next
           </a>
         </div>
@@ -48,9 +48,7 @@ class Vietnam extends React.Component {
             end. Several years ago my dad was given a copy of the journal that
             my grandad wrote on his second tour in Vietnam. Because it is
             handwritten, it is something that I found highly intimidating the
-            first few times that I tried to read it. I know that several of my
-            family members felt the same and many more did not even know that
-            this even existed.
+            first few times that I tried to read it.
             <br />
             <br />
             Nearly a year in the making, I worked hard to create a publication
@@ -61,32 +59,108 @@ class Vietnam extends React.Component {
             that there were several more pages that my dad had been missing and
             that my grandfather was willing to write a postscript to the journal
             since it ends abruptly on the day he was wounded in battle and sent
-            home. The events written up to that moment and most of his gear was
-            left in his duffle bag in Vietnam and never returned.
+            home.
           </LeftText>
-          <ImageLeft title={"Research"} className="right-section">
-            I was in constant communication with my grandmother gathering
-            background information and photographs from his service.
-            Unfortunately my grandads camera was lost in all of the commotion
-            when he was injured and there are little to no pictures of him from
-            his second tour. Most of the images throughout the journal are
-            either found images or they were taken on his first tour.
-            <br />
-            <br />
-            While I have grown up hearing his stories and I have learned many
-            military terms there was still a lot that I did not understand. I
-            spent a lot of time trying to gather all of these terms and
-            abbreviations so that I could generate an index for them. Knowing
-            this information really helped give a much better understanding to
-            the story itself. After transcribing the original journal I turned
-            my focus on to research. I read a lot about the Vietnam war itself
-            and I tried to find out as much as I could about everyone mentioned
-            by my grandfather. Colonel Burr Willey left a lasting impression on
-            me during this time. Shortly after my grandfather was injured Col.
-            Willey sent him a letter commending him for his service and wishing
-            him well. By the time my grandfather recieved this letter Col.
-            Willey had been killed on the battlefield.
-          </ImageLeft>
+
+          <div className="viet-research">
+            <Carousel className="small-carousel">
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-1.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-2.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-3.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-4.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-5.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-6.JPG")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-7.jpeg")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-8.jpg")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-9.jpg")}
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="carousel-image"
+                  alt="900x500"
+                  src={require("./../../../assets/vietnam-10.jpg")}
+                />
+              </Carousel.Item>
+            </Carousel>
+
+            <ImageLeft title={"Research"} className="right-section">
+              I was in constant communication with my grandma gathering
+              background information and photographs from his service.
+              Unfortunately my grandads camera was lost in all of the commotion
+              when he was injured and there are almost no pictures of him from
+              his second tour. Most of the images throughout the journal are
+              either found images or they were taken on his first tour.
+              <br />
+              <br />
+              While I have grown up hearing his stories and I have learned many
+              military terms there was still a lot that I did not understand. I
+              spent a lot of time trying to gather all of these terms and
+              abbreviations so that I could generate an index for them. Knowing
+              this information really helped give a much better understanding to
+              the story itself. After transcribing the original journal I turned
+              my focus on to research. I read a lot about the Vietnam war itself
+              and I tried to find out as much as I could about everyone
+              mentioned by my grandfather. Colonel Burr Willey left a lasting
+              impression on me during this time. Shortly after my grandfather
+              was injured Col. Willey sent him a letter commending him for his
+              service and wishing him well. By the time my grandfather recieved
+              this letter Col. Willey had been killed on the battlefield.
+            </ImageLeft>
+          </div>
+
           <div className="dear-joe">
             <img
               src={require("./../../../assets/dearjoe.svg")}
@@ -145,7 +219,6 @@ class Vietnam extends React.Component {
               />
             </Carousel.Item>
           </Carousel>
-          ;
         </div>
       </div>
     );

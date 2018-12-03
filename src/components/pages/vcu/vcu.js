@@ -26,7 +26,7 @@ class Vcu extends React.Component {
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/lovemyself">
+          <a className="next change" href="/vietnam">
             Next
           </a>
         </div>

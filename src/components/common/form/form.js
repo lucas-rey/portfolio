@@ -85,8 +85,8 @@ export default class Contacts extends PureComponent {
           href={`mailto:${to}?subject=${
             this.state.title
           }&body=${this.state.contents.replace(/\n/g, "%0D%0A")}`}
-          className="form-button">
-          {buttonText}
+          className="button">
+          <button className="pitch">Send E-mail</button>
         </a>
       </div>
     );

@@ -26,11 +26,11 @@ class Work extends React.Component {
               className={`${finalFontColor} icon-close`}
             />
             <div className="projects">
-              <a href="/lovemyself">
+              <a href="/vietnam">
                 <div
                   className={`project-name link link--kukuri red`}
-                  data-letters="Love Myself Project">
-                  Love Myself Project
+                  data-letters="Vietnam Journal">
+                  Vietnam Journal
                 </div>
               </a>
               <a href="/street-smart">
@@ -40,11 +40,11 @@ class Work extends React.Component {
                   Street Smart
                 </div>
               </a>
-              <a href="/vietnam">
+              <a href="/lovemyself">
                 <div
                   className="project-name link link--kukuri yellow"
-                  data-letters="Vietnam Journal">
-                  Vietnam Journal
+                  data-letters="Love Myself Project">
+                  Love Myself Project
                 </div>
               </a>
               <a href="/video-game">
@@ -68,13 +68,13 @@ class Work extends React.Component {
                   Brevet
                 </div>
               </a>
-              <a href="/vcu">
+              {/* <a href="/vcu">
                 <div
                   className="project-name link link--kukuri red"
                   data-letters="VCU USC&A">
                   VCU USC&A
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
         </Fade>

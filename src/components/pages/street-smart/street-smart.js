@@ -21,11 +21,11 @@ class StreetSmart extends React.Component {
           fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/lovemyself">
+          <a className="previous change" href="/vietnam">
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/vietnam">
+          <a className="next change" href="/lovemyself">
             Next
           </a>
         </div>
@@ -75,43 +75,49 @@ class StreetSmart extends React.Component {
             extremely dangerous.
           </LeftText>
 
-          <ImageLeft title={"Research Questions"} className="right-section">
-            To frame our solution we walked around campus and talked with anyone
-            who was willing and just asked a few basic questions.
-            <br />
-            <br />
-            <ol>
-              <li className="content-list">
-                Why do you enjoy biking? Do you bike for a specific reason?
-              </li>
-              <li className="content-list">How often do you bike?</li>
-              <li className="content-list">
-                Have you ever felt unsafe while biking? Could you describe that
-                experience to me?
-              </li>
-              <li className="content-list">
-                Have you ever had any issues while riding that forced you to
-                stop?
-              </li>
-              <li className="content-list">
-                Do you use any gadgets that are bike specific? (Odometer,
-                cadence tracker, apps such as strava, etc.)
-              </li>
-              <li className="content-list">
-                If there was a product to track your safety and alert others if
-                you may have been in an accident would you use it?
-              </li>
-              <li className="content-list">
-                Is there anything about biking or your bike experiences that you
-                wish was different? Do you feel as if you are as safe as you can
-                be?
-              </li>
-            </ol>
-            <br />
-            Based off of our feedback to these questions we developed a business
-            model canvas that would shape how our business would act and behave
-            in the future and what our product would be.
-          </ImageLeft>
+          <div className="research">
+            <img
+              src={require("./../../../assets/ss-researchmap.svg")}
+              alt="research diagram, discover, ideate, validate"
+            />
+            <ImageLeft title={"Research Questions"} className="right-section">
+              To frame our solution we walked around campus and talked with
+              anyone who was willing and just asked a few basic questions.
+              <br />
+              <br />
+              <ol>
+                <li className="content-list">
+                  Why do you enjoy biking? Do you bike for a specific reason?
+                </li>
+                <li className="content-list">How often do you bike?</li>
+                <li className="content-list">
+                  Have you ever felt unsafe while biking? Could you describe
+                  that experience to me?
+                </li>
+                <li className="content-list">
+                  Have you ever had any issues while riding that forced you to
+                  stop?
+                </li>
+                <li className="content-list">
+                  Do you use any gadgets that are bike specific? (Odometer,
+                  cadence tracker, apps such as strava, etc.)
+                </li>
+                <li className="content-list">
+                  If there was a product to track your safety and alert others
+                  if you may have been in an accident would you use it?
+                </li>
+                <li className="content-list">
+                  Is there anything about biking or your bike experiences that
+                  you wish was different? Do you feel as if you are as safe as
+                  you can be?
+                </li>
+              </ol>
+              <br />
+              Based off of our feedback to these questions we developed a
+              business model canvas that would shape how our business would act
+              and behave in the future and what our product would be.
+            </ImageLeft>
+          </div>
 
           <LeftText title={"Pain Points"} className="left-section">
             There are several products out in the world that try to solve this
@@ -170,7 +176,7 @@ class StreetSmart extends React.Component {
             </LeftText>
             <div className="brand-colors">
               <div className="color-group">
-                <div className="hex-text"> HEX #e0a939</div>
+                <div className="hex-text"> PRIMARY HEX #e0a939</div>
                 <div className="rectangle ss-one" />
               </div>
               <div className="color-group">

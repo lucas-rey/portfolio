@@ -26,7 +26,7 @@ class Brevet extends React.Component {
             Prev
           </a>
           <div className="header-line change" />{" "}
-          <a className="next change" href="/vcu">
+          <a className="next change" href="/vietnam">
             Next
           </a>
         </div>
@@ -197,13 +197,13 @@ class Brevet extends React.Component {
           <div className="branding">
             <div className="brevet-branding">
               <img
-                src={require("./../../../assets/brevet-logogif.svg")}
-                alt="bike app process map"
+                src={require("./../../../assets/brevet-logo.png")}
+                alt="brevet logo"
               />
             </div>
             <div className="brand-colors">
               <div className="color-group">
-                <div className="hex-text"> HEX #484e7d</div>
+                <div className="hex-text"> PRIMARY HEX #484e7d</div>
                 <div className="rectangle brevet-one" />
               </div>
               <div className="color-group">
@@ -220,22 +220,22 @@ class Brevet extends React.Component {
           <div className="project-group-two">
             <img
               src={require("./../../../assets/brevet-realtime.svg")}
-              alt="bike app splash scree"
+              alt="brevet splash screen"
             />
             <img
               src={require("./../../../assets/brevet-finishing.svg")}
-              alt="bike app ride in progress"
+              alt="brevet ride in progress"
             />
           </div>
 
           <div className="project-group-two">
             <img
               src={require("./../../../assets/brevet-personalroute.svg")}
-              alt="bike app splash scree"
+              alt="brevet routes"
             />
             <img
               src={require("./../../../assets/brevet-profilestat.svg")}
-              alt="bike app ride in progress"
+              alt="brevet profile"
             />
           </div>
         </div>

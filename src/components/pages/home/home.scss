@@ -107,3 +107,31 @@ $breakpoint-phone: 420px;
 .description {
   font-size: 14px;
 }
+
+.outside-links {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  width: 75px;
+  justify-content: space-between;
+}
+
+.individual-link {
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.fa-file {
+  opacity: 0.5;
+  color: white;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.outside-links img {
+  height: 25px;
+}

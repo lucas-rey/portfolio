@@ -32,7 +32,7 @@ class VideoGame extends React.Component {
           backgroundColor="yellow"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/vietnam">
+          <a className="previous change" href="/lovemyself">
             Prev
           </a>
           <div className="header-line change" />{" "}

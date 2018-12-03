@@ -19,7 +19,13 @@ class Home extends React.Component {
             <div className="topGradient" />
             <div className="home-text">Hi there, I'm Rachel.</div>
             <ReactRotatingText
-              items={["Designer", "Observer", "Creator"]}
+              items={[
+                "Designer",
+                "Developer",
+                "Observer",
+                "Triathlete",
+                "Sailor"
+              ]}
               className="home-text"
             />
           </div>
@@ -29,28 +35,54 @@ class Home extends React.Component {
           <div className="text-group">
             <div className="section-title">A little about me</div>
             <div className="hobbies">
-              <LeftText title={"Who I am"} className="left-section">
+              <LeftText title={"About My Process"} className="left-section">
                 I am comfortable being uncomfortable and I push my limits daily.
-                My biggest hobbies include triathlons, sailing, and hiking. I’ve
-                ridden my bike 70+ miles, finished a marathon, and yet, taking
-                calculus my freshman year was the hardest thing I’ve done. I ran
-                both cross country and track, and what I miss the most about
+                My biggest hobbies include triathlons, sailing, and hiking. I
+                ran both cross country and track, and what I miss the most about
                 those days is not the races but being a part of a team. I loved
                 being with people who pushed me to be better and who I could
                 push to improve as well. There’s nothing quite like the
-                relationships you form with your teammates. I have recently
-                developed a love for user centered designs. I love the feedback
-                that comes from real people who interact with your designs.
-                There is nothing more valuable than that type of interaction. I
-                build designs that inspire, excite, and foster relationships
-                with users that are more meaningful to businesses. I want to
-                push design into the next generation and create products that
-                are more desirable to their end users. After all, we do judge
-                books by their covers.
+                relationships you form with your teammates.
+                <br /> <br />I have recently developed a love for user centered
+                designs. I love that type of feedback and being able to
+                constantly improve an experience. There is nothing more valuable
+                than that type of interaction. I build designs that inspire,
+                excite, and foster relationships with users that are more
+                meaningful to businesses. I want to push design into the next
+                generation and create products that are more desirable to their
+                end users.
+                <br /> <br />
+                <div className="outside-links">
+                  <a
+                    href="https://github.com/lucas-rey/portfolio"
+                    rel="noopener noreferrer"
+                    target="_blank">
+                    <img
+                      src={require("./../../../assets/github.png")}
+                      alt="github"
+                      className="individual-link"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/rachel-lucas/"
+                    rel="noopener noreferrer"
+                    target="_blank">
+                    <img
+                      src={require("./../../../assets/linked-in.png")}
+                      alt="linkedin"
+                      className="individual-link"
+                    />
+                  </a>
+                  {/* <a
+                    href="./../../../assets/resume.pdf"
+                    rel="noopener noreferrer"
+                    target="_blank">
+                    <i className="fas fa-file individual" />
+                  </a> */}
+                </div>
               </LeftText>
             </div>
           </div>
-
           <div className="image-bounds">
             <img
               src={require("./../../../assets/glacier.JPG")}

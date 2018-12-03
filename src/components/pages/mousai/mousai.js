@@ -34,37 +34,57 @@ class Mousai extends React.Component {
           <div className="project-group smaller-projects">
             <img
               src={require("./../../../assets/mousai-home.svg")}
-              alt="rhino video game"
+              alt="mousai login"
             />
             <img
               src={require("./../../../assets/mousai-album.svg")}
-              alt="markhor video game"
+              alt="mousai playlist"
             />
           </div>
 
           <LeftText title={"Overview"} className="left-section">
-            For this project we were given two parameters: 1) it had to be an
-            interactive experience for the viewers and 2) if we were to place it
-            in a time capsule for 100 years how could we show the world as it is
-            today. We were advised to make a poster but to me that did not at
-            all convey the world as it is today. We are in a digital age, a
-            world where you can connect to almost anyone anywhere at anytime. A
-            world where all of the things we've learned and experiences we've
-            had over the centuries are at the tips of our fingers. We can
-            explore worlds, experience the past, and create our wildest dreams,
-            all without even leaving our seats.
-            <br />
-            <br />
-            Since I was a child I have loved animals, to the point that I
-            considered turning that into a career. At the time we were assigned
-            this project there was huge controversy across the country about
-            lifting bans on big-game hunting. I wanted to educate the public and
-            the future about endangered species. I decided to make a video game
-            because to me that showed more of the 21st century than a poster
-            could ever show. And not only would this be more technologically
-            relevant to today, it was a new challenge for me. It was something
-            new to learn which was more way exciting to me than the familiar.
+            This was a collabrative deisgn and development project. I designed
+            and implemented all of the front end work for this application.
+            Using Spotify’s API’s we created an extention of it that gives users
+            the ability to upvote and downvote songs in any of their playlists.
+            This process allows users to indirectly order/maintain their
+            playlists and after a certain number of downvotes a song will be
+            completely removed.
+            <br /> <br />
+            The application is named after the Mousai (Muses) in Greek
+            mythology. They were the goddess of music, poetry, and inspiration.
+            <br /> <br />
+            <div className="warning">
+              <i className="fas fa-exclamation-circle" />
+              <div className="warning-text">
+                This project is still in progress
+              </div>
+            </div>
           </LeftText>
+
+          <div className="branding">
+            <LeftText title={"Branding"} className="left-section">
+              The brand is modern and minimal, using bold colors that pop off of
+              the page. The information displayed is limited to only what is
+              absolutely necessary and important to the user for transparency
+              and readability. <br /> <br />
+              We are currently in the process of developing a logo.
+            </LeftText>
+            <div className="brand-colors">
+              <div className="color-group">
+                <div className="hex-text"> PRIMARY HEX #0099FF</div>
+                <div className="rectangle mousai-one" />
+              </div>
+              <div className="color-group">
+                <div className="hex-text"> HEX #212237</div>
+                <div className="rectangle mousai-two" />
+              </div>
+              <div className="color-group">
+                <div className="hex-text-black"> HEX #D9E021</div>
+                <div className="rectangle mousai-three" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
