@@ -33,11 +33,11 @@ class Mousai extends React.Component {
         <div className="main-container">
           <div className="project-group smaller-projects">
             <img
-              src={require("./../../../assets/mousai-home.svg")}
+              src={require("./../../../assets/mousai-home.png")}
               alt="mousai login"
             />
             <img
-              src={require("./../../../assets/mousai-album.svg")}
+              src={require("./../../../assets/mousai-album.png")}
               alt="mousai playlist"
             />
           </div>

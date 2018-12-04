@@ -33,19 +33,19 @@ class StreetSmart extends React.Component {
         <div className="main-container">
           <div className="project-group">
             <img
-              src={require("./../../../assets/street-smart-landing.svg")}
+              src={require("./../../../assets/street-smart-landing.png")}
               alt="street smart landing page"
             />
             <img
-              src={require("./../../../assets/street-smart-maps.svg")}
+              src={require("./../../../assets/street-smart-maps.png")}
               alt="street smart maps"
             />
             <img
-              src={require("./../../../assets/street-smart-profile.svg")}
+              src={require("./../../../assets/street-smart-profile.png")}
               alt="street smart profile"
             />
             <img
-              src={require("./../../../assets/street-smart-rewards.svg")}
+              src={require("./../../../assets/street-smart-rewards.png")}
               alt="street smart rewards"
             />
           </div>
@@ -77,7 +77,7 @@ class StreetSmart extends React.Component {
 
           <div className="research">
             <img
-              src={require("./../../../assets/ss-researchmap.svg")}
+              src={require("./../../../assets/ss-researchmap.png")}
               alt="research diagram, discover, ideate, validate"
             />
             <ImageLeft title={"Research Questions"} className="right-section">

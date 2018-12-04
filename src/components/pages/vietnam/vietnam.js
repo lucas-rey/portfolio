@@ -34,11 +34,11 @@ class Vietnam extends React.Component {
         <div className="main-container">
           <div className="project-group">
             <img
-              src={require("./../../../assets/vietnam1.svg")}
+              src={require("./../../../assets/vietnam1.png")}
               alt="vietnam spreads 1"
             />
             <img
-              src={require("./../../../assets/vietnam2.svg")}
+              src={require("./../../../assets/vietnam2.png")}
               alt="vietnam spreads 2"
             />
           </div>
@@ -163,7 +163,7 @@ class Vietnam extends React.Component {
 
           <div className="dear-joe">
             <img
-              src={require("./../../../assets/dearjoe.svg")}
+              src={require("./../../../assets/dearjoe.png")}
               alt="Dear Joe"
               className="dear-joe-image"
             />

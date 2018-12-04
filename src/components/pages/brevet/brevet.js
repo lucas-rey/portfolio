@@ -35,19 +35,19 @@ class Brevet extends React.Component {
         <div className="main-container">
           <div className="project-group">
             <img
-              src={require("./../../../assets/brevet-splash.svg")}
+              src={require("./../../../assets/brevet-splash.png")}
               alt="bike app splash scree"
             />
             <img
-              src={require("./../../../assets/brevet-inprogress.svg")}
+              src={require("./../../../assets/brevet-inprogress.png")}
               alt="bike app ride in progress"
             />
             <img
-              src={require("./../../../assets/brevet-autoroute.svg")}
+              src={require("./../../../assets/brevet-autoroute.png")}
               alt="bike app auto route ride"
             />
             <img
-              src={require("./../../../assets/brevet-fullstat.svg")}
+              src={require("./../../../assets/brevet-fullstat.png")}
               alt="bike app full ride stat layout"
             />
           </div>
@@ -168,7 +168,7 @@ class Brevet extends React.Component {
 
           <div className="brevet-process">
             <img
-              src={require("./../../../assets/brevet-process.svg")}
+              src={require("./../../../assets/brevet-process.png")}
               alt="bike app process map"
             />
           </div>
@@ -197,7 +197,7 @@ class Brevet extends React.Component {
           <div className="branding">
             <div className="brevet-branding">
               <img
-                src={require("./../../../assets/brevet-logo.png")}
+                src={require("./../../../assets/brevet-branding.png")}
                 alt="brevet logo"
               />
             </div>
@@ -219,22 +219,22 @@ class Brevet extends React.Component {
 
           <div className="project-group-two">
             <img
-              src={require("./../../../assets/brevet-realtime.svg")}
+              src={require("./../../../assets/brevet-realtime.png")}
               alt="brevet splash screen"
             />
             <img
-              src={require("./../../../assets/brevet-finishing.svg")}
+              src={require("./../../../assets/brevet-finishing.png")}
               alt="brevet ride in progress"
             />
           </div>
 
           <div className="project-group-two">
             <img
-              src={require("./../../../assets/brevet-personalroute.svg")}
+              src={require("./../../../assets/brevet-personalroute.png")}
               alt="brevet routes"
             />
             <img
-              src={require("./../../../assets/brevet-profilestat.svg")}
+              src={require("./../../../assets/brevet-profilestat.png")}
               alt="brevet profile"
             />
           </div>

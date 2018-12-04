@@ -44,11 +44,11 @@ class VideoGame extends React.Component {
         <div className="main-container">
           <div className="project-group smaller-projects">
             <img
-              src={require("./../../../assets/rhino.svg")}
+              src={require("./../../../assets/rhino.png")}
               alt="rhino video game"
             />
             <img
-              src={require("./../../../assets/markhor.svg")}
+              src={require("./../../../assets/markhor.png")}
               alt="markhor video game"
             />
           </div>
@@ -79,7 +79,7 @@ class VideoGame extends React.Component {
 
           <div className="videogame-process">
             <img
-              src={require("./../../../assets/video-game-process.svg")}
+              src={require("./../../../assets/video-game-process.png")}
               alt="user process map for game"
             />
           </div>

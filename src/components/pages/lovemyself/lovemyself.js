@@ -33,11 +33,11 @@ class LoveMyself extends React.Component {
         <div className="main-container">
           <div className="project-group smaller-projects">
             <img
-              src={require("./../../../assets/lmp-dailymaps.svg")}
+              src={require("./../../../assets/lmp-dailymaps.png")}
               alt="rhino video game"
             />
             <img
-              src={require("./../../../assets/lmp-imagegrid.svg")}
+              src={require("./../../../assets/lmp-imagegrid.png")}
               alt="markhor video game"
             />
           </div>
