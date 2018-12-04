@@ -1,3 +1,7 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .brand {
   display: inline-block;
   padding: 100px 0px;
@@ -10,12 +14,20 @@
   align-items: center;
   justify-content: space-between;
   margin: -85px 0px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    padding: 100px 0px;
+    height: 900px;
+  }
 }
 
 .color-group-circles {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: $breakpoint-phone) {
+    margin: 25px 0px;
+  }
 }
 
 .circle {
@@ -92,10 +104,17 @@
 .lmp-cover {
   height: 700px;
   margin: 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    height: 250px;
+    margin: 0px;
+  }
 }
 
 .carousel {
   &.two {
     margin: 50px 0px 100px 0px;
+    @media (max-width: $breakpoint-phone) {
+      margin: 50px -25px 100px -25px;
+    }
   }
 }

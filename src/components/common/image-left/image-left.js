@@ -11,7 +11,7 @@ class ImageLeft extends React.Component {
           <div className="detail-container-right">
             <div className="title">{title}</div>
             <div className="line" />
-            <div className="paragraph">{children}</div>
+            <div className="paragraph extra-padding">{children}</div>
           </div>
         </div>
       </div>

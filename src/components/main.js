@@ -1,9 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/home/home";
-import Work from "./pages/work/work";
-import About from "./pages/about/about";
-import Contact from "./pages/contact/contact";
 import LoveMyself from "./pages/lovemyself/lovemyself";
 import StreetSmart from "./pages/street-smart/street-smart";
 import Vietnam from "./pages/vietnam/vietnam";
@@ -16,9 +13,6 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/work" component={Work} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/contact" component={Contact} />
       <Route exact path="/lovemyself" component={LoveMyself} />
       <Route exact path="/street-smart" component={StreetSmart} />
       <Route exact path="/vietnam" component={Vietnam} />

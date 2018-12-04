@@ -1,12 +1,6 @@
-.project-group {
-  display: flex;
-  justify-content: space-between;
-  padding: 100px 0px;
-}
-
-.project-group img {
-  height: 450px;
-}
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
 
 .content-list {
   opacity: 1;
@@ -17,7 +11,9 @@
   width: 650px;
   height: 75px;
   transition: all 0.3s;
-
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
   &:hover {
     width: 700px;
   }
@@ -44,6 +40,9 @@
   display: flex;
   align-items: center;
   padding: 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
 }
 
 .color-group {
@@ -51,6 +50,12 @@
   position: relative;
   float: right;
   right: -85px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    position: relative;
+    float: none;
+    right: 0;
+  }
 }
 
 .hex-text {
@@ -69,6 +74,9 @@
   display: block;
   text-align: center;
   margin: 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    margin: 0px 0px;
+  }
 }
 
 .ss-logos {
@@ -76,6 +84,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: $breakpoint-phone) {
+    height: 900px;
+    display: block;
+    margin-left: 15px;
+  }
 }
 
 .ss-logos img {
@@ -89,11 +102,24 @@
   font-size: 70px;
   color: white;
   font-weight: 700;
+  @media (max-width: $breakpoint-phone) {
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .prototyping {
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
+}
+
+.prototype {
+  @media (max-width: $breakpoint-phone) {
+    margin: -50px;
+  }
 }
 
 iframe {
@@ -112,20 +138,14 @@ iframe {
   color: black;
 }
 
-.black-header-line {
-  width: 90%;
-  border: 1px solid black;
-}
-
-.header-line {
-  width: 90%;
-  border: 1px solid white;
-}
-
 .research {
   margin: 100px 0px;
 }
 
 .research img {
   width: 35%;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    margin-bottom: 150px;
+  }
 }

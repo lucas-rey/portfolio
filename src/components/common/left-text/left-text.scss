@@ -1,4 +1,7 @@
 $breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .detail-container {
   color: white;
   padding: 100px 0px;
@@ -20,6 +23,6 @@ $breakpoint-phone: 420px;
   font-weight: 200;
   height: 100%;
   @media (max-width: $breakpoint-phone) {
-    width: 375px !important;
+    width: 350px !important;
   }
 }

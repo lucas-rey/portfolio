@@ -31,7 +31,7 @@ class StreetSmart extends React.Component {
         </div>
         <div className="topGradient" />
         <div className="main-container">
-          <div className="project-group">
+          <div className="project-group phones two">
             <img
               src={require("./../../../assets/street-smart-landing.png")}
               alt="street smart landing page"
@@ -251,6 +251,8 @@ class StreetSmart extends React.Component {
                 on and we grew our user base we would then begin expanding those
                 limits. To learn more about our marketing and financial
                 strategies you can view our pitch website.
+                <br />
+                <br />
                 <a
                   href="https://lucasre8.wixsite.com/streetsmart"
                   rel="noopener noreferrer"

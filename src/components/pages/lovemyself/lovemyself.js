@@ -130,6 +130,48 @@ class LoveMyself extends React.Component {
                 src={require("./../../../assets/lmp-1.jpg")}
               />
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-2.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-3.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-4.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-5.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-6.jpg")}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-7.jpg")}
+              />
+            </Carousel.Item>
           </Carousel>
         </div>
       </div>

@@ -18,10 +18,12 @@ $breakpoint-phone: 420px;
     opacity: 0.5;
     cursor: pointer;
   }
+  @media (max-width: $breakpoint-phone) {
+    margin: 15px 10px;
+  }
 }
 
 // modal styles
-$breakpoint-phone: 420px;
 
 .icon-close {
   position: fixed;

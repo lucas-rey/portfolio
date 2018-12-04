@@ -1,23 +1,49 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .dear-joe {
   margin: auto;
   padding: 100px;
   height: 500px;
+  @media (max-width: $breakpoint-phone) {
+    padding: 0px;
+    height: 100%;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    margin: 150px 0px 0px 0px;
+    height: 300px;
+    padding: 0px;
+  }
 }
 
 .dear-joe-image,
 .highway-image {
   width: 100%;
+  @media (max-width: $breakpoint-phone) {
+    margin: 50px 0px;
+  }
 }
 
 .viet-research {
   display: flex;
   justify-content: space-between;
   margin: 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
 }
 
 .small-carousel {
   width: 600px;
   margin: 0px;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    width: 350px;
+    height: 100%;
+  }
 }
 
 .carousel-indicators {

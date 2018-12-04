@@ -1,5 +1,13 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .smaller-projects img {
   height: 400px;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .videogame-process {
@@ -12,17 +20,27 @@
 
 .videogame-process img {
   width: 50%;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
 }
 
 .characters {
   display: grid;
   position: relative;
   margin: 200px 0px;
+  @media (max-width: $breakpoint-phone) {
+    margin: 0px;
+  }
 }
 
 .characters img {
   width: 100%;
   margin: 0px -85px;
+  @media (max-width: $breakpoint-phone) {
+    width: 150%;
+    margin: 0px -125px;
+  }
 }
 
 .markhor img {
@@ -45,6 +63,9 @@
 
 .landscape-image img {
   height: 650px;
+  @media (max-width: $breakpoint-phone) {
+    height: 400px;
+  }
 }
 
 .landscape-title {

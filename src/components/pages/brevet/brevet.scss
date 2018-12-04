@@ -1,5 +1,12 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .brevet-process img {
   width: 100%;
+  @media (max-width: $breakpoint-phone) {
+    padding-bottom: 50px;
+  }
 }
 
 .brevet-name {
@@ -7,10 +14,17 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    height: 1000px;
+  }
 }
 
 .brevet-name img {
   width: 40%;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
 }
 
 .brevet-one {
@@ -34,14 +48,37 @@
 
 .brevet-branding img {
   width: 500px;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 200px 0px;
+  }
 }
 
 .project-group-two {
   display: flex;
   justify-content: space-around;
   padding: 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    position: relative;
+    height: 1400px;
+    margin: 0px 25px;
+    padding: 0px 0px 100px 0px;
+  }
 }
 
 .project-group-two img {
   height: 650px;
+  @media (max-width: $breakpoint-phone) {
+    height: auto;
+    width: 100%;
+    margin: 100px 0px;
+  }
+}
+
+.brand-colors {
+  @media (max-width: $breakpoint-phone) {
+    margin: 100px 0px;
+  }
 }

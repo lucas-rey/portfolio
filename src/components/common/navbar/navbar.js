@@ -39,7 +39,7 @@ class MainNav extends React.Component {
           <div
             className="menu-btn menu-btn-action menu-item"
             onClick={this.onOpenModal}>
-            Open
+            Work
           </div>
           <Modal open={open} onClose={this.onCloseModal}>
             <div className="screen-container" id="section-1">

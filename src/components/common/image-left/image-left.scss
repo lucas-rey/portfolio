@@ -1,3 +1,7 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .detail-container-right {
   color: white;
   float: right;
@@ -13,6 +17,9 @@
   width: 550px;
   font-size: 14px;
   height: 100%;
+  @media (max-width: $breakpoint-tablet) {
+    width: 450px;
+  }
 }
 
 img {
@@ -22,8 +29,17 @@ img {
 .image-group-left {
   // height needs to be whatever the height of the image is because content within this is absolutely positioned
   height: 400px;
+  @media (max-width: $breakpoint-phone) {
+    padding-top: 50px;
+  }
 }
 
 .diagram {
   height: 400px;
+}
+
+.extra-padding {
+  @media (max-width: $breakpoint-phone) {
+    margin-bottom: 100px;
+  }
 }

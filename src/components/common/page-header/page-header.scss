@@ -1,3 +1,7 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
 .background {
   height: 100vh;
   width: 100vw;
@@ -30,6 +34,9 @@
   padding-left: 200px;
   justify-content: flex-start;
   align-items: center;
+  @media (max-width: $breakpoint-phone) {
+    padding-left: 25px;
+  }
 }
 
 .header-date-type {
@@ -60,23 +67,15 @@
 .header-title {
   font-size: 75px;
   font-weight: 800;
+  @media (max-width: $breakpoint-phone) {
+    font-size: 50px;
+  }
   &.white {
     color: white;
   }
   &.black {
     color: black;
   }
-}
-
-.flag-page {
-  float: right;
-  z-index: 1;
-  position: relative;
-  left: 15%;
-}
-
-.flag-page img {
-  width: 350px;
 }
 
 .header-right {
@@ -91,11 +90,6 @@
 .page-heading h2 {
   color: black;
 }
-
-// .header-line {
-//   width: 90%;
-//   border: 1px solid white;
-// }
 
 .previous {
   color: white;
@@ -112,5 +106,21 @@
   text-transform: uppercase;
   &:hover {
     color: #1d1f23;
+  }
+}
+
+.black-header-line {
+  width: 90%;
+  border: 1px solid black;
+}
+
+.header-line {
+  width: 90%;
+  border: 1px solid white;
+  @media (max-width: $breakpoint-phone) {
+    width: 60%;
+  }
+  @media (max-width: $breakpoint-phone) {
+    width: 85%;
   }
 }

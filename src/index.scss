@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700");
 
 $breakpoint-phone: 420px;
-$breakpoint-tablet: 768px;
+$breakpoint-tablet: 1024px;
 $breakpoint-largemonitor: 1600px;
 
 html,
@@ -46,6 +46,9 @@ b {
 
 .main-container {
   margin: 40px 85px;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 0px 25px;
+  }
 }
 
 .page-name {
@@ -80,20 +83,39 @@ b {
   height: auto;
 }
 
-.flag-group {
+.project-group {
   display: flex;
-  width: 700px;
-  height: 350px;
+  justify-content: space-between;
+  padding: 100px 0px;
+  height: 600px;
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+    padding: 0px;
+    margin: 0px 25px 50px 25px;
+    height: 450px;
+    &.two {
+      height: 2500px;
+    }
+  }
+  @media (max-width: $breakpoint-tablet) {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px;
+  }
 }
 
-.flag {
-  position: relative;
-  z-index: 1;
-  left: 20%;
-}
-
-.flag img {
-  width: 350px;
+.project-group img {
+  height: 450px;
+  @media (max-width: $breakpoint-phone) {
+    height: auto;
+    width: 100%;
+    margin: 15px 0px;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    height: 100%;
+    width: 48%;
+  }
 }
 
 .custom-description {
@@ -153,6 +175,9 @@ ol {
 
 .image-left-container img {
   width: 50%;
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
 }
 
 .carousel-image {
@@ -162,4 +187,7 @@ ol {
 
 .carousel {
   margin: 300px 0px 100px 0px;
+  @media (max-width: $breakpoint-phone) {
+    margin: 150px -25px 100px -25px;
+  }
 }
