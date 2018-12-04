@@ -1,18 +1,71 @@
-.lmp-one {
-  background-color: #7be9c2;
+.brand {
+  display: inline-block;
+  padding: 100px 0px;
 }
 
+.brand-colors-two {
+  display: flex;
+  width: 85vw;
+  height: -webkit-fill-available;
+  align-items: center;
+  justify-content: space-between;
+  margin: -85px 0px;
+}
+
+.color-group-circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.hex-text2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  padding: 15px 20px;
+}
+
+.lmp-one {
+  background-color: #7be9c2;
+  &:hover {
+    background-color: #1d1f23;
+    border: 2px solid #7be9c2;
+  }
+}
 .lmp-two {
   background-color: #e6b3b6;
+  &:hover {
+    background-color: #1d1f23;
+    border: 2px solid #e6b3b6;
+  }
 }
 .lmp-three {
   background-color: #facc7a;
+  &:hover {
+    background-color: #1d1f23;
+    border: 2px solid #facc7a;
+  }
 }
 .lmp-four {
   background-color: #7aa8fa;
+  &:hover {
+    background-color: #1d1f23;
+    border: 2px solid #7aa8fa;
+  }
 }
 .lmp-five {
   background-color: #cba6e8;
+  &:hover {
+    background-color: #1d1f23;
+    border: 2px solid #cba6e8;
+  }
 }
 
 .lmp-screen-group img {
@@ -28,4 +81,21 @@
   display: flex;
   justify-content: space-between;
   margin: 100px 0px;
+}
+
+.lmp-cover img {
+  width: -webkit-fill-available;
+  height: auto;
+  margin: 0px -85px;
+}
+
+.lmp-cover {
+  height: 700px;
+  margin: 100px 0px;
+}
+
+.carousel {
+  &.two {
+    margin: 50px 0px 100px 0px;
+  }
 }

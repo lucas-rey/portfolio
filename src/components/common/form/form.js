@@ -86,7 +86,7 @@ export default class Contacts extends PureComponent {
             this.state.title
           }&body=${this.state.contents.replace(/\n/g, "%0D%0A")}`}
           className="button">
-          <button className="pitch">Send E-mail</button>
+          <button className="pitch btn2">Send E-mail</button>
         </a>
       </div>
     );

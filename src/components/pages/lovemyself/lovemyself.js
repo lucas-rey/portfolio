@@ -57,7 +57,14 @@ class LoveMyself extends React.Component {
             each day leading up to and during the event.
           </LeftText>
 
-          <div className="branding">
+          <div className="lmp-cover">
+            <img
+              src={require("./../../../assets/lmp-banner.jpg")}
+              alt="home page love myself project"
+            />
+          </div>
+
+          <div className="brand">
             <LeftText title={"Branding"} className="left-section">
               We developed a color palette that would utilize 5 different
               colors. Our event would take place over a total of 5 days and we
@@ -68,97 +75,28 @@ class LoveMyself extends React.Component {
               event.
             </LeftText>
 
-            <div className="brand-colors">
-              <div className="color-group">
-                <div className="hex-text"> PRIMARY HEX #7be9c2</div>
-                <div className="rectangle lmp-one" />
+            <div className="brand-colors-two">
+              <div className="color-group-circles circle-one">
+                <div className="hex-text2"> DAY 1</div>
+                <div className="circle lmp-one" />
               </div>
-              <div className="color-group">
-                <div className="hex-text"> HEX #e6b3b6</div>
-                <div className="rectangle lmp-two" />
+              <div className="color-group-circles">
+                <div className="hex-text2"> DAY 2</div>
+                <div className="circle lmp-two" />
               </div>
-              <div className="color-group">
-                <div className="hex-text"> HEX #facc7a</div>
-                <div className="rectangle lmp-three" />
+              <div className="color-group-circles">
+                <div className="hex-text2"> DAY 3</div>
+                <div className="circle lmp-three" />
               </div>
-              <div className="color-group">
-                <div className="hex-text"> HEX #7aa8fa</div>
-                <div className="rectangle lmp-four" />
+              <div className="color-group-circles">
+                <div className="hex-text2"> DAY 4</div>
+                <div className="circle lmp-four" />
               </div>
-              <div className="color-group">
-                <div className="hex-text"> HEX #cba6e8</div>
-                <div className="rectangle lmp-five" />
+              <div className="color-group-circles">
+                <div className="hex-text2"> DAY 5</div>
+                <div className="circle lmp-five" />
               </div>
             </div>
-          </div>
-
-          <div className="lmp-research">
-            <Carousel className="small-carousel">
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-1.jpg")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-2.JPG")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-3.jpg")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-4.jpg")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-5.png")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-6.png")}
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="carousel-image"
-                  alt="900x500"
-                  src={require("./../../../assets/merch-7.png")}
-                />
-              </Carousel.Item>
-            </Carousel>
-
-            <ImageLeft title={"Merchandise"} className="right-section">
-              We created a line of merchandise to try and help fund our project
-              as well as generate free give aways for each of the days during
-              our event. The goal was to incentivize people to come and interact
-              with our project.
-              <br />
-              <br />
-              The merchandise reflected our brand standard and we had a wide
-              range of items available for purchase. The biggest hits during our
-              event was the stickers and the buttons. We found that students
-              really liked the variety of choices we provided with those items
-              and that they were able to pick out their favorites to take with
-              them.
-            </ImageLeft>
           </div>
 
           <LeftText title={"Website"} className="left-section">
@@ -180,21 +118,19 @@ class LoveMyself extends React.Component {
               href="https://love-myself-project.firebaseapp.com"
               rel="noopener noreferrer"
               target="_blank">
-              <button className="lmp-site">View Website</button>
+              <button className="lmp-site btn2">View Website</button>
             </a>
           </LeftText>
 
-          <div className="lmp-screen-group">
-            <img
-              src={require("./../../../assets/lmp-home.svg")}
-              alt="home page love myself project"
-            />
-            <img
-              src={require("./../../../assets/lmp-documentation.svg")}
-              alt="documentation page love myself project"
-              className="img-right"
-            />
-          </div>
+          <Carousel className="carousel two">
+            <Carousel.Item>
+              <img
+                className="carousel-image"
+                alt="900x500"
+                src={require("./../../../assets/lmp-1.jpg")}
+              />
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     );

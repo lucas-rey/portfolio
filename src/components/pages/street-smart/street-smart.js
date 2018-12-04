@@ -255,7 +255,7 @@ class StreetSmart extends React.Component {
                   href="https://lucasre8.wixsite.com/streetsmart"
                   rel="noopener noreferrer"
                   target="_blank">
-                  <button className="pitch">View Pitch Site</button>
+                  <button className="pitch btn2">View Pitch Site</button>
                 </a>
               </LeftText>
             </div>
