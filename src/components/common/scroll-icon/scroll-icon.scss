@@ -1,12 +1,13 @@
-.scroll {
+.scroll-icon {
+  width: 100%;
   color: white;
   font-size: 10px;
-  position: absolute;
-  bottom: 60px;
-  left: 50%;
+  justify-content: center;
   display: flex;
+  position: absolute;
+  align-items: center;
 }
 
-.scroll img {
+.scroll-icon img {
   padding-right: 10px;
 }

@@ -99,7 +99,8 @@ $breakpoint-largemonitor: 1600px;
   padding-left: 15px;
   text-transform: uppercase;
   &:hover {
-    color: #1d1f23;
+    color: white;
+    opacity: 0.5;
   }
 }
 
@@ -108,7 +109,8 @@ $breakpoint-largemonitor: 1600px;
   padding-right: 15px;
   text-transform: uppercase;
   &:hover {
-    color: #1d1f23;
+    color: white;
+    opacity: 0.5;
   }
 }
 

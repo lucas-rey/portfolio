@@ -4,9 +4,9 @@ import "./scroll-icon.scss";
 class Scroll extends React.Component {
   render() {
     return (
-      <div className="scroll">
+      <div className="scroll-icon">
         <img src={require("./../../../assets/scroll.svg")} alt="mouse" />
-        <p>scroll down</p>
+        scroll down
       </div>
     );
   }

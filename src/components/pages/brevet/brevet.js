@@ -4,7 +4,8 @@ import MainNav from "../../common/navbar/navbar";
 import LeftText from "../../common/left-text/left-text";
 import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
-
+import Scroll from "../../common/scroll-icon/scroll-icon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Name from "../../common/name/name";
 // import { Link } from "react-router-dom";
 
@@ -23,11 +24,11 @@ class Brevet extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/mousai">
-            Prev
+            <i class="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
-          <div className="header-line change" />{" "}
+          <Scroll />
           <a className="next change" href="/vietnam">
-            Next
+            Next <i class="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>
         <div className="topGradient" />
