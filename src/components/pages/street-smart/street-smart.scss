@@ -43,7 +43,7 @@ $breakpoint-largemonitor: 1600px;
   @media (max-width: $breakpoint-tablet) {
     display: block;
     padding: 0px 0px;
-    height: 1200px;
+    height: 1000px;
     &.maps {
       height: 700px;
     }
@@ -169,6 +169,8 @@ iframe {
 
 .research img {
   width: 35%;
+  height: 100%;
+  margin-right: 200px;
   @media (max-width: $breakpoint-tablet) {
     width: 35%;
     margin-right: 50px;

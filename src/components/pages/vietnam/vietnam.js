@@ -44,7 +44,7 @@ class Vietnam extends React.Component {
               alt="vietnam spreads 2"
             />
           </div>
-          <div className="  full-width-p">
+          <div className="full-width-p">
             <LeftText title={"Overview"} className="left-section">
               We were given almost complete freedom for this assignment. Our
               only parameter was that we had to produce a printed publication in
@@ -72,75 +72,75 @@ class Vietnam extends React.Component {
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-1.JPG")}
+                  src={require("./../../../assets/vietnam_1.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-2.JPG")}
+                  src={require("./../../../assets/vietnam_2.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-3.JPG")}
+                  src={require("./../../../assets/vietnam_3.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-4.JPG")}
+                  src={require("./../../../assets/vietnam_4.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-5.JPG")}
+                  src={require("./../../../assets/vietnam_5.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-6.JPG")}
+                  src={require("./../../../assets/vietnam_6.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-7.jpeg")}
+                  src={require("./../../../assets/vietnam_7.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-8.jpg")}
+                  src={require("./../../../assets/vietnam_8.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-9.jpg")}
+                  src={require("./../../../assets/vietnam_9.jpg")}
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel-image"
                   alt="900x500"
-                  src={require("./../../../assets/vietnam-10.jpg")}
+                  src={require("./../../../assets/vietnam_10.jpg")}
                 />
               </Carousel.Item>
             </Carousel>
-            <div className="full-width-p less-padding">
-              <LeftText title={"Research"} className="right-section">
+            <div className="full-width-p">
+              <ImageLeft title={"Research"} className="right-section">
                 I was in constant communication with my grandma gathering
                 background information and photographs from his service.
                 Unfortunately my grandads camera was lost in all of the
@@ -164,7 +164,7 @@ class Vietnam extends React.Component {
                 commending him for his service and wishing him well. By the time
                 my grandfather recieved this letter Col. Willey had been killed
                 on the battlefield.
-              </LeftText>
+              </ImageLeft>
             </div>
           </div>
 
@@ -204,28 +204,28 @@ class Vietnam extends React.Component {
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/vietnam-spread1.jpg")}
+                src={require("./../../../assets/vietnam_spread1.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/vietnam-spread2.jpg")}
+                src={require("./../../../assets/vietnam_spread2.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/vietnam-spread3.jpg")}
+                src={require("./../../../assets/vietnam_spread3.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/vietnam-spread4.jpg")}
+                src={require("./../../../assets/vietnam_spread4.jpg")}
               />
             </Carousel.Item>
           </Carousel>

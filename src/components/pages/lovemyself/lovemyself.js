@@ -136,49 +136,49 @@ class LoveMyself extends React.Component {
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-1.jpg")}
+                src={require("./../../../assets/lmp_1.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-2.jpg")}
+                src={require("./../../../assets/lmp_2.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-3.jpg")}
+                src={require("./../../../assets/lmp_3.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-4.jpg")}
+                src={require("./../../../assets/lmp_4.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-5.jpg")}
+                src={require("./../../../assets/lmp_5.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-6.jpg")}
+                src={require("./../../../assets/lmp_6.jpg")}
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="carousel-image"
                 alt="900x500"
-                src={require("./../../../assets/lmp-7.jpg")}
+                src={require("./../../../assets/lmp_7.jpg")}
               />
             </Carousel.Item>
           </Carousel>

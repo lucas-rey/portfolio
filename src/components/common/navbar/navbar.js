@@ -34,7 +34,7 @@ class MainNav extends React.Component {
     const { open } = this.state;
 
     return (
-      <div>
+      <div className="main-nav">
         <div className="menu-items">
           <div
             className="menu-btn menu-btn-action menu-item"

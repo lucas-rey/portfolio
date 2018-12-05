@@ -1,4 +1,9 @@
 $breakpoint-phone: 420px;
+
+.main-nav {
+  z-index: 20;
+}
+
 .menu-items {
   display: flex;
   position: fixed;

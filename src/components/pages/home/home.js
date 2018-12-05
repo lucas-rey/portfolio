@@ -16,7 +16,6 @@ class Home extends React.Component {
         {/* <div className="topGradient" /> */}
         <div className="screen-container" id="section-1">
           <div className="home-content">
-            <div className="topGradient" />
             <div className="home-text">Hi there, I'm Rachel.</div>
             <ReactRotatingText
               items={[

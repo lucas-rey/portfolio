@@ -156,3 +156,46 @@ $breakpoint-largemonitor: 1600px;
 .outside-links img {
   height: 25px;
 }
+
+#section-1 {
+  background: linear-gradient(222deg, #ce4c4c, #1387b9, #e9d92a);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 16s ease infinite;
+  -moz-animation: AnimationName 16s ease infinite;
+  animation: AnimationName 16s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 27%;
+    }
+    50% {
+      background-position: 100% 74%;
+    }
+    100% {
+      background-position: 0% 27%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 27%;
+    }
+    50% {
+      background-position: 100% 74%;
+    }
+    100% {
+      background-position: 0% 27%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 27%;
+    }
+    50% {
+      background-position: 100% 74%;
+    }
+    100% {
+      background-position: 0% 27%;
+    }
+  }
+}

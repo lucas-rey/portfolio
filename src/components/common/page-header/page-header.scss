@@ -70,6 +70,9 @@ $breakpoint-largemonitor: 1600px;
 .header-title {
   font-size: 75px;
   font-weight: 800;
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 60px;
+  }
   @media (max-width: $breakpoint-phone) {
     font-size: 50px;
   }
