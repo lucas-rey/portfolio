@@ -50,30 +50,33 @@ class StreetSmart extends React.Component {
             />
           </div>
 
-          <LeftText title={"Overview"} className="left-section">
-            <b>Task:</b> Create a business that can be profitable within three
-            years.
-            <br />
-            <b>Software:</b> Invision, Adobe Illustrator, Wix
-            <br />
-            <br />
-            <b>Initial Thinking:</b> I worked with 3 other people to try and
-            solve for the lack of safety around the biking community in
-            Richmond. We conducted user research, drafted a marketing strategy,
-            completed a financial analysis, and constructed a working prototype.
-            Our final presentation was our potential investment pitch. <br />
-            <br />
-            We picked a problem that we were all connected to and would enjoy
-            trying to solve. We ended up on biking and the lack of safety for
-            riders in our area Richmond, VA. As students we all knew at least
-            one or more people who had been involved in accidents, and there had
-            been several incidents of hit and runs in our area. Drivers in
-            Richmond have been known to be very aggressive towards bikers and
-            many of us have seen riders struggle to even have room on the road.
-            In Richmond it is legal to bike on the sidewalks, but they are
-            wildly uneven/unkept and the high pedestrian traffic makes it
-            extremely dangerous.
-          </LeftText>
+          <div className=" full-width-p">
+            <LeftText title={"Overview"} className="left-section">
+              <b>Task:</b> Create a business that can be profitable within three
+              years.
+              <br />
+              <b>Software:</b> Invision, Adobe Illustrator, Wix
+              <br />
+              <br />
+              <b>Initial Thinking:</b> I worked with 3 other people to try and
+              solve for the lack of safety around the biking community in
+              Richmond. We conducted user research, drafted a marketing
+              strategy, completed a financial analysis, and constructed a
+              working prototype. Our final presentation was our potential
+              investment pitch. <br />
+              <br />
+              We picked a problem that we were all connected to and would enjoy
+              trying to solve. We ended up on biking and the lack of safety for
+              riders in our area Richmond, VA. As students we all knew at least
+              one or more people who had been involved in accidents, and there
+              had been several incidents of hit and runs in our area. Drivers in
+              Richmond have been known to be very aggressive towards bikers and
+              many of us have seen riders struggle to even have room on the
+              road. In Richmond it is legal to bike on the sidewalks, but they
+              are wildly uneven/unkept and the high pedestrian traffic makes it
+              extremely dangerous.
+            </LeftText>
+          </div>
 
           <div className="research">
             <img
@@ -118,62 +121,65 @@ class StreetSmart extends React.Component {
               and behave in the future and what our product would be.
             </ImageLeft>
           </div>
-
-          <LeftText title={"Pain Points"} className="left-section">
-            There are several products out in the world that try to solve this
-            problem but we found several issues with each of them.
-            <br />
-            <br />
-            <ol>
-              <li className="content-list">
-                Bike Shield (notified drivers of bikers and motorcyclists around
-                them) tried to generate a huge user base almost instantly with
-                little to no marketing. Failed very quickly.
-              </li>
-              <li className="content-list">
-                The app did not give enough warning, drivers were usually
-                notified after already passing a cyclist.
-              </li>
-              <li className="content-list">
-                Strava allows cyclists to track routes but does not give them
-                directions as they ride and there is no real safety featured
-                fixed into it aside from beacons (where someone can track you
-                themselves)
-              </li>
-              <li className="content-list">
-                With some products users have to buy physical attachments for
-                their bikes, just another thing that has to be bought and
-                maintained.
-              </li>
-            </ol>
-            <br />
-            Based off of all of our research we developed the idea for Street
-            Smart, an app that would notify drivers of cyclists coming up in
-            their routes. Completely hands free notifications that would be used
-            to just give future warning. We would incentive users to join by
-            partnering with local businesses and gas stations and giving out
-            rewards periodically.
-          </LeftText>
+          <div className="  full-width-p">
+            <LeftText title={"Pain Points"} className="left-section">
+              There are several products out in the world that try to solve this
+              problem but we found several issues with each of them.
+              <br />
+              <br />
+              <ol>
+                <li className="content-list">
+                  Bike Shield (notified drivers of bikers and motorcyclists
+                  around them) tried to generate a huge user base almost
+                  instantly with little to no marketing. Failed very quickly.
+                </li>
+                <li className="content-list">
+                  The app did not give enough warning, drivers were usually
+                  notified after already passing a cyclist.
+                </li>
+                <li className="content-list">
+                  Strava allows cyclists to track routes but does not give them
+                  directions as they ride and there is no real safety featured
+                  fixed into it aside from beacons (where someone can track you
+                  themselves)
+                </li>
+                <li className="content-list">
+                  With some products users have to buy physical attachments for
+                  their bikes, just another thing that has to be bought and
+                  maintained.
+                </li>
+              </ol>
+              <br />
+              Based off of all of our research we developed the idea for Street
+              Smart, an app that would notify drivers of cyclists coming up in
+              their routes. Completely hands free notifications that would be
+              used to just give future warning. We would incentive users to join
+              by partnering with local businesses and gas stations and giving
+              out rewards periodically.
+            </LeftText>
+          </div>
 
           <div className="branding">
-            <LeftText title={"Branding"} className="left-section">
-              To develop our brand we first had to establish our values and how
-              we wanted to present ourselves to the public.Street smart aimed to
-              be modern and easy to use, making safety its number one priority.
-              We picked a muted color palette using only one warm color, which
-              became our primary color. We chose a cooler palette for our accent
-              colors to try and keep our materials from being visually
-              overwhelming. We very rarely used all of the colors together in
-              our materials, the first three to the right being our most
-              prominent choices. <br /> <br />
-              We wanted for our businesses to feel friendly and approachable.
-              This greatly influenced the type of copy that was included in the
-              final product. We included helpful tips and sayings to makes users
-              feel more comfortable. We were aware that drivers would be perhaps
-              the hardest to involve so we generated as many incentives and
-              language that would keep them from feeling frustrated throughout
-              the experience.
-            </LeftText>
+            <div className="  full-width-p">
+              <LeftText title={"Branding"} className="left-section">
+                To develop our brand we first had to establish our values and
+                how we wanted to present ourselves to the public.Street smart
+                aimed to be modern and easy to use, making safety its number one
+                priority. We picked a muted color palette using only one warm
+                color, which became our primary color. We chose a cooler palette
+                for our accent colors to try and keep our materials from being
+                visually overwhelming. We very rarely used all of the colors
+                together in our materials, the first three to the right being
+                our most prominent choices. <br /> <br />
+                We wanted for our businesses to feel friendly and approachable.
+                This greatly influenced the type of copy that was included in
+                the final product. We included helpful tips and sayings to makes
+                users feel more comfortable. We were aware that drivers would be
+                perhaps the hardest to involve so we generated as many
+                incentives and language that would keep them from feeling
+                frustrated throughout the experience.
+              </LeftText>
+            </div>
             <div className="brand-colors">
               <div className="color-group">
                 <div className="hex-text"> PRIMARY HEX #e0a939</div>
@@ -230,36 +236,38 @@ class StreetSmart extends React.Component {
               />
             </div>
             <div className="section-padding">
-              <LeftText title={"Prototyping"} className="left-section">
-                Our final prototype brought information forward to users. This
-                prototype features our minimum viable product, so it only
-                features what is necessary to go to market and test. By leaving
-                some elements out we greatly reduced our production time and
-                initial costs, this would put us in less trouble in case the app
-                struggled initially. We kept a very minimal feel throughout the
-                app, trying not to overload users with too much information.
-                Users are immediately met with their statistics, we did this in
-                the hopes that this would encourage them to use our app more to
-                increase those numbers. The next two pages feature two
-                differnent ways to ride with the app, the record button will
-                track new routes, or users can follow previously ridden or
-                created routes.
-                <br />
-                <br />
-                On release our app would be restricted to use in specific cities
-                while we began marketing and forming relationships. As time went
-                on and we grew our user base we would then begin expanding those
-                limits. To learn more about our marketing and financial
-                strategies you can view our pitch website.
-                <br />
-                <br />
-                <a
-                  href="https://lucasre8.wixsite.com/streetsmart"
-                  rel="noopener noreferrer"
-                  target="_blank">
-                  <button className="pitch btn2">View Pitch Site</button>
-                </a>
-              </LeftText>
+              <div className="  full-width-p">
+                <LeftText title={"Prototyping"} className="left-section">
+                  Our final prototype brought information forward to users. This
+                  prototype features our minimum viable product, so it only
+                  features what is necessary to go to market and test. By
+                  leaving some elements out we greatly reduced our production
+                  time and initial costs, this would put us in less trouble in
+                  case the app struggled initially. We kept a very minimal feel
+                  throughout the app, trying not to overload users with too much
+                  information. Users are immediately met with their statistics,
+                  we did this in the hopes that this would encourage them to use
+                  our app more to increase those numbers. The next two pages
+                  feature two differnent ways to ride with the app, the record
+                  button will track new routes, or users can follow previously
+                  ridden or created routes.
+                  <br />
+                  <br />
+                  On release our app would be restricted to use in specific
+                  cities while we began marketing and forming relationships. As
+                  time went on and we grew our user base we would then begin
+                  expanding those limits. To learn more about our marketing and
+                  financial strategies you can view our pitch website.
+                  <br />
+                  <br />
+                  <a
+                    href="https://lucasre8.wixsite.com/streetsmart"
+                    rel="noopener noreferrer"
+                    target="_blank">
+                    <button className="pitch btn2">View Pitch Site</button>
+                  </a>
+                </LeftText>
+              </div>
             </div>
           </div>
         </div>

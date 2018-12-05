@@ -11,7 +11,7 @@ $breakpoint-largemonitor: 1600px;
   width: 650px;
   height: 75px;
   transition: all 0.3s;
-  @media (max-width: $breakpoint-phone) {
+  @media (max-width: $breakpoint-tablet) {
     width: 100%;
   }
   &:hover {
@@ -40,8 +40,19 @@ $breakpoint-largemonitor: 1600px;
   display: flex;
   align-items: center;
   padding: 100px 0px;
-  @media (max-width: $breakpoint-phone) {
+  @media (max-width: $breakpoint-tablet) {
     display: block;
+    padding: 0px 0px;
+    height: 1200px;
+    &.maps {
+      height: 700px;
+    }
+  }
+  @media (max-width: $breakpoint-phone) {
+    &.maps {
+      height: 600px;
+      padding: 50px 0px;
+    }
   }
 }
 
@@ -50,6 +61,10 @@ $breakpoint-largemonitor: 1600px;
   position: relative;
   float: right;
   right: -85px;
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    right: 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     display: block;
     position: relative;
@@ -68,6 +83,9 @@ $breakpoint-largemonitor: 1600px;
 
 .single-logo {
   width: 300px;
+  @media (max-width: $breakpoint-tablet) {
+    width: 250px;
+  }
 }
 
 .sslogo-group {
@@ -87,14 +105,7 @@ $breakpoint-largemonitor: 1600px;
   @media (max-width: $breakpoint-phone) {
     height: 900px;
     display: block;
-    margin-left: 15px;
-  }
-}
-
-.ss-logos img {
-  &:hover {
-    transition: 2s;
-    transform: rotate(360deg);
+    margin-left: 10%;
   }
 }
 
@@ -111,6 +122,9 @@ $breakpoint-largemonitor: 1600px;
 .prototyping {
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: $breakpoint-tablet) {
+    display: block;
+  }
   @media (max-width: $breakpoint-phone) {
     display: block;
   }
@@ -124,6 +138,9 @@ $breakpoint-largemonitor: 1600px;
 
 iframe {
   transform: scale(0.75);
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+  }
 }
 
 .pitch {
@@ -139,13 +156,32 @@ iframe {
 }
 
 .research {
+  display: flex;
   margin: 100px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    align-items: center;
+    margin: 50px 0px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    display: block;
+  }
 }
 
 .research img {
   width: 35%;
+  @media (max-width: $breakpoint-tablet) {
+    width: 35%;
+    margin-right: 50px;
+  }
   @media (max-width: $breakpoint-phone) {
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+  }
+}
+
+.full-width-p .detail-container .paragraph {
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    padding: 10px 0px;
   }
 }

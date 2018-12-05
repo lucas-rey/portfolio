@@ -5,6 +5,9 @@ $breakpoint-largemonitor: 1600px;
 .brand {
   display: inline-block;
   padding: 100px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    padding: 50px 0px;
+  }
 }
 
 .brand-colors-two {
@@ -14,6 +17,9 @@ $breakpoint-largemonitor: 1600px;
   align-items: center;
   justify-content: space-between;
   margin: -85px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    height: 300px;
+  }
   @media (max-width: $breakpoint-phone) {
     display: block;
     padding: 100px 0px;
@@ -34,6 +40,14 @@ $breakpoint-largemonitor: 1600px;
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  @media (max-width: $breakpoint-tablet) {
+    width: 100px;
+    height: 100px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .hex-text2 {
@@ -99,11 +113,18 @@ $breakpoint-largemonitor: 1600px;
   width: -webkit-fill-available;
   height: auto;
   margin: 0px -85px;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 0px -45px;
+  }
 }
 
 .lmp-cover {
   height: 700px;
   margin: 100px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    height: 400px;
+    margin: 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     height: 250px;
     margin: 0px;

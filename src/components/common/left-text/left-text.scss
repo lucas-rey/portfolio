@@ -22,7 +22,4 @@ $breakpoint-largemonitor: 1600px;
   font-size: 14px;
   font-weight: 200;
   height: 100%;
-  @media (max-width: $breakpoint-phone) {
-    width: 350px !important;
-  }
 }

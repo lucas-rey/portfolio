@@ -5,6 +5,10 @@ $breakpoint-largemonitor: 1600px;
 .detail-container-right {
   color: white;
   float: right;
+  @media (max-width: $breakpoint-tablet) {
+    float: left;
+    padding-top: 50px;
+  }
 }
 
 .line {
@@ -18,7 +22,17 @@ $breakpoint-largemonitor: 1600px;
   font-size: 14px;
   height: 100%;
   @media (max-width: $breakpoint-tablet) {
-    width: 450px;
+    width: 400px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+  }
+}
+
+.paragraph.extra-padding {
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    margin: 0px;
   }
 }
 

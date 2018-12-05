@@ -22,9 +22,18 @@ $breakpoint-largemonitor: 1600px;
 
 .brevet-name img {
   width: 40%;
+  @media (max-width: $breakpoint-tablet) {
+    width: 30%;
+    margin-left: 75px;
+  }
   @media (max-width: $breakpoint-phone) {
     width: 100%;
+    margin: 0px;
   }
+}
+
+.brevet-branding {
+  height: 200px;
 }
 
 .brevet-one {
@@ -48,8 +57,10 @@ $breakpoint-largemonitor: 1600px;
 
 .brevet-branding img {
   width: 500px;
-  @media (max-width: $breakpoint-phone) {
+  @media (max-width: $breakpoint-tablet) {
     width: 100%;
+  }
+  @media (max-width: $breakpoint-phone) {
     height: auto;
     padding: 50px 0px 200px 0px;
   }
@@ -59,6 +70,9 @@ $breakpoint-largemonitor: 1600px;
   display: flex;
   justify-content: space-around;
   padding: 100px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    padding: 50px 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     display: block;
     position: relative;
@@ -70,6 +84,9 @@ $breakpoint-largemonitor: 1600px;
 
 .project-group-two img {
   height: 650px;
+  @media (max-width: $breakpoint-tablet) {
+    height: 500px;
+  }
   @media (max-width: $breakpoint-phone) {
     height: auto;
     width: 100%;

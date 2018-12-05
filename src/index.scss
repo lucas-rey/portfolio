@@ -47,6 +47,10 @@ b {
 .main-container {
   margin: 40px 85px;
   @media (max-width: $breakpoint-tablet) {
+    margin: 0px 45px;
+  }
+
+  @media (max-width: $breakpoint-phone) {
     margin: 0px 25px;
   }
 }
@@ -88,33 +92,46 @@ b {
   justify-content: space-between;
   padding: 100px 0px;
   height: 600px;
-  @media (max-width: $breakpoint-phone) {
+  &.two {
+    height: 1400px;
+  }
+  @media (max-width: $breakpoint-tablet) {
     display: block;
     padding: 0px;
-    margin: 0px 25px 50px 25px;
-    height: 450px;
+    height: 1200px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    margin: 0px 0px 100px 0px;
+    height: 600px;
     &.two {
       height: 2500px;
     }
   }
+}
+
+.project-group.two img {
   @media (max-width: $breakpoint-tablet) {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    padding: 0px;
+    width: 40%;
+    margin: 60px 0px 0px 50px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    width: 100%;
+    margin: 50px 0px;
   }
 }
 
 .project-group img {
   height: 450px;
+  @media (max-width: $breakpoint-tablet) {
+    height: auto;
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     height: auto;
     width: 100%;
     margin: 15px 0px;
-  }
-  @media (max-width: $breakpoint-tablet) {
-    height: 100%;
-    width: 48%;
+    padding: 0px;
   }
 }
 
@@ -171,11 +188,16 @@ ol {
 
 .image-left-container {
   padding: 100px 0px;
+  @media (max-width: $breakpoint-tablet) {
+    &.maps {
+      height: 1000px;
+    }
+  }
 }
 
 .image-left-container img {
   width: 50%;
-  @media (max-width: $breakpoint-phone) {
+  @media (max-width: $breakpoint-tablet) {
     width: 100%;
   }
 }

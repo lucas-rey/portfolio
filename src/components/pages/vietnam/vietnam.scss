@@ -6,14 +6,14 @@ $breakpoint-largemonitor: 1600px;
   margin: auto;
   padding: 100px;
   height: 500px;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 50px 0px 0px 0px;
+    height: 300px;
+    padding: 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     padding: 0px;
     height: 100%;
-  }
-  @media (max-width: $breakpoint-tablet) {
-    margin: 150px 0px 0px 0px;
-    height: 300px;
-    padding: 0px;
   }
 }
 
@@ -29,20 +29,27 @@ $breakpoint-largemonitor: 1600px;
   display: flex;
   justify-content: space-between;
   margin: 100px 0px;
-  @media (max-width: $breakpoint-phone) {
+  @media (max-width: $breakpoint-tablet) {
     display: block;
+  }
+}
+
+.less-padding {
+  margin: -100px 0px;
+  &.full-width-p {
+    margin: 0px;
   }
 }
 
 .small-carousel {
   width: 600px;
   margin: 0px;
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    height: 100%;
+  }
   @media (max-width: $breakpoint-phone) {
     width: 100%;
-  }
-  @media (max-width: $breakpoint-tablet) {
-    width: 350px;
-    height: 100%;
   }
 }
 

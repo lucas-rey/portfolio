@@ -42,20 +42,23 @@ class LoveMyself extends React.Component {
             />
           </div>
 
-          <LeftText title={"Overview"} className="left-section">
-            For this assignment we were placed into groups of 3-4 and asked to
-            interrupt a space. We all got together and started listing off
-            topics that we were interested in and things that we wanted to focus
-            on and we landed on an interactive installation on campus that dealt
-            with the topic of self-love. We planned a week long intervention on
-            campus that asked people to answer a different question every day.
-            The biggest idea behind this project for us was repitition and we
-            really wanted to have people who would come out every day to see
-            what was next, and we achieved that. We had to start from the ground
-            up. We had to brand ourselves, generate merch to hand out, partner
-            with campus organizations, and create social media campaigns for
-            each day leading up to and during the event.
-          </LeftText>
+          <div className="  full-width-p">
+            <LeftText title={"Overview"} className="left-section">
+              For this assignment we were placed into groups of 3-4 and asked to
+              interrupt a space. We all got together and started listing off
+              topics that we were interested in and things that we wanted to
+              focus on and we landed on an interactive installation on campus
+              that dealt with the topic of self-love. We planned a week long
+              intervention on campus that asked people to answer a different
+              question every day. The biggest idea behind this project for us
+              was repitition and we really wanted to have people who would come
+              out every day to see what was next, and we achieved that. We had
+              to start from the ground up. We had to brand ourselves, generate
+              merch to hand out, partner with campus organizations, and create
+              social media campaigns for each day leading up to and during the
+              event.
+            </LeftText>
+          </div>
 
           <div className="lmp-cover">
             <img
@@ -65,15 +68,17 @@ class LoveMyself extends React.Component {
           </div>
 
           <div className="brand">
-            <LeftText title={"Branding"} className="left-section">
-              We developed a color palette that would utilize 5 different
-              colors. Our event would take place over a total of 5 days and we
-              wanted to have a different color for each day to provide some
-              visual differences. The color palette featured mostly cool colors
-              that were bright and welcoming colors. These colors had to be able
-              to catch peoples eye as they walked past our table during the
-              event.
-            </LeftText>
+            <div className="  full-width-p">
+              <LeftText title={"Branding"} className="left-section">
+                We developed a color palette that would utilize 5 different
+                colors. Our event would take place over a total of 5 days and we
+                wanted to have a different color for each day to provide some
+                visual differences. The color palette featured mostly cool
+                colors that were bright and welcoming colors. These colors had
+                to be able to catch peoples eye as they walked past our table
+                during the event.
+              </LeftText>
+            </div>
 
             <div className="brand-colors-two">
               <div className="color-group-circles circle-one">
@@ -99,28 +104,30 @@ class LoveMyself extends React.Component {
             </div>
           </div>
 
-          <LeftText title={"Website"} className="left-section">
-            As part of our project we are supposed to create two different final
-            presentations: an annual report and a lookbook. Our annual report
-            has taken the form of this website (click here if the image above
-            does not work). I've created this website from scratch using Angular
-            2. This site was originally intended to be used during our startup
-            of the project but we decided that it would exist better in this
-            form instead. It is currently a work in progress so it does not have
-            all of the final information on it. We also intend to have research,
-            documentation, and process pages. The website will lead you through
-            every step of our project along the way and show how we got to our
-            end product. Our idea evolved and changed a lot along the way as we
-            learned what we would have time to do and what we could afford to
-            do.
-            <br /> <br />
-            <a
-              href="https://love-myself-project.firebaseapp.com"
-              rel="noopener noreferrer"
-              target="_blank">
-              <button className="lmp-site btn2">View Website</button>
-            </a>
-          </LeftText>
+          <div className="full-width-p">
+            <LeftText title={"Website"} className="left-section">
+              As part of our project we are supposed to create two different
+              final presentations: an annual report and a lookbook. Our annual
+              report has taken the form of this website (click here if the image
+              above does not work). I've created this website from scratch using
+              Angular 2. This site was originally intended to be used during our
+              startup of the project but we decided that it would exist better
+              in this form instead. It is currently a work in progress so it
+              does not have all of the final information on it. We also intend
+              to have research, documentation, and process pages. The website
+              will lead you through every step of our project along the way and
+              show how we got to our end product. Our idea evolved and changed a
+              lot along the way as we learned what we would have time to do and
+              what we could afford to do.
+              <br /> <br />
+              <a
+                href="https://love-myself-project.firebaseapp.com"
+                rel="noopener noreferrer"
+                target="_blank">
+                <button className="lmp-site btn2">View Website</button>
+              </a>
+            </LeftText>
+          </div>
 
           <Carousel className="carousel two">
             <Carousel.Item>

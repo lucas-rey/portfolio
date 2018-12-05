@@ -42,34 +42,39 @@ class Mousai extends React.Component {
             />
           </div>
 
-          <LeftText title={"Overview"} className="left-section">
-            This was a collabrative deisgn and development project. I designed
-            and implemented all of the front end work for this application.
-            Using Spotify’s API’s we created an extention of it that gives users
-            the ability to upvote and downvote songs in any of their playlists.
-            This process allows users to indirectly order/maintain their
-            playlists and after a certain number of downvotes a song will be
-            completely removed.
-            <br /> <br />
-            The application is named after the Mousai (Muses) in Greek
-            mythology. They were the goddess of music, poetry, and inspiration.
-            <br /> <br />
-            <div className="warning">
-              <i className="fas fa-exclamation-circle" />
-              <div className="warning-text">
-                This project is still in progress
+          <div className="  full-width-p">
+            <LeftText title={"Overview"} className="left-section">
+              This was a collabrative deisgn and development project. I designed
+              and implemented all of the front end work for this application.
+              Using Spotify’s API’s we created an extention of it that gives
+              users the ability to upvote and downvote songs in any of their
+              playlists. This process allows users to indirectly order/maintain
+              their playlists and after a certain number of downvotes a song
+              will be completely removed.
+              <br /> <br />
+              The application is named after the Mousai (Muses) in Greek
+              mythology. They were the goddess of music, poetry, and
+              inspiration.
+              <br /> <br />
+              <div className="warning">
+                <i className="fas fa-exclamation-circle" />
+                <div className="warning-text">
+                  This project is still in progress
+                </div>
               </div>
-            </div>
-          </LeftText>
-
-          <div className="branding">
-            <LeftText title={"Branding"} className="left-section">
-              The brand is modern and minimal, using bold colors that pop off of
-              the page. The information displayed is limited to only what is
-              absolutely necessary and important to the user for transparency
-              and readability. <br /> <br />
-              We are currently in the process of developing a logo.
             </LeftText>
+          </div>
+
+          <div className="branding short-brand">
+            <div className="  full-width-p">
+              <LeftText title={"Branding"} className="left-section">
+                The brand is modern and minimal, using bold colors that pop off
+                of the page. The information displayed is limited to only what
+                is absolutely necessary and important to the user for
+                transparency and readability. <br /> <br />
+                We are currently in the process of developing a logo.
+              </LeftText>
+            </div>
             <div className="brand-colors">
               <div className="color-group">
                 <div className="hex-text"> PRIMARY HEX #0099FF</div>

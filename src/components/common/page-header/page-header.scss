@@ -34,6 +34,9 @@ $breakpoint-largemonitor: 1600px;
   padding-left: 200px;
   justify-content: flex-start;
   align-items: center;
+  @media (max-width: $breakpoint-tablet) {
+    padding-left: 50px;
+  }
   @media (max-width: $breakpoint-phone) {
     padding-left: 25px;
   }
@@ -117,10 +120,10 @@ $breakpoint-largemonitor: 1600px;
 .header-line {
   width: 90%;
   border: 1px solid white;
-  @media (max-width: $breakpoint-phone) {
-    width: 60%;
+  @media (max-width: $breakpoint-tablet) {
+    width: 80%;
   }
   @media (max-width: $breakpoint-phone) {
-    width: 85%;
+    width: 60%;
   }
 }
