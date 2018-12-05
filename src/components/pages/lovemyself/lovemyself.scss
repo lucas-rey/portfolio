@@ -17,6 +17,9 @@ $breakpoint-largemonitor: 1600px;
   align-items: center;
   justify-content: space-between;
   margin: -85px 0px;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 400px;
+  }
   @media (max-width: $breakpoint-tablet) {
     height: 300px;
   }
@@ -61,35 +64,35 @@ $breakpoint-largemonitor: 1600px;
 .lmp-one {
   background-color: #7be9c2;
   &:hover {
-    background-color: #1d1f23;
+    background-color: #1d1e20;
     border: 2px solid #7be9c2;
   }
 }
 .lmp-two {
   background-color: #e6b3b6;
   &:hover {
-    background-color: #1d1f23;
+    background-color: #1d1e20;
     border: 2px solid #e6b3b6;
   }
 }
 .lmp-three {
   background-color: #facc7a;
   &:hover {
-    background-color: #1d1f23;
+    background-color: #1d1e20;
     border: 2px solid #facc7a;
   }
 }
 .lmp-four {
   background-color: #7aa8fa;
   &:hover {
-    background-color: #1d1f23;
+    background-color: #1d1e20;
     border: 2px solid #7aa8fa;
   }
 }
 .lmp-five {
   background-color: #cba6e8;
   &:hover {
-    background-color: #1d1f23;
+    background-color: #1d1e20;
     border: 2px solid #cba6e8;
   }
 }

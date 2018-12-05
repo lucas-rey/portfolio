@@ -24,11 +24,11 @@ class LoveMyself extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/street-smart">
-            <i class="fas fa-long-arrow-alt-left nav-arrow" /> Prev
+            <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
           <a className="next change" href="/video-game">
-            Next <i class="fas fa-long-arrow-alt-right nav-arrow" />
+            Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>
         <div className="topGradient" />

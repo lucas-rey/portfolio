@@ -24,11 +24,11 @@ class VideoGame extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/lovemyself">
-            <i class="fas fa-long-arrow-alt-left nav-arrow" /> Prev
+            <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
           <a className="next change" href="/mousai">
-            Next <i class="fas fa-long-arrow-alt-right nav-arrow" />
+            Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>
         <div className="topGradient" />

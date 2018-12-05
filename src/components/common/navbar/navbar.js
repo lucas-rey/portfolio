@@ -42,7 +42,7 @@ class MainNav extends React.Component {
             Work
           </div>
           <Modal open={open} onClose={this.onCloseModal}>
-            <div className="screen-container" id="section-1">
+            <div className="screen-container">
               <div className="projects">
                 <a href="/vietnam">
                   <div

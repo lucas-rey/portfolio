@@ -1,6 +1,6 @@
 $breakpoint-phone: 420px;
 $breakpoint-tablet: 1024px;
-$breakpoint-largemonitor: 1600px;
+$breakpoint-largemonitor: 1700px;
 
 .content-list {
   opacity: 1;
@@ -11,6 +11,13 @@ $breakpoint-largemonitor: 1600px;
   width: 650px;
   height: 75px;
   transition: all 0.3s;
+  @media (min-width: $breakpoint-largemonitor) {
+    width: 850px;
+    height: 100px;
+    &:hover {
+      width: 900px;
+    }
+  }
   @media (max-width: $breakpoint-tablet) {
     width: 100%;
   }
@@ -171,6 +178,9 @@ iframe {
   width: 35%;
   height: 100%;
   margin-right: 200px;
+  @media (min-width: $breakpoint-largemonitor) {
+    margin-left: 100px;
+  }
   @media (max-width: $breakpoint-tablet) {
     width: 35%;
     margin-right: 50px;

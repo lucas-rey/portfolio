@@ -51,6 +51,9 @@ $breakpoint-largemonitor: 1600px;
 .about-me {
   display: flex;
   height: 800px;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 1000px;
+  }
   @media (max-width: $breakpoint-tablet) {
     display: block;
     height: 1200px;
@@ -76,6 +79,9 @@ $breakpoint-largemonitor: 1600px;
   overflow: hidden;
   position: absolute;
   right: 0;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 1000px;
+  }
   @media (max-width: $breakpoint-tablet) {
     height: 500px;
     width: unset;
@@ -92,6 +98,10 @@ $breakpoint-largemonitor: 1600px;
   position: relative;
   right: 800px;
   top: -300px;
+  @media (min-width: $breakpoint-largemonitor) {
+    right: 650px;
+    top: -100px;
+  }
   @media (max-width: $breakpoint-tablet) {
     height: 800px;
     right: -300px;

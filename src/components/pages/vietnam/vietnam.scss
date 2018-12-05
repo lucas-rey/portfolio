@@ -1,11 +1,14 @@
 $breakpoint-phone: 420px;
 $breakpoint-tablet: 1024px;
-$breakpoint-largemonitor: 1600px;
+$breakpoint-largemonitor: 1700px;
 
 .dear-joe {
   margin: auto;
   padding: 100px;
   height: 500px;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 600px;
+  }
   @media (max-width: $breakpoint-tablet) {
     margin: 50px 0px 0px 0px;
     height: 300px;
@@ -45,6 +48,9 @@ $breakpoint-largemonitor: 1600px;
   width: 600px;
   margin: 0px;
   height: 100%;
+  @media (min-width: $breakpoint-largemonitor) {
+    width: 50%;
+  }
   @media (max-width: $breakpoint-tablet) {
     width: 100%;
   }

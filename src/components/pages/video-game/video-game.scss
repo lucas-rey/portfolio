@@ -4,6 +4,9 @@ $breakpoint-largemonitor: 1600px;
 
 .smaller-projects img {
   height: 400px;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 125%;
+  }
   @media (max-width: $breakpoint-tablet) {
     width: 100%;
     height: auto;

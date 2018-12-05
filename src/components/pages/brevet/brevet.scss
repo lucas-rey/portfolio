@@ -14,6 +14,9 @@ $breakpoint-largemonitor: 1600px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  @media (min-width: $breakpoint-largemonitor) {
+    padding: 200px 0px;
+  }
   @media (max-width: $breakpoint-phone) {
     display: block;
     height: 1000px;
@@ -34,6 +37,10 @@ $breakpoint-largemonitor: 1600px;
 
 .brevet-branding {
   height: 200px;
+  @media (min-width: $breakpoint-largemonitor) {
+    height: 250px;
+    padding-left: 100px;
+  }
 }
 
 .brevet-one {
@@ -91,6 +98,12 @@ $breakpoint-largemonitor: 1600px;
     height: auto;
     width: 100%;
     margin: 100px 0px;
+  }
+}
+
+.branding.maps {
+  @media (min-width: $breakpoint-largemonitor) {
+    padding: 200px 0px;
   }
 }
 

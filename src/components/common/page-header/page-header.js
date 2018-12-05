@@ -39,6 +39,6 @@ PageHeader.propTypes = {
   year: PropTypes.string,
   workType: PropTypes.string,
   title: PropTypes.string,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.string,
   letter: PropTypes.string
 };
