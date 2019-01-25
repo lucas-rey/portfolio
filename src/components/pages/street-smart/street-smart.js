@@ -54,29 +54,24 @@ class StreetSmart extends React.Component {
 
           <div className=" full-width-p">
             <LeftText title={"Overview"} className="left-section">
-              <b>Task:</b> Create a business that can be profitable within three
-              years.
+              <b>DESIGN PROBLEM</b>
               <br />
-              <b>Software:</b> Invision, Adobe Illustrator, Wix
+              Create a business that can be profitable within three years
               <br />
               <br />
-              <b>Initial Thinking:</b> I worked with 3 other people to try and
-              solve for the lack of safety around the biking community in
-              Richmond. We conducted user research, drafted a marketing
-              strategy, completed a financial analysis, and constructed a
-              working prototype. Our final presentation was our potential
-              investment pitch. <br />
+              <b>CONTRIBUTIONS</b>
               <br />
-              We picked a problem that we were all connected to and would enjoy
-              trying to solve. We ended up on biking and the lack of safety for
-              riders in our area Richmond, VA. As students we all knew at least
-              one or more people who had been involved in accidents, and there
-              had been several incidents of hit and runs in our area. Drivers in
-              Richmond have been known to be very aggressive towards bikers and
-              many of us have seen riders struggle to even have room on the
-              road. In Richmond it is legal to bike on the sidewalks, but they
-              are wildly uneven/unkept and the high pedestrian traffic makes it
-              extremely dangerous.
+              Team Lead, UX Design, User Research, Prototyping
+              <br />
+              <br />
+              Street Smart is a mobile app that increases the safety of cyclists
+              within the community. We were asked to research our problem and
+              have users help inform our final solution. We used design thinking
+              to frame and pitch this problem to our peers. We conducted user
+              research, drafted a marketing strategy, completed a financial
+              analysis, and constructed a working prototype. The goal of our
+              business was to increase the awareness of cars and cyclists to
+              each other.
             </LeftText>
           </div>
 
@@ -86,8 +81,8 @@ class StreetSmart extends React.Component {
               alt="research diagram, discover, ideate, validate"
             />
             <ImageLeft title={"Research Questions"} className="right-section">
-              To frame our solution we walked around campus and talked with
-              anyone who was willing and just asked a few basic questions.
+              To frame our initial solution, we walked around campus and talked
+              with students to try and get their insights.
               <br />
               <br />
               <ol>
@@ -118,15 +113,18 @@ class StreetSmart extends React.Component {
                 </li>
               </ol>
               <br />
-              Based off of our feedback to these questions we developed a
-              business model canvas that would shape how our business would act
-              and behave in the future and what our product would be.
+              Our feedback from these questions helped us develop a business
+              model canvas that then shaped how our business would act and
+              behave in the future. This feedback also helped to validate our
+              initial product idea.
             </ImageLeft>
           </div>
           <div className="  full-width-p">
-            <LeftText title={"Pain Points"} className="left-section">
-              There are several products out in the world that try to solve this
-              problem but we found several issues with each of them.
+            <LeftText title={"Market Research"} className="left-section">
+              We conducted research of other businesses out there that try to
+              solve the same or similar problems to ours. We found several pain
+              points within each that we then used to distinguish our own
+              product.
               <br />
               <br />
               <ol>
@@ -152,34 +150,28 @@ class StreetSmart extends React.Component {
                 </li>
               </ol>
               <br />
-              Based off of all of our research we developed the idea for Street
-              Smart, an app that would notify drivers of cyclists coming up in
-              their routes. Completely hands free notifications that would be
-              used to just give future warning. We would incentive users to join
-              by partnering with local businesses and gas stations and giving
-              out rewards periodically.
+              We realized that drivers were going to be a very difficult user
+              base for us to get. We introduced the idea of rewards with local
+              businesses and gas stations into the product to try and ensure
+              that we would have a strong number of drivers.
             </LeftText>
           </div>
 
           <div className="branding">
             <div className="  full-width-p">
               <LeftText title={"Branding"} className="left-section">
-                To develop our brand we first had to establish our values and
-                how we wanted to present ourselves to the public.Street smart
-                aimed to be modern and easy to use, making safety its number one
-                priority. We picked a muted color palette using only one warm
-                color, which became our primary color. We chose a cooler palette
-                for our accent colors to try and keep our materials from being
-                visually overwhelming. We very rarely used all of the colors
-                together in our materials, the first three to the right being
-                our most prominent choices. <br /> <br />
-                We wanted for our businesses to feel friendly and approachable.
-                This greatly influenced the type of copy that was included in
-                the final product. We included helpful tips and sayings to makes
-                users feel more comfortable. We were aware that drivers would be
-                perhaps the hardest to involve so we generated as many
-                incentives and language that would keep them from feeling
-                frustrated throughout the experience.
+                We spent some time together as a team talking about how we
+                wanted to brand ourselves and what our values were as a company.
+                Street Smart aims to be modern and easy to use, making safety
+                its number one priority. We chose a more muted color palette to
+                keep the materials from being visually overwhelming. We chose a
+                mustard yellow as our main color, an allusion to caution signs
+                that catch your attention.
+                <br /> <br />
+                We wanted for the company to feel friendly and approachable.
+                This greatly influenced how we talked to users through our
+                product. We included helpful tips and sayings to make users feel
+                more comfortable.
               </LeftText>
             </div>
             <div className="brand-colors">
@@ -240,26 +232,25 @@ class StreetSmart extends React.Component {
             <div className="section-padding">
               <div className="  full-width-p">
                 <LeftText title={"Prototyping"} className="left-section">
-                  Our final prototype brought information forward to users. This
-                  prototype features our minimum viable product, so it only
-                  features what is necessary to go to market and test. By
-                  leaving some elements out we greatly reduced our production
-                  time and initial costs, this would put us in less trouble in
-                  case the app struggled initially. We kept a very minimal feel
-                  throughout the app, trying not to overload users with too much
-                  information. Users are immediately met with their statistics,
-                  we did this in the hopes that this would encourage them to use
-                  our app more to increase those numbers. The next two pages
-                  feature two differnent ways to ride with the app, the record
-                  button will track new routes, or users can follow previously
-                  ridden or created routes.
+                  Our final prototype brings information forward to users. Our
+                  final presentation acted as an investment pitch so the
+                  prototype only features our MVP. By leaving some elements out
+                  we greatly reduced our production time and initial costs. We
+                  kept a very minimal feel throughout the app, trying not to
+                  overload users with too much information. Users are
+                  immediately met with their statistics, we did this in the
+                  hopes that it would encourage them to use our app more and
+                  increase those numbers.
                   <br />
                   <br />
                   On release our app would be restricted to use in specific
-                  cities while we began marketing and forming relationships. As
-                  time went on and we grew our user base we would then begin
-                  expanding those limits. To learn more about our marketing and
-                  financial strategies you can view our pitch website.
+                  cities during a beta period while we would begin to market and
+                  form relationships with those communities. As time went on and
+                  our user base grew we would then begin expanding those limits.
+                  <br />
+                  <br />
+                  To learn more about our marketing and financial strategies you
+                  can view our pitch website.
                   <br />
                   <br />
                   <a

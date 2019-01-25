@@ -55,20 +55,24 @@ class Brevet extends React.Component {
 
           <div className=" full-width-p">
             <LeftText title={"Overview"} className="left-section">
-              <b>Task:</b> Create an app prototype that introduces something new
-              to the market.
+              <b>DESIGN PROBLEM</b>
               <br />
-              <b>Software:</b> Proto.io, Adobe Illustrator, Adobe After Effects
+              Create an app prototype that introduces something new to the
+              market
               <br />
               <br />
-              <b>Initial Thinking:</b> I wanted to design an app to help bikers.
-              I am a triathlete and I found a lot of difficulty in training on
-              bike in a busy city that I was still unfamiliar with. In my
-              research I found that there were not any applications or products
-              out there that allowed bikers to create and track their own
-              routes. I also wanted to create a way for people to track those
-              that were currently riding so that someone would be notified if
-              something went wrong.
+              <b>CONTRIBUTIONS</b>
+              <br />
+              Design, Branding, Prototyping, Motion Graphics
+              <br />
+              <br />
+              I wanted to design an app to help bikers. I am a triathlete and I
+              found a lot of difficulty in training on bike in a busy city that
+              I was still unfamiliar with. In my research I found that there
+              were not any applications or products out there that allowed
+              bikers to create and track their own routes. I also wanted to
+              create a way for people to track those that were currently riding
+              so that someone would be notified if something went wrong.
               <br />
               <br />I had just started riding in groups and I found that when
               riders first started using new routes they would print out a queue

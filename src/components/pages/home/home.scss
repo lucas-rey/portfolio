@@ -48,6 +48,18 @@ $breakpoint-largemonitor: 1600px;
   }
 }
 
+.intro {
+  color: white;
+  padding: 100px 0px;
+  height: auto;
+  width: 650px;
+  font-weight: 200;
+  height: 100%;
+  @media (max-width: $breakpoint-phone) {
+    padding: 50px 0px;
+  }
+}
+
 .about-me {
   display: flex;
   height: 800px;

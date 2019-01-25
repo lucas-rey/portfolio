@@ -23,7 +23,8 @@ class Home extends React.Component {
                 "Developer",
                 "Observer",
                 "Triathlete",
-                "Sailor"
+                "Sailor",
+                "Empathizer"
               ]}
               className="home-text"
             />
@@ -34,22 +35,29 @@ class Home extends React.Component {
           <div className="text-group">
             <div className="section-title">A little about me</div>
             <div className="hobbies">
-              <LeftText title={"About My Process"} className="left-section">
-                I am comfortable being uncomfortable and I push my limits daily.
-                My biggest hobbies include triathlons, sailing, and hiking. I
-                ran both cross country and track, and what I miss the most about
-                those days is not the races but being a part of a team. I loved
-                being with people who pushed me to be better and who I could
-                push to improve as well. There’s nothing quite like the
-                relationships you form with your teammates.
-                <br /> <br />I have recently developed a love for user centered
-                designs. I love that type of feedback and being able to
-                constantly improve an experience. There is nothing more valuable
-                than that type of interaction. I build designs that inspire,
-                excite, and foster relationships with users that are more
-                meaningful to businesses. I want to push design into the next
-                generation and create products that are more desirable to their
-                end users.
+              <div className="intro">
+                I am a designer focusing on user experience design and front end
+                development. My most recent work has involved collaboration with
+                developers so several years ago I took it upon myself to learn
+                how to code. This has helped me to speak and understand more
+                technical conversations and has helped me to define my role in
+                the design process as a whole. I am the translator between the
+                user and their products. I advocate for what they may want or
+                need and show my teams the value of those asks.
+                <br /> <br />I am comfortable being uncomfortable. My biggest
+                hobbies include triathlons, sailing, and hiking. I ran both
+                cross country and track throughout high school, and what I miss
+                the most about those days is not the races but being part of
+                those teams. I love being with people who push me to be better
+                and who I can push to improve as well. There's nothing quite
+                like the relationships you form with your teammates.
+                <br /> <br />I like to bring that philosophy into my work as
+                well. I work in teams as often as I can and I use the advice of
+                my peers and even strangers to influence my projects. I build
+                designs that inspire, excite, and foster relationships with
+                users. I know that the most beneficial or creative solutions are
+                never the most obvious but they are usually the most overlooked.
+                I use user feedback to drive the form of the final solution.
                 <br /> <br />
                 <div className="outside-links">
                   <a
@@ -79,7 +87,7 @@ class Home extends React.Component {
                     <i className="fas fa-file individual" />
                   </a> */}
                 </div>
-              </LeftText>
+              </div>
             </div>
           </div>
           <div className="image-bounds">
@@ -93,16 +101,16 @@ class Home extends React.Component {
           <div className="contact-group">
             <div className="contact-text">
               <div className="contact-title">
-                <h2>Let's get in touch</h2>
+                <div className="section-title">Let's create</div>
               </div>
               <div className="description">
                 <p>
                   If you have any opportunities or questions that you would like
-                  to discuss further please don’t hesitate to reach out.
+                  to discuss further please don’t hesitate to reach out
                 </p>
               </div>
               <div className="contact-form">
-                <Contacts to="rachel.e.lucas@gmail.com" />
+                <Contacts to="rachellucas14@gmail.com" />
               </div>
             </div>
           </div>

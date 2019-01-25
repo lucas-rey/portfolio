@@ -45,13 +45,24 @@ class Mousai extends React.Component {
 
           <div className="  full-width-p">
             <LeftText title={"Overview"} className="left-section">
-              This was a collabrative deisgn and development project. I designed
-              and implemented all of the front end work for this application.
-              Using Spotify’s API’s we created an extention of it that gives
-              users the ability to upvote and downvote songs in any of their
-              playlists. This process allows users to indirectly order/maintain
-              their playlists and after a certain number of downvotes a song
-              will be completely removed.
+              <b>DESIGN PROBLEM</b>
+              <br />
+              Spotify users need a way to rate group and personal playlists
+              <br />
+              <br />
+              <b>CONTRIBUTIONS</b>
+              <br />
+              Design, Branding, Front End Development
+              <br />
+              <br />
+              This was a collabrative design and development project. I am
+              designing and implementing all of the front end work for this
+              application, including UX Design and branding. Using Spotify’s
+              API’s we created an extention of the that gives users the ability
+              to upvote and downvote songs in any of their playlists. This
+              process allows users to indirectly order/maintain their playlists
+              and after a certain number of downvotes a song will be completely
+              removed.
               <br /> <br />
               The application is named after the Mousai (Muses) in Greek
               mythology. They were the goddess of music, poetry, and
@@ -68,7 +79,7 @@ class Mousai extends React.Component {
 
           <div className="branding short-brand">
             <div className="  full-width-p">
-              <LeftText title={"Branding"} className="left-section">
+              <LeftText title={"Visual Design"} className="left-section">
                 The brand is modern and minimal, using bold colors that pop off
                 of the page. The information displayed is limited to only what
                 is absolutely necessary and important to the user for

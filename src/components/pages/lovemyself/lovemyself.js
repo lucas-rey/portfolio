@@ -46,19 +46,30 @@ class LoveMyself extends React.Component {
 
           <div className="  full-width-p">
             <LeftText title={"Overview"} className="left-section">
-              For this assignment we were placed into groups of 3-4 and asked to
-              interrupt a space. We all got together and started listing off
-              topics that we were interested in and things that we wanted to
-              focus on and we landed on an interactive installation on campus
-              that dealt with the topic of self-love. We planned a week long
-              intervention on campus that asked people to answer a different
-              question every day. The biggest idea behind this project for us
-              was repitition and we really wanted to have people who would come
-              out every day to see what was next, and we achieved that. We had
-              to start from the ground up. We had to brand ourselves, generate
-              merch to hand out, partner with campus organizations, and create
-              social media campaigns for each day leading up to and during the
-              event.
+              <b>DESIGN PROBLEM</b>
+              <br />
+              Identify a problem within the community and interrupt a space with
+              a potential solution
+              <br />
+              <br />
+              <b>CONTRIBUTIONS</b>
+              <br />
+              Research, Data Collection, Development
+              <br />
+              <br />
+              The Love Myself Project was a week-long interactive installation
+              on campus that tried to encourage self-love. Our intervention
+              asked people to answer a different question each day and tie their
+              answer to a fence. The fence resembled the boundaries that we put
+              on our own lives with negative thoughts. At the end of the week
+              the fence covered in colored strips represented the true strength
+              we all have within ourselves to overcome these boundaries.
+              <br />
+              <br />
+              We worked with organizations on campus to help provide free
+              giveaways and marketing for our event. We created a web
+              application to collect and store all of our research and responses
+              for this project.
             </LeftText>
           </div>
 
@@ -71,14 +82,11 @@ class LoveMyself extends React.Component {
 
           <div className="brand">
             <div className="  full-width-p">
-              <LeftText title={"Branding"} className="left-section">
-                We developed a color palette that would utilize 5 different
-                colors. Our event would take place over a total of 5 days and we
-                wanted to have a different color for each day to provide some
-                visual differences. The color palette featured mostly cool
-                colors that were bright and welcoming colors. These colors had
-                to be able to catch peoples eye as they walked past our table
-                during the event.
+              <LeftText title={"Visual Design"} className="left-section">
+                Our brand was warm and welcoming. We had 5 different colors, one
+                for each day of the week during our event. We also wanted them
+                to be bright enough to grab people’s attention as they walked
+                past our table.
               </LeftText>
             </div>
 
@@ -108,19 +116,15 @@ class LoveMyself extends React.Component {
 
           <div className="full-width-p">
             <LeftText title={"Website"} className="left-section">
-              As part of our project we are supposed to create two different
-              final presentations: an annual report and a lookbook. Our annual
-              report has taken the form of this website (click here if the image
-              above does not work). I've created this website from scratch using
-              Angular 2. This site was originally intended to be used during our
-              startup of the project but we decided that it would exist better
-              in this form instead. It is currently a work in progress so it
-              does not have all of the final information on it. We also intend
-              to have research, documentation, and process pages. The website
-              will lead you through every step of our project along the way and
-              show how we got to our end product. Our idea evolved and changed a
-              lot along the way as we learned what we would have time to do and
-              what we could afford to do.
+              Our final presentation of this event had to take two different
+              forms, an annual report and a look book. As a team we got together
+              and decided to bring our annual report together on a website. The
+              site was created with Angular 2. Its original intentions were for
+              marketing, but we quickly realized that social media would be more
+              easily accessed by students than a website. The website now will
+              lead you through every step of our project along the way and show
+              how we got to our final event. Time and budget became big factors
+              in shaping our event into what it became.
               <br /> <br />
               <a
                 href="https://love-myself-project.firebaseapp.com"

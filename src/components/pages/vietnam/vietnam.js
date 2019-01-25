@@ -7,7 +7,6 @@ import PageHeader from "../../common/page-header/page-header";
 import Name from "../../common/name/name";
 import Carousel from "react-bootstrap/lib/Carousel";
 import Scroll from "../../common/scroll-icon/scroll-icon";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import { Link } from "react-router-dom";
 
@@ -46,23 +45,29 @@ class Vietnam extends React.Component {
           </div>
           <div className="full-width-p">
             <LeftText title={"Overview"} className="left-section">
-              We were given almost complete freedom for this assignment. Our
-              only parameter was that we had to produce a printed publication in
-              the end. Several years ago my dad was given a copy of the journal
-              that my grandad wrote on his second tour in Vietnam. Because it is
-              handwritten, it is something that I found highly intimidating the
-              first few times that I tried to read it.
+              <b>DESIGN PROBLEM</b>
+              <br />
+              Design a publication that's meaningful to you
               <br />
               <br />
-              Nearly a year in the making, I worked hard to create a publication
-              that could be easily distributed and consumed by family and
-              friends. I worked closely with my dad, grandfather, and
-              grandmother to collect all of the content within it and learn more
-              about the stories told. I completed my first draft that semester
-              only to learn that there were several more pages that my dad had
-              been missing and that my grandfather was willing to write a
-              postscript to the journal since it ends abruptly on the day he was
-              wounded in battle and sent home.
+              <b>CONTRIBUTIONS</b>
+              <br />
+              Publication Design, Research, Print
+              <br />
+              <br />
+              Several years ago, my dad was given a copy of the journal my
+              grandad wrote on his second tour in Vietnam. This publication is a
+              collection of everything that happened to him during this time,
+              including a letter sent to him, and medals he was awarded. This
+              project has spurred many conversations with my grandad and I have
+              treasured every moment of those greatly. Because my grandparents
+              keep finding more and more items from his service I will almost
+              always consider this an ongoing project.
+              <br />
+              <br />
+              The most recent version was sent out to friends and family 8
+              months after the project’s inception. The next publication is
+              already in progress.
             </LeftText>
           </div>
 
@@ -142,28 +147,30 @@ class Vietnam extends React.Component {
             <div className="full-width-p">
               <ImageLeft title={"Research"} className="right-section">
                 I was in constant communication with my grandma gathering
-                background information and photographs from his service.
-                Unfortunately my grandads camera was lost in all of the
-                commotion when he was injured and there are almost no pictures
-                of him from his second tour. Most of the images throughout the
-                journal are either found images or they were taken on his first
-                tour.
+                background information and photographs. Because they live in
+                Florida and I was in school in Virginia, I relied very heavily
+                on my family to help me gather information. Unfortunately, he
+                was injured at the end of his tour and his camera was lost in
+                the commotion of coming home, so there are not many pictures
+                from his second tour.
                 <br />
                 <br />
-                While I have grown up hearing his stories and I have learned
-                many military terms there was still a lot that I did not
-                understand. I spent a lot of time trying to gather all of these
-                terms and abbreviations so that I could generate an index for
-                them. Knowing this information really helped give a much better
-                understanding to the story itself. After transcribing the
-                original journal I turned my focus on to research. I read a lot
-                about the Vietnam war itself and I tried to find out as much as
-                I could about everyone mentioned by my grandfather. Colonel Burr
-                Willey left a lasting impression on me during this time. Shortly
-                after my grandfather was injured Col. Willey sent him a letter
-                commending him for his service and wishing him well. By the time
-                my grandfather recieved this letter Col. Willey had been killed
-                on the battlefield.
+                While I have grown up listening to his stories there was still a
+                lot of lingo that I did not understand. I spent a lot of time
+                trying to collect these terms and abbreviations so that I could
+                generate an index for them. I also wanted to do this for any
+                family members that were less familiar with military terms
+                themselves. Knowing these really helped to give a much better
+                understanding to the story itself. I spent a couple of weeks
+                transcribing the journal itself, but afterwards I turned my
+                focus to research. I read a lot about the Vietnam war and the
+                Easter Invasion, as that’s when this journal was written. I
+                tried to find out as much as I could about everyone mentioned by
+                my grandad. Colonel Bill Willey left a lasting impression on me
+                during this time. Shortly after my grandad was injured Colonel
+                Willey sent him a letter commending him for his service and
+                wishing him well. By the time my grandfather received this
+                letter Colonel Willey had been killed on the battlefield.
               </ImageLeft>
             </div>
           </div>
@@ -177,19 +184,19 @@ class Vietnam extends React.Component {
           </div>
           <div className="  full-width-p">
             <LeftText title={"Visual Design"} className="left-section">
-              Inspired by Vietnamese design and the war propoganda, I only used
-              one color throughout the entire journal (excluding images). I had
-              originally intended to create my own illustrations to the story
-              but I quickly decided that I did not want to overwhelm the story
-              like that and I wanted to leave it as true to the original as I
-              could. The only graphic element that I inserted myself was a
-              jagged red line. This is the outline of Highway 13. The entire
-              story revolves around this highway and so I wanted to make it as
-              central to the readers as it was to the soldiers fighting. The
-              line also resembles an EKG which becomes an illusion to my
-              grandfathers heart rate throughout the story. In tense moments I
-              fill the pages with this red line, sometimes even blocking out the
-              entire page in red.
+              I was greatly inspired by Vietnamese design and war propaganda.
+              It’s because of this that I only used on color throughout the
+              entire journal (excluding images). I had originally intended to
+              create my own illustrations to the story but I quickly decided
+              that I did not want to overwhelm the story with them. I left this
+              as true to the original as I could. The only visual element that I
+              introduced was a jagged red line. This is the outline of Highway
+              13. The entire narrative revolves around this highway and so I
+              wanted to make it as central to the readers as it was to the
+              soldiers fighting. The line also resembles an EKG which becomes an
+              allusion to my grandfather’s heart rate throughout the story. In
+              tense moments I fill the pages with this red line, sometimes even
+              blocking out the entire page in red.
             </LeftText>
           </div>
           <div className="highway">
