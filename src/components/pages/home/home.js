@@ -5,6 +5,7 @@ import Name from "../../common/name/name";
 import ReactRotatingText from "react-rotating-text";
 import LeftText from "../../common/left-text/left-text";
 import Contacts from "../../common/form/form";
+import resume from "./../../../assets/resume.pdf";
 
 class Home extends React.Component {
   render() {
@@ -80,12 +81,9 @@ class Home extends React.Component {
                       className="individual-link"
                     />
                   </a>
-                  {/* <a
-                    href="./../../../assets/resume.pdf"
-                    rel="noopener noreferrer"
-                    target="_blank">
+                  <a href={resume} rel="noopener noreferrer" target="_blank">
                     <i className="fas fa-file individual" />
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>

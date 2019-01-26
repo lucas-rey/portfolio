@@ -159,7 +159,7 @@ class StreetSmart extends React.Component {
 
           <div className="branding">
             <div className="  full-width-p">
-              <LeftText title={"Branding"} className="left-section">
+              <LeftText title={"Visual Design"} className="left-section">
                 We spent some time together as a team talking about how we
                 wanted to brand ourselves and what our values were as a company.
                 Street Smart aims to be modern and easy to use, making safety
