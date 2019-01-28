@@ -58,7 +58,6 @@ class Home extends React.Component {
                 designs that inspire, excite, and foster relationships with
                 users. I know that the most beneficial or creative solutions are
                 never the most obvious but they are usually the most overlooked.
-                I use user feedback to drive the form of the final solution.
                 <br /> <br />
                 <div className="outside-links">
                   <a
