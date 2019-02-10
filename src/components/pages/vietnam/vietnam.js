@@ -21,13 +21,14 @@ class Vietnam extends React.Component {
           workType={"Publication"}
           title={"Vietnam Journal"}
           backgroundColor="red"
+          fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/brevet">
+          <a className="previous change" href="/mousai">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
-          <a className="next change" href="/street-smart">
+          <a className="next change" href="/adp">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>

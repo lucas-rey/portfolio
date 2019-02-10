@@ -17,16 +17,17 @@ class Mousai extends React.Component {
         <Name />
         <PageHeader
           year={"2018"}
-          workType={"Web App"}
+          workType={"Web Application"}
           title={"Mousai"}
-          backgroundColor="yellow"
+          backgroundColor="blue"
+          fontColor="white"
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/video-game">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
-          <a className="next change" href="/brevet">
+          <a className="next change" href="/vietnam">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>

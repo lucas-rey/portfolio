@@ -1,0 +1,54 @@
+$breakpoint-phone: 420px;
+$breakpoint-tablet: 1024px;
+$breakpoint-largemonitor: 1600px;
+
+.page-notification {
+  height: 100vh;
+  color: white;
+  margin: 0px 300px;
+  text-align: center;
+  @media (max-width: $breakpoint-tablet) {
+    margin: 0px 100px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    margin: 0px 0px;
+  }
+}
+
+.adp-intro {
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 50vh;
+  text-align: center;
+  p {
+    margin-bottom: 30px;
+  }
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 25px;
+  }
+  @media (max-width: $breakpoint-phone) {
+    padding-top: 40vh;
+  }
+}
+
+.notification {
+  font-size: 18px;
+  display: flex;
+  color: yellow;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+
+  @media (max-width: $breakpoint-tablet) {
+    align-items: baseline;
+  }
+
+  @media (max-width: $breakpoint-phone) {
+    font-size: 14px;
+  }
+
+  .notification-text {
+    padding-left: 10px;
+    color: white;
+  }
+}

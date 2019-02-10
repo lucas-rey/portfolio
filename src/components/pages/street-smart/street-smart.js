@@ -19,11 +19,10 @@ class StreetSmart extends React.Component {
           year={"2018"}
           workType={"Mobile App"}
           title={"Street Smart"}
-          backgroundColor="blue"
-          fontColor="white"
+          backgroundColor="yellow"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/vietnam">
+          <a className="previous change" href="/brevet">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />

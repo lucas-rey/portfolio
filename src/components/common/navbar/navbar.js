@@ -44,16 +44,23 @@ class MainNav extends React.Component {
           <Modal open={open} onClose={this.onCloseModal}>
             <div className="screen-container">
               <div className="projects">
-                <a href="/vietnam">
+                <a href="/adp">
                   <div
-                    className={`project-name link link--kukuri red`}
-                    data-letters="Vietnam Journal">
-                    Vietnam Journal
+                    className="project-name link link--kukuri red"
+                    data-letters="ADP NextGen Payroll">
+                    ADP NextGen Payroll
+                  </div>
+                </a>
+                <a href="/brevet">
+                  <div
+                    className={`project-name link link--kukuri blue`}
+                    data-letters="Brevet">
+                    Brevet
                   </div>
                 </a>
                 <a href="/street-smart">
                   <div
-                    className={`project-name link link--kukuri blue`}
+                    className={`project-name link link--kukuri yellow`}
                     data-letters="Street Smart">
                     Street Smart
                   </div>
@@ -74,16 +81,16 @@ class MainNav extends React.Component {
                 </a>
                 <a href="/mousai">
                   <div
-                    className="project-name link link--kukuri yellow"
+                    className="project-name link link--kukuri blue"
                     data-letters="Mousai">
                     Mousai
                   </div>
                 </a>
-                <a href="/brevet">
+                <a href="/vietnam">
                   <div
-                    className="project-name link link--kukuri blue"
-                    data-letters="Brevet">
-                    Brevet
+                    className="project-name link link--kukuri red"
+                    data-letters="Vietnam Journal">
+                    Vietnam Journal
                   </div>
                 </a>
                 {/* <a href="/vcu">

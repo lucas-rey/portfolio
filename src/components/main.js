@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/home/home";
+import ADP from "./pages/adp/adp";
 import LoveMyself from "./pages/lovemyself/lovemyself";
 import StreetSmart from "./pages/street-smart/street-smart";
 import Vietnam from "./pages/vietnam/vietnam";
@@ -13,6 +14,7 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/adp" component={ADP} />
       <Route exact path="/lovemyself" component={LoveMyself} />
       <Route exact path="/street-smart" component={StreetSmart} />
       <Route exact path="/vietnam" component={Vietnam} />

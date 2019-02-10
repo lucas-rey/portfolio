@@ -20,14 +20,13 @@ class Brevet extends React.Component {
           workType={"Mobile App"}
           title={"Brevet"}
           backgroundColor="blue"
-          fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/mousai">
+          <a className="previous change" href="/adp">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
-          <a className="next change" href="/vietnam">
+          <a className="next change" href="/street-smart">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>
