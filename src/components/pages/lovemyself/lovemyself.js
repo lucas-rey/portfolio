@@ -27,7 +27,7 @@ class LoveMyself extends React.Component {
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />
-          <a className="next change" href="/video-game">
+          <a className="next change" href="/endangered-species">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>
         </div>

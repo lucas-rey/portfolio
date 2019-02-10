@@ -23,7 +23,7 @@ class Mousai extends React.Component {
           fontColor="white"
         />
         <div className="bottom-navigation">
-          <a className="previous change" href="/video-game">
+          <a className="previous change" href="/endangered-species">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
           <Scroll />

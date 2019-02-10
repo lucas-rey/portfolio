@@ -18,7 +18,7 @@ const Main = () => (
       <Route exact path="/lovemyself" component={LoveMyself} />
       <Route exact path="/street-smart" component={StreetSmart} />
       <Route exact path="/vietnam" component={Vietnam} />
-      <Route exact path="/video-game" component={VideoGame} />
+      <Route exact path="/endangered-species" component={VideoGame} />
       <Route exact path="/mousai" component={Mousai} />
       <Route exact path="/brevet" component={Brevet} />
       <Route exact path="/vcu" component={Vcu} />

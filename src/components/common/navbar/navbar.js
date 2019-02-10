@@ -72,11 +72,11 @@ class MainNav extends React.Component {
                     Love Myself Project
                   </div>
                 </a>
-                <a href="/video-game">
+                <a href="/endangered-species">
                   <div
                     className="project-name link link--kukuri yellow"
-                    data-letters="Video Game">
-                    Video Game
+                    data-letters="Endangered Species">
+                    Endangered Species
                   </div>
                 </a>
                 <a href="/mousai">
