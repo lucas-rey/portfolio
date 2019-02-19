@@ -42,7 +42,7 @@ $breakpoint-largemonitor: 1600px;
   color: white;
   font-size: 45px;
   font-weight: 700;
-  padding-top: 50px;
+  padding-top: 60px;
   @media (max-width: $breakpoint-phone) {
     font-size: 35px;
   }
@@ -54,6 +54,7 @@ $breakpoint-largemonitor: 1600px;
   max-width: 650px;
   font-weight: 200;
   height: 100%;
+  padding-top: 10px;
 }
 
 .about-me {
@@ -178,44 +179,5 @@ $breakpoint-largemonitor: 1600px;
 }
 
 #section-1 {
-  background: linear-gradient(222deg, #ce4c4c, #1387b9, #e9d92a);
-  background-size: 600% 600%;
-
-  -webkit-animation: AnimationName 16s ease infinite;
-  -moz-animation: AnimationName 16s ease infinite;
-  animation: AnimationName 16s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-    0% {
-      background-position: 0% 27%;
-    }
-    50% {
-      background-position: 100% 74%;
-    }
-    100% {
-      background-position: 0% 27%;
-    }
-  }
-  @-moz-keyframes AnimationName {
-    0% {
-      background-position: 0% 27%;
-    }
-    50% {
-      background-position: 100% 74%;
-    }
-    100% {
-      background-position: 0% 27%;
-    }
-  }
-  @keyframes AnimationName {
-    0% {
-      background-position: 0% 27%;
-    }
-    50% {
-      background-position: 100% 74%;
-    }
-    100% {
-      background-position: 0% 27%;
-    }
-  }
+  background-color: #1d1f23;
 }

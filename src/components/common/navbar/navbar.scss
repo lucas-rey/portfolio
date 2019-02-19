@@ -1,7 +1,11 @@
 $breakpoint-phone: 420px;
 
 .main-nav {
-  z-index: 20;
+  z-index: 19;
+  position: fixed;
+  background-color: #1d1e20;
+  width: 100vw;
+  height: 50px;
 }
 
 .menu-items {

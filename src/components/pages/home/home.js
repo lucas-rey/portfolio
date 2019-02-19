@@ -5,7 +5,7 @@ import Name from "../../common/name/name";
 import ReactRotatingText from "react-rotating-text";
 import LeftText from "../../common/left-text/left-text";
 import Contacts from "../../common/form/form";
-import resume from "./../../../assets/resume.pdf";
+import resume from "./../../../assets/lucas-resume.pdf";
 
 class Home extends React.Component {
   render() {
@@ -38,13 +38,11 @@ class Home extends React.Component {
             <div className="hobbies">
               <div className="intro">
                 I am a designer focusing on user experience design and front end
-                development. My most recent work has involved collaboration with
-                developers so several years ago I took it upon myself to learn
-                how to code. This has helped me to speak and understand more
-                technical conversations and has helped me to define my role in
-                the design process as a whole. I am the translator between the
-                user and their products. I advocate for what they may want or
-                need and show my teams the value of those asks.
+                development. Several years ago I took it upon myself to learn
+                how to code. This has helped me speak and understand more
+                technical conversations and allowed me to more clearly define my
+                role in the design process as a whole. I am the translator
+                between the user and their products.
                 <br /> <br />I am comfortable being uncomfortable. My biggest
                 hobbies include triathlons, sailing, and hiking. I ran both
                 cross country and track throughout high school, and what I miss
@@ -54,10 +52,11 @@ class Home extends React.Component {
                 like the relationships you form with your teammates.
                 <br /> <br />I like to bring that philosophy into my work as
                 well. I work in teams as often as I can and I use the advice of
-                my peers and even strangers to influence my projects. I build
-                designs that inspire, excite, and foster relationships with
-                users. I know that the most beneficial or creative solutions are
-                never the most obvious but they are usually the most overlooked.
+                my peers and sometimes even strangers to influence my projects.
+                I build designs that inspire, excite, and foster relationships
+                with users. I know that the most beneficial or creative
+                solutions are never the most obvious but they are usually the
+                most overlooked.
                 <br /> <br />
                 <div className="outside-links">
                   <a

@@ -4,6 +4,7 @@ import Modal from "react-responsive-modal";
 import PropTypes from "prop-types";
 import { withRouter, ReactDOM } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import resume from "./../../../assets/lucas-resume.pdf";
 
 class MainNav extends React.Component {
   static propTypes = {
@@ -108,6 +109,9 @@ class MainNav extends React.Component {
           </a>
           <a href="/#contact">
             <div className={`menu-item change ${finalFontColor}`}>Contact</div>
+          </a>
+          <a href={resume} rel="noopener noreferrer" target="_blank">
+            <div className={`menu-item change ${finalFontColor}`}>Resume</div>
           </a>
         </div>
         <div id="outer-container" />
