@@ -2,53 +2,88 @@ $breakpoint-phone: 420px;
 $breakpoint-tablet: 1024px;
 $breakpoint-largemonitor: 1600px;
 
-.page-notification {
-  height: 100vh;
+// will become updated component
+.description-one {
+  max-width: 800px;
+}
+
+.work-sample {
+  margin-bottom: 200px;
+}
+
+/*General Styling*/
+.et_pb_text ol {
+  max-width: 800px; /*remove if full width*/
+  text-align: left;
+}
+
+.et_pb_text ol {
+  position: relative;
+  margin-bottom: 20px;
+  list-style: none !important;
+}
+
+.et_pb_text ol li {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
-  margin: 0px 200px;
-  text-align: center;
-  @media (max-width: $breakpoint-tablet) {
-    margin: 0px 100px;
-  }
-  @media (max-width: $breakpoint-phone) {
-    margin: 0px 0px;
-  }
-}
-
-.adp-intro {
-  font-size: 35px;
   font-weight: 700;
-  padding-top: 25%;
-  text-align: center;
-  p {
-    margin-bottom: 30px;
-  }
-  @media (max-width: $breakpoint-tablet) {
-    font-size: 25px;
-  }
-  @media (max-width: $breakpoint-phone) {
-    padding-top: 40vh;
+  font-size: 30px;
+  & p {
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0 0 80px;
   }
 }
 
-.notification {
-  font-size: 18px;
+/*number styling - note that you will need to physically add in a span class*/
+.et_pb_text ol li .number_divider {
+  position: absolute;
+  font-weight: 800;
+  font-size: 2em;
+  left: -60px;
+  top: -5px;
+}
+
+/*line styling*/
+.et_pb_text ol li:before {
+  content: "";
+  background: white;
+  position: absolute;
+  width: 2px;
+  top: 15px;
+  bottom: -96px;
+  left: -24px;
+}
+
+/*dot styling*/
+.et_pb_text ol li:after {
+  content: "";
+  background: white;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  top: 15px;
+  left: -31px;
+}
+
+/*removes line from last number*/
+.et_pb_text ol li:last-child:before {
+  content: "";
+  background: none;
+}
+
+.image-column-groups {
   display: flex;
-  color: yellow;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
+}
 
-  @media (max-width: $breakpoint-tablet) {
-    align-items: baseline;
-  }
-
-  @media (max-width: $breakpoint-phone) {
-    font-size: 14px;
-  }
-
-  .notification-text {
-    padding-left: 10px;
-    color: white;
+.image-column {
+  & img {
+    float: none;
+    display: flex;
+    width: 600px;
+    margin: 25px 25px 0px 0px;
   }
 }
