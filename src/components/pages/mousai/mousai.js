@@ -24,10 +24,10 @@ class Mousai extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/endangered-species">
-            <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
+            <i className="fas fa-chevron-circle-left" />
           </a>
           <a className="next change" href="/vietnam">
-            Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
+            <i className="fas fa-chevron-circle-right" />
           </a>
         </div>
         <div className="topGradient" />

@@ -179,9 +179,9 @@ ol {
 .bottom-navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
-  bottom: 40px;
+  bottom: 125px;
 }
 
 .topGradient {
