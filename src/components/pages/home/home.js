@@ -2,8 +2,6 @@ import React from "react";
 import "./home.scss";
 import MainNav from "../../common/navbar/navbar";
 import Name from "../../common/name/name";
-import ReactRotatingText from "react-rotating-text";
-import LeftText from "../../common/left-text/left-text";
 import Contacts from "../../common/form/form";
 import resume from "./../../../assets/lucas-resume.pdf";
 

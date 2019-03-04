@@ -1,10 +1,8 @@
 import React from "react";
 import "./adp.scss";
 import MainNav from "../../common/navbar/navbar";
-import LeftText from "../../common/left-text/left-text";
 // import ImageLeft from "../../common/image-left/image-left";
 import PageHeader from "../../common/page-header/page-header";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Name from "../../common/name/name";
 // import { Link } from "react-router-dom";
 

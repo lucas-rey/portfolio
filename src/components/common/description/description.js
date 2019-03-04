@@ -15,8 +15,6 @@ class Description extends React.Component {
             <div className="type">{workType}</div>
           </div>
           <div className="title">{title}</div>
-          <div className="line" />
-          <div className="paragraph">{children}</div>
         </div>
       </Fade>
     );

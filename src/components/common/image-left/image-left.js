@@ -9,8 +9,7 @@ class ImageLeft extends React.Component {
       <div>
         <div className="image-group-left">
           <div className="detail-container-right">
-            <div className="title">{title}</div>
-            <div className="line" />
+            <div className="section-title">{title}</div>
             <div className="paragraph extra-padding">{children}</div>
           </div>
         </div>

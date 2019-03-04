@@ -9,8 +9,7 @@ class ImageRight extends React.Component {
       <div>
         <div className="image-group-right">
           <div className="detail-container-left">
-            <div className="title">{title}</div>
-            <div className="line" />
+            <div className="section-title">{title}</div>
             <div className="paragraph">{children}</div>
           </div>
           <img

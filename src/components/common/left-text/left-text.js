@@ -7,8 +7,7 @@ class LeftText extends React.Component {
     const { title, children } = this.props;
     return (
       <div className="detail-container">
-        <div className="title">{title}</div>
-        <div className="line" />
+        <div className="section-title">{title}</div>
         <div className="paragraph">{children}</div>
       </div>
     );
