@@ -26,7 +26,6 @@ class Mousai extends React.Component {
           <a className="previous change" href="/endangered-species">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
-          <Scroll />
           <a className="next change" href="/vietnam">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>

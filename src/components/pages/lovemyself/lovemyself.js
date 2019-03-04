@@ -26,7 +26,6 @@ class LoveMyself extends React.Component {
           <a className="previous change" href="/street-smart">
             <i className="fas fa-long-arrow-alt-left nav-arrow" /> Prev
           </a>
-          <Scroll />
           <a className="next change" href="/endangered-species">
             Next <i className="fas fa-long-arrow-alt-right nav-arrow" />
           </a>

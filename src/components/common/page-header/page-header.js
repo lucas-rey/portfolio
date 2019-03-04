@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./page-header.scss";
+import Scroll from "../../common/scroll-icon/scroll-icon";
 
 class PageHeader extends React.Component {
   render() {
@@ -25,6 +26,8 @@ class PageHeader extends React.Component {
               <div className={`header-title change ${finalFontColor}`}>
                 {title}
               </div>
+
+              <Scroll />
             </div>
           </div>
         </div>

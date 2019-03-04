@@ -37,7 +37,7 @@ class Home extends React.Component {
             <div className="section-title">A little about me</div>
             <div className="hobbies">
               <div className="intro">
-                I am a designer focusing on user experience design and front end
+                I am a designer focused on user experience design and front end
                 development. Several years ago I took it upon myself to learn
                 how to code. This has helped me speak and understand more
                 technical conversations and allowed me to more clearly define my
@@ -46,10 +46,10 @@ class Home extends React.Component {
                 <br /> <br />I am comfortable being uncomfortable. My biggest
                 hobbies include triathlons, sailing, and hiking. I ran both
                 cross country and track throughout high school, and what I miss
-                the most about those days is not the races but being part of
-                those teams. I love being with people who push me to be better
-                and who I can push to improve as well. There's nothing quite
-                like the relationships you form with your teammates.
+                the most about those days is being part of those teams. I love
+                being with people who push me to be better and who I can push to
+                improve as well. There's nothing quite like the relationships
+                you form with your teammates.
                 <br /> <br />I like to bring that philosophy into my work as
                 well. I work in teams as often as I can and I use the advice of
                 my peers and sometimes even strangers to influence my projects.
