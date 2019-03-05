@@ -35,26 +35,13 @@ class Home extends React.Component {
             <div className="section-title">A little about me</div>
             <div className="hobbies">
               <div className="intro">
-                I am a designer focused on user experience design and front end
-                development. Several years ago I took it upon myself to learn
-                how to code. This has helped me speak and understand more
-                technical conversations and allowed me to more clearly define my
-                role in the design process as a whole. I am the translator
-                between the user and their products.
-                <br /> <br />I am comfortable being uncomfortable. My biggest
-                hobbies include triathlons, sailing, and hiking. I ran both
-                cross country and track throughout high school, and what I miss
-                the most about those days is being part of those teams. I love
-                being with people who push me to be better and who I can push to
-                improve as well. There's nothing quite like the relationships
-                you form with your teammates.
-                <br /> <br />I like to bring that philosophy into my work as
-                well. I work in teams as often as I can and I use the advice of
-                my peers and sometimes even strangers to influence my projects.
-                I build designs that inspire, excite, and foster relationships
-                with users. I know that the most beneficial or creative
-                solutions are never the most obvious but they are usually the
-                most overlooked.
+                Behind every successful product is a team of thinkers,
+                innovators, and risk takers. I help turn big ideas into reality
+                and translate complicated ideas into understandable designs. I
+                aim to compel, empower, and inspire users to step into the
+                future.
+                <br /> <br />
+                The future is here. Let’s design it.
                 <br /> <br />
                 <div className="outside-links">
                   <a

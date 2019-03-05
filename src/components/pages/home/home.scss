@@ -59,7 +59,7 @@ $breakpoint-largemonitor: 1600px;
 
 .about-me {
   display: flex;
-  height: 800px;
+  height: 700px;
   @media (min-width: $breakpoint-largemonitor) {
     height: 1000px;
   }
@@ -83,7 +83,7 @@ $breakpoint-largemonitor: 1600px;
 }
 
 .image-bounds {
-  height: 800px;
+  height: 600px;
   width: 45%;
   overflow: hidden;
   position: absolute;
@@ -108,7 +108,7 @@ $breakpoint-largemonitor: 1600px;
   height: 1500px;
   position: relative;
   right: 800px;
-  top: -300px;
+  top: -400px;
   @media (min-width: $breakpoint-largemonitor) {
     right: 650px;
     top: -100px;

@@ -11,68 +11,13 @@ $breakpoint-largemonitor: 1600px;
   margin-bottom: 200px;
 }
 
-/*General Styling*/
-.et_pb_text ol {
-  max-width: 800px; /*remove if full width*/
+.work-desciptions {
+  max-width: 800px;
   text-align: left;
 }
 
-.et_pb_text ol {
-  position: relative;
-  margin-bottom: 20px;
-  list-style: none !important;
-}
-
-.et_pb_text ol li {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: white;
-  font-weight: 700;
-  font-size: 30px;
-  & p {
-    font-weight: 200;
-    font-size: 14px;
-    margin: 0 0 80px;
-  }
-}
-
-/*number styling - note that you will need to physically add in a span class*/
-.et_pb_text ol li .number_divider {
-  position: absolute;
-  font-weight: 800;
-  font-size: 2em;
-  left: -60px;
-  top: -5px;
-}
-
-/*line styling*/
-.et_pb_text ol li:before {
-  content: "";
-  background: white;
-  position: absolute;
-  width: 2px;
-  top: 15px;
-  bottom: -96px;
-  left: -24px;
-}
-
-/*dot styling*/
-.et_pb_text ol li:after {
-  content: "";
-  background: white;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-  top: 15px;
-  left: -31px;
-}
-
-/*removes line from last number*/
-.et_pb_text ol li:last-child:before {
-  content: "";
-  background: none;
+.section {
+  margin-bottom: 150px;
 }
 
 .image-column-groups {
