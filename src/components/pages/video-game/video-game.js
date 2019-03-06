@@ -21,10 +21,10 @@ class VideoGame extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/lovemyself">
-            <i className="fas fa-chevron-circle-left" />
+            <i className="fas fa-chevron-circle-left black" />
           </a>
           <a className="next change" href="/mousai">
-            <i className="fas fa-chevron-circle-right" />
+            <i className="fas fa-chevron-circle-right black" />
           </a>
         </div>
         <div className="topGradient" />

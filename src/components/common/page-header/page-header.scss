@@ -106,6 +106,9 @@ $breakpoint-largemonitor: 1600px;
     color: white;
     opacity: 0.5;
   }
+  &.black {
+    color: black !important;
+  }
 }
 
 .next {
@@ -116,6 +119,9 @@ $breakpoint-largemonitor: 1600px;
   &:hover {
     color: white;
     opacity: 0.5;
+  }
+  &.black {
+    color: black !important;
   }
 }
 
@@ -133,4 +139,8 @@ $breakpoint-largemonitor: 1600px;
   @media (max-width: $breakpoint-phone) {
     width: 60%;
   }
+}
+
+.yellow .screen-container-detail {
+  filter: invert(100);
 }

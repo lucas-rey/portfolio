@@ -21,10 +21,10 @@ class LoveMyself extends React.Component {
         />
         <div className="bottom-navigation">
           <a className="previous change" href="/street-smart">
-            <i className="fas fa-chevron-circle-left" />
+            <i className="fas fa-chevron-circle-left black" />
           </a>
           <a className="next change" href="/endangered-species">
-            <i className="fas fa-chevron-circle-right" />
+            <i className="fas fa-chevron-circle-right black" />
           </a>
         </div>
         <div className="topGradient" />
